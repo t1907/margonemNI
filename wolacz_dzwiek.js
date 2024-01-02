@@ -17,34 +17,24 @@ eSound.autoplay = false;
 var hSound = new Audio("https://raw.githubusercontent.com/clasicker/addons/master/WH/detect.mp3");
 hSound.autoplay = false;
 
-var tSound = new Audio("https://raw.githubusercontent.com/clasicker/addons/master/WH/detect.mp3");
-tSound.autoplay = false;
-
 function run(Engine) {
+    var justCalled = [];
+
     if (Engine && Engine.npcs && Engine.npcs.check) window.API.addCallbackToEvent("newNpc", function(npc) {
-        if (npc.d.wt > 19 && npc.d.wt <=29) {
+        if (npc.d.wt > 19 && npc.d.wt <=29 || npc.d.nick === "Erktos") {
             eSound.volume = 0.30;
             eSound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
-        if (npc.d.wt > 79 && npc.d.wt <=99) {
-            if(Engine.hero.d.clan){
+        if (npc.d.wt > 79 && npc.d.wt <=99 || npc.d.wt > 99) {
+            if(Engine.hero.d.clan && !justCalled.includes(npc.d.id)){
                 _g('chat&channel=clan', !1,{
-                c: `Znaleziono herosa ${npc.d.nick} (${npc.d.lvl}lvl) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
+                c: `${npc.d.nick} (${npc.d.lvl}lvl) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
+            justCalled.push(npc.d.id);
             hSound.volume = 0.30;
             hSound.play();
-            setTimeout(changeTitleToPrevious, 1000);
-        }
-        if (npc.d.wt > 99) {
-            if(Engine.hero.d.clan && Engine.map.mode !==5){
-                _g('chat&channel=clan', !1,{
-                c: `Znaleziono tytana ${npc.d.nick} (${npc.d.lvl}lvl) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
-            });
-            }
-            tSound.volume = 0.30;
-            tSound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
     })
