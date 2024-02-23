@@ -26,29 +26,29 @@ function run(Engine) {
 
     if (Engine && Engine.npcs && Engine.npcs.check) window.API.addCallbackToEvent("newNpc", function(npc) {
         if (npc.d.wt > 19 && npc.d.wt <=79) {
-            elite2Sound.volume = 0.30;
+            elite2Sound.volume = 0.25;
             elite2Sound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
         if (npc.d.wt > 79 && npc.d.wt <=99) {
             if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
                 _g('chat&channel=clan', !1,{
-                c: `Heros ${npc.d.nick} (${npc.d.lvl}lvl) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
+                c: `Heros! ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}), ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
             alreadyNotify.push(npc.d.id);
-            heroSound.volume = 0.30;
+            heroSound.volume = 0.25;
             heroSound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
-        if (npc.d.wt > 99 ) {
+        if (npc.d.wt > 99) {
             if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
                 _g('chat&channel=clan', !1,{
-                c: `Tytan ${npc.d.nick} (${npc.d.lvl}lvl) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
+                c: `Tytan! ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}), ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
             alreadyNotify.push(npc.d.id);
-            titanSound.volume = 0.30;
+            titanSound.volume = 0.25;
             titanSound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
