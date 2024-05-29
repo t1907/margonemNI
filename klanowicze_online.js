@@ -12,61 +12,19 @@
 // @updateURL https://update.greasyfork.org/scripts/375636/Klanowicze%20online.meta.js
 // ==/UserScript==
 
-/*
-  - - -
-  KLANOWICZE ONLINE
-  AUTORSTWA RESKIEZISA aka PERSKIEGO KOTA
-  WERSJA DLA NOWEGO I STAREGO INTERFEJSU
-  - - -
-
-  - - - - - - -
-  GARMORY ZNOWU POPSULO DODATEK?
-  POPROS SWOJEGO DODATKOPISARZA O NAPRAWE!
-
-  Garmory czesto cos zmienia, ale dzieki temu mozna przewidziec co sie zepsulo.
-  1. Najczestszy problem - zmiana struktury listy krotek (zlaczonych tablic zawierajacych id gracza, imie itd...)
-     PATRZ linia 105
-  2. Nowa automatycznie wykonywana funkcja po wywolaniu _g('clan&a=members') lub zmiana w nazewnictwie funkcji/elementow UI, ktore sa wykorzystywane do ominiecia automatycznego wywolania tej funkcji
-     PATRZ metody ApplicationSI.prototype.fetchMembers lub ApplicationNI.prototype.fetchMembers
-  3. Zmiana nazwy wlasciwosci w obiekcie zwracanym przez _g('clan&a=members').
-     (kiedys wlasciwosc members nazywala sie members2)
-
-  Otworzenie konsoli w Chrome - CTRL+SHIFT+J
-*/
-
-;(function(){
-  'use strict';
-
-  // czy gracz gra na Nowym Interfejsie?
+(function(){
   var isNewInterface = typeof window.Engine !== 'undefined' && typeof window.Engine.hero !== 'undefined'
 
-  /*
-    \/ \/ \/
-    SEKCJA UI START
-    Wyjatek: metody renderMembers i setBattleInfo sa wykorzystywane z poziomu klasy Application
-  */
   var STORAGE_KEY = 'klanowicze_online'
 
-  // Enum - przyjmuje jedna z dwoch wartosci
-  // SizeEnum.NORMAL albo SizeEnum.COMPRESSED
   var SizeEnum = {
     NORMAL: 0,
     COMPRESSED: 1
   }
 
   function Popup(events){
-    /*
-      Metody z klasy Application obslugujace zdarzenia.
-      events: {
-        startFetchingInIntervals(),
-        stopFetchingInIntervals(),
-        addToGroup(),
-        sendMessageTo()
-      }
-    */
     this.events = events
 
-    // stan UI komponentu
     this.state = {
       hidden: false,
       top: 10,
@@ -74,7 +32,6 @@
       size: SizeEnum.NORMAL
     }
 
-    // zaladuj poprzedni stan UI komponentu z dysku, o ile istnieje
     this.loadStateFromDisk()
 
     // elementy HTML
@@ -102,20 +59,6 @@
     var includesHero = false
     var count = 0
     var MEMBERS_TUPLE_LENGTH = 10
-
-    /*
-      tablica members to ciag zlaczonych tablic (krotek) typu:
-      [ id, nick, lvl, prof, map, x, y, ?, loggedTimeAgo, icon ]
-      rozmar jednej takiej tablicy przechowywany jest w stalej MEMBERS_TUPLE_LENGTH
-
-      > > > UWAGA! < < <
-      PRAWDOPODOBNIE COS SIE KIEDYS ZMIENI W STRUKTURZE TEJ TABLICY
-      PRZY TESTOWANIU WARTO JA WYPISAC Z console.log(members)
-
-      Zmiany w przeszlosci:
-      - dodano 10 element, czyli sciezke do wygladu postaci (icon)
-      - loggedTimeAgo (9 element) przechowywal wartosc 'online' gdy gracz byl zalogowany
-    */
 
     for(var j = 0; j <= members.length; j += MEMBERS_TUPLE_LENGTH){
       // jezeli dany gracz jest zalogowany to loggedTimeAgo (dziewiaty element krotki) jest rowny zero
