@@ -23,7 +23,7 @@ titanSound.autoplay = false;
 function run(Engine) {
     var autoNotify = true;
     var alreadyNotify = [];
-    var others = ["Piracka sakwa", "Duża piracka sakwa", "Zakopany piracki skarb", "Pierścieniak", "Olszówka", "Muchomor", "Tropiciel Herosów", "Wtajemniczony Tropiciel Herosów", "Doświadczony Tropiciel Herosów", "Ogromna płomiennica tląca", "Ogromna dzwonkówka tarczowata", "Ogromny bulwiak pospolity", "Ogromny mroźlarz", "Ogromny szpicak ponury"];
+    var others = ["Kurka Niedobitka", "Piracka sakwa", "Duża piracka sakwa", "Zakopany piracki skarb", "Pierścieniak", "Olszówka", "Muchomor", "Tropiciel Herosów", "Wtajemniczony Tropiciel Herosów", "Doświadczony Tropiciel Herosów", "Ogromna płomiennica tląca", "Ogromna dzwonkówka tarczowata", "Ogromny bulwiak pospolity", "Ogromny mroźlarz", "Ogromny szpicak ponury"];
 
     if (Engine && Engine.npcs && Engine.npcs.check) window.API.addCallbackToEvent("newNpc", function(npc) {
         if (npc.d.wt > 19 && npc.d.wt <=79) {
@@ -42,7 +42,7 @@ function run(Engine) {
             heroSound.play();
             setTimeout(changeTitleToPrevious, 1000);
         }
-        if(npc.d.wt >= 100 && npc.d.wt <= 109){            
+        if(npc.d.wt >= 100 && npc.d.wt <= 109){
             if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
                 _g('chat&channel=clan', !1,{
                 c: `Znaleziono ${getNpcType(npc)} ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
@@ -66,5 +66,5 @@ function getNpcType(npc) {
         return 'kolosa';
     if (npc.d.wt >= 100 && npc.d.wt <= 109)
         return 'tytana';
-    return false;
+    return '';
 }
