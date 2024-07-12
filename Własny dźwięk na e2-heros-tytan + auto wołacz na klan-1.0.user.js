@@ -37,10 +37,10 @@ function run(Engine) {
                 c: `Znaleziono ${getNpcType(npc)} ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
-            alreadyNotify.push(npc.d.id);
             heroSound.volume = 0.5;
             heroSound.play();
             setTimeout(changeTitleToPrevious, 1000);
+            alreadyNotify.push(npc.d.id);
         }
         if(npc.d.wt >= 100 && npc.d.wt <= 109){
             if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
@@ -48,10 +48,10 @@ function run(Engine) {
                 c: `Znaleziono ${getNpcType(npc)} ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
-            alreadyNotify.push(npc.d.id);
             titanSound.volume = 0.5;
             titanSound.play();
             setTimeout(changeTitleToPrevious, 1000);
+            alreadyNotify.push(npc.d.id);
         }
     })
     else setTimeout(function() { run(window.Engine) }, 100)
