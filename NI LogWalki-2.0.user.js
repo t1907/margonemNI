@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         NI LogWalki
 // @version      2.0
-// @match        unia.margonem.pl/
 // @match        thantos.margonem.pl/
+// @match        unia.margonem.pl/
 // @icon         https://i.imgur.com/9JJ5YyK.png
 // @grant        none
 // ==/UserScript==

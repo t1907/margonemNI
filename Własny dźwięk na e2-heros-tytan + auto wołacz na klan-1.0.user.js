@@ -23,7 +23,7 @@ titanSound.autoplay = false;
 function run(Engine) {
     var autoNotify = true;
     var alreadyNotify = [];
-    var others = ["Kurka Niedobitka", "Piracka sakwa", "Duża piracka sakwa", "Zakopany piracki skarb", "Pierścieniak", "Olszówka", "Muchomor", "Tropiciel Herosów", "Wtajemniczony Tropiciel Herosów", "Doświadczony Tropiciel Herosów", "Ogromna płomiennica tląca", "Ogromna dzwonkówka tarczowata", "Ogromny bulwiak pospolity", "Ogromny mroźlarz", "Ogromny szpicak ponury"];
+    var others = ["Piracka sakwa", "Duża piracka sakwa", "Zakopany piracki skarb", "Pierścieniak", "Olszówka", "Muchomor", "Tropiciel Herosów", "Wtajemniczony Tropiciel Herosów", "Doświadczony Tropiciel Herosów", "Ogromna płomiennica tląca", "Ogromna dzwonkówka tarczowata", "Ogromny bulwiak pospolity", "Ogromny mroźlarz", "Ogromny szpicak ponury"];
 
     if (Engine && Engine.npcs && Engine.npcs.check) window.API.addCallbackToEvent("newNpc", function(npc) {
         if (npc.d.wt > 19 && npc.d.wt <=79) {
@@ -37,21 +37,21 @@ function run(Engine) {
                 c: `Znaleziono ${getNpcType(npc)} ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
             }
+            alreadyNotify.push(npc.d.id);
             heroSound.volume = 0.5;
             heroSound.play();
             setTimeout(changeTitleToPrevious, 1000);
-            alreadyNotify.push(npc.d.id);
         }
         if(npc.d.wt >= 100 && npc.d.wt <= 109){
-            if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
+            /*if(Engine.hero.d.clan && autoNotify && !alreadyNotify.includes(npc.d.id)){
                 _g('chat&channel=clan', !1,{
                 c: `Znaleziono ${getNpcType(npc)} ${npc.d.nick} (${npc.d.lvl}${npc.d.prof}) na mapie ${Engine.map.d.name} (${npc.d.x},${npc.d.y})`
             });
-            }
+            }*/
+            alreadyNotify.push(npc.d.id);
             titanSound.volume = 0.5;
             titanSound.play();
             setTimeout(changeTitleToPrevious, 1000);
-            alreadyNotify.push(npc.d.id);
         }
     })
     else setTimeout(function() { run(window.Engine) }, 100)

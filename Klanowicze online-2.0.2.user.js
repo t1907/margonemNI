@@ -85,7 +85,7 @@
       row.classList.add('ko-row')
 
       var addToGroupCell = row.insertCell()
-      addToGroupCell.innerHTML = "<img src=\"https://cdn-icons-png.freepik.com/256/6861/6861830.png\" width=\"12px\" height=\"12px\">";
+      addToGroupCell.innerHTML = "+";
       if(isNewInterface) addToGroupCell.dataset.tip = 'Dodaj do grupy'
       else addToGroupCell.setAttribute('tip', 'Dodaj do grupy')
       addToGroupCell.classList.add('ko-add-to-group-cell')
@@ -295,17 +295,15 @@
     stylesheet.appendChild(document.createTextNode(`
       #kobox {
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
         box-sizing: border-box;
         position: absolute !important;
-        border: 1px #555555 double;
-        border-radius: 7px;
-        color: #ffffff;
+        border: 1px #808080 solid;
+        border-radius: 5px;
+        color: white;
+        background: black;
         z-index: 500;
-        width: 18em;
-      }
-
-      #kobox.compressed {
-        width: 8em;
+        width: 300px;
       }
 
       #kobox > .header {
@@ -315,7 +313,7 @@
         padding: 3px;
         text-align: center;
         font-weight: bold;
-        border-bottom: 1px solid #555555;
+        border-bottom: 1px solid #202020;
         z-index: 1;
         font-size: larger;
       }
@@ -355,7 +353,7 @@
         margin: 1px;
         text-align: center;
         cursor: pointer;
-        border-top: 1px solid #555555;
+        border-top: 1px solid #303030;
         z-index: 1;
         user-select: none;
       }
@@ -376,15 +374,15 @@
       }
 
       #kobox > table > tbody > .ko-row {
+      padding: 5px;
         border: solid;
         border-width: 1px 0;
-        border-color: #555555;
-        background: black;
-        height: 1.6em;
+        border-color: #202020;
+        height: 1.7em;
         border-radius: 7px;
       }
       #kobox > table > tbody > .ko-row:hover {
-        background: #3c3c16;
+        background: #16163C;
       }
       #kobox > table > tbody > .ko-row:first-child {
         border-top: none;
@@ -396,7 +394,7 @@
       #kobox > table > tbody > .ko-row > .ko-add-to-group-cell, .ko-nick-cell {
         cursor: pointer;
         user-select: none;
-                white-space: nowrap;
+        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
@@ -407,11 +405,13 @@
       #kobox > table > tbody > .ko-row > .ko-add-to-group-cell {
           width: 20px;
           margin: 1px;
+          color: lime;
         text-align: center;
+        font-size: 12px;
       }
 
       #kobox > table > tbody > .ko-row > .ko-map-cell {
-        text-align: right;
+        text-align: left;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -451,7 +451,7 @@
   // metody:
   Application.prototype.startFetchingInIntervals = function(){
     this.fetchMembers()
-    this.interval = setInterval(this.fetchMembers.bind(this), 10000)
+    this.interval = setInterval(this.fetchMembers.bind(this), 1000)
   }
   Application.prototype.stopFetchingInIntervals = function(){
     if(this.interval !== null){
@@ -541,7 +541,7 @@
 
     const NO_CHAT_INPUT_WARN = 'Klanowicze online: chatInputElement ma wartosc null - potrzebny jest nowy selektor okienka tekstowego chatu.\nSkontaktuj sie z dodatkopisarzem.'
 
-    var chatInputElement = document.querySelector('.chat-tpl input')
+    var chatInputElement = document.querySelector('.chat-input-wrapper .magic-input-wrapper')
     if(chatInputElement === null){
       console.warn(NO_CHAT_INPUT_WARN);
     }
@@ -605,7 +605,7 @@
   // funkcja pomocnicza, ktora czeka az funkcja "check" zwroci prawde i wtedy wywola funkcje "then"
   var waitFor = function(check, then){
     if(!check())
-      setTimeout(waitFor, 1000, check, then)
+      setTimeout(waitFor, 500, check, then)
     else
       then()
   }

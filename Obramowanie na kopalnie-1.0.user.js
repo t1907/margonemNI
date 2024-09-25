@@ -3,7 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @author       Barkozo
-// @match        https://*.margonem.pl/
+// @match        unia.margonem.pl/
+// @match        thantos.margonem.pl/
 // @grant        none
 // ==/UserScript==
 
