@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Motyw
-// @version      1.0
-// @author       Barkozo
-// @match        *.margonem.pl/
+// @version      2.0
+// @match        https://*.margonem.pl/
+// @match        https://*.margonem.com/
+// @icon         https://i.imgur.com/9JJ5YyK.png
 // @grant        none
-// @run-at   document-start
 // ==/UserScript==
 
 (function() {
