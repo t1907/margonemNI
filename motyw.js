@@ -1,13 +1,16 @@
 // ==UserScript==
-// @name         Motyw
-// @version      2.0
-// @match        https://*.margonem.pl/
-// @match        https://*.margonem.com/
-// @icon         https://i.imgur.com/9JJ5YyK.png
-// @grant        none
+// @name         Black&White
+// @version      1.0
+// @author       Barkozo
+// @match        *.margonem.pl/
+// @match        *.margonem.com/
+// @resource   IMPORTED_CSS https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/Black%26White.css
+// @grant      GM_getResourceText
+// @grant      GM_addStyle
+// @run-at   document-start
 // ==/UserScript==
 
 (function() {
-    let url = 'https://addons2.margonem.pl/get/150/150749dev.js';
-    $.getScript(`${url}?v=${ts()}`);
+    const my_css = GM_getResourceText("IMPORTED_CSS");
+    GM_addStyle(my_css);
 })();
