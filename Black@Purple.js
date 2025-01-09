@@ -176,7 +176,6 @@
             .skill {background: url(../img/gui/skills/skill-box3.png?v=1734604145496)}
 
             .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .addons-panel, .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label {color: #ffffff}
-
             .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .board-graphic {border-width: 0; border-image: none;}
 
             .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/sprite.png) -7px 0;}
