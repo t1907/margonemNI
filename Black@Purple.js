@@ -22,7 +22,6 @@
             .battle-controller .graphics .middle-graphic{background: #101010;}
             .battle-controller .graphics .bottom-graphic{background: #101010;}
             .battle-controller .skill-hider{background: #101010;}
-
             .battle-controller .battle-content{border: 1px solid #404040 !important;}
             .battle-controller .battle-content .left-column{border: 1px solid #404040 !important;}
             /*.battle-controller .battle-content .right-column{display:none !important;}*/
