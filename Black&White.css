@@ -219,7 +219,7 @@
 .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #8c8c8c; border-left: 1px solid #8c8c8c; border-bottom: 1px solid #8c8c8c;}
 
 .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #8c8c8c}
-
+/*
 .popup-menu {box-shadow: 0 0 0 1px #ffffff inset, 0 0 0 1px #b6bbc1b0, 0 0 0 2px #150f0d; background-color: #000000;}
 .popup-menu .menu-item {background-color: #000000; border: 1px solid #396420;}
 
@@ -260,3 +260,4 @@
 
 .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625}
 
+*/
