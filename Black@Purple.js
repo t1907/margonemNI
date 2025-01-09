@@ -18,15 +18,6 @@
 
             .clan{color: #ffffff;}
 
-            .battle-controller .graphics .header-graphic{background: #101010;}
-            .battle-controller .graphics .middle-graphic{background: #101010;}
-            .battle-controller .graphics .bottom-graphic{background: #101010;}
-            .battle-controller .skill-hider{background: #101010;}
-            .battle-controller .battle-content{border: 1px solid #7800b4 !important;}
-            .battle-controller .battle-content .left-column{border: 1px solid #7800b4 !important;}
-            /*.battle-controller .battle-content .right-column{display:none !important;}*/
-            /*.battle-controller .skill-usable-add-slots .skill-usable-slot{display: none;}*/
-            
             .chat-channel-card-wrapper{border: 1px solid #7800b4 !important;}
             .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #7800b4 !important;}
             .chat-input-wrapper {background: #101010 !important;}
@@ -57,7 +48,7 @@
             .ni-input input.default {border: 1px solid #7800b4}
 
             .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
-            .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #7800b4; background: #101010;}
+            // .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #7800b4; background: #101010;}
 
             .tw-list-item{background: #101010 !important;}
             .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #7800b4, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
@@ -71,16 +62,13 @@
             .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
 
             .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #252525); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
-
             .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
 
             .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #7800b4, inset 0 0 0 3px #101010!important;}
-
             .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;}
 
             .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-                background-image: linear-gradient(to top, #101010,#101010)!important;
-                box-shadow: inset 0 0 1px 1px #cf0a2c,inset 0 0 0 3px #101010 !important;
+                background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #cf0a2c,inset 0 0 0 3px #101010 !important;
             }
 
             .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
@@ -91,9 +79,7 @@
             .button, .widget-button {border-radius: 0px !important;}
             .button, .widget-button::after {border-radius: 0px !important;}
             
-
             .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #41c400 !important;}
-            .mark-message-span.click-able{color: lime !important;}
 
             .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
