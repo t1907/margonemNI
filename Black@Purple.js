@@ -4,11 +4,11 @@
             #GAME_CANVAS {image-rendering: auto !important;}
 
             .gargonem-otherlist-other-button{color: lime !important;}
-            .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #8005b4, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+            .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #400020, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
             .cll-alert-content{background: #101010 !important;color: #ffffff !important;}
-            .cll-alert{border: 1px solid #8005b4 !important; box-shadow: 0 0 0 1pxrgb(64, 0, 255) !important; background: #101010 !important; color: #ffffff !important;}
-            .cll-alert button{background: #101010 !important; border: 1px solid #8005b4 !important;}
+            .cll-alert{border: 1px solid #400020 !important; box-shadow: 0 0 0 1pxrgb(64, 0, 255) !important; background: #101010 !important; color: #ffffff !important;}
+            .cll-alert button{background: #101010 !important; border: 1px solid #400020 !important;}
             .cll-alert button:hover {border: 1px solid lime !important;}
             .cll-alert button:focus {border: 1px solid #57e106 !important;}
             .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -23,17 +23,17 @@
             .battle-controller .graphics .bottom-graphic{background: #101010;}
             .battle-controller .skill-hider{background: #101010;}
 
-            .battle-controller .battle-content{border: 1px solid #8005b4 !important;}
-            .battle-controller .battle-content .left-column{border: 1px solid #8005b4 !important;}
+            .battle-controller .battle-content{border: 1px solid #400020 !important;}
+            .battle-controller .battle-content .left-column{border: 1px solid #400020 !important;}
             /*.battle-controller .battle-content .right-column{display:none !important;}*/
             /*.battle-controller .skill-usable-add-slots .skill-usable-slot{display: none;}*/
             
-            .chat-channel-card-wrapper{border: 1px solid #8005b4 !important;}
-            .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #8005b4 !important;}
+            .chat-channel-card-wrapper{border: 1px solid #400020 !important;}
+            .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #400020 !important;}
             .chat-input-wrapper {background: #101010 !important;}
             .new-chat-window .menu-card .chat-channel-card-wrapper{border: #1f1f1f 1px solid !important;}
             .new-chat-window {background: #101010 !important;}
-            .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #8005b4 !important; background: #101010 !important;}
+            .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #400020 !important; background: #101010 !important;}
 
             .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
             .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
@@ -41,12 +41,12 @@
             .linked-chat-item[data-item-type="t-upgraded"] {color: #ff59af !important;}
             .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
 
-            .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #8005b4 !important; }
-            .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #8005b4 !important; border-bottom: 1px solid #8005b4 !important;}
+            .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #400020 !important; }
+            .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #400020 !important; border-bottom: 1px solid #400020 !important;}
 
-            .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #8005b4 !important; background: #8005b4 !important;}
-            .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #8005b4 !important; }
-            .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #8005b4 !important;}
+            .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #400020 !important; background: #400020 !important;}
+            .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #400020 !important; }
+            .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #400020 !important;}
 
             .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oi7QxzB.png') 7 repeat !important;}
             .layer.interface-layer .main-column{background: #101010 !important;}
@@ -55,13 +55,13 @@
             .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 0 repeat !important;}
             .border {background: transparent !important;}
 
-            .ni-input input.default {border: 1px solid #8005b4}
+            .ni-input input.default {border: 1px solid #400020}
 
             .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
-            .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #8005b4; background: #101010;}
+            .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #400020; background: #101010;}
 
             .tw-list-item{background: #101010 !important;}
-            .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #8005b4, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
+            .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #400020, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
 
             .loot-window .button-holder .button{background:linear-gradient(to top,#101010,#101010)}
             .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #101010}
@@ -75,7 +75,7 @@
 
             .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
 
-            .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #8005b4, inset 0 0 0 3px #101010!important;}
+            .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #400020, inset 0 0 0 3px #101010!important;}
 
             .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;}
 
@@ -199,7 +199,7 @@
             .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
             .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
             .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-            .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #8005b4; border-left: 1px solid #8005b4; border-bottom: 1px solid #8005b4;}
+            .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #400020; border-left: 1px solid #400020; border-bottom: 1px solid #400020;}
 
             .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
             .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
@@ -220,9 +220,9 @@
             .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
             .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
             .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-            .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #8005b4; border-left: 1px solid #8005b4; border-bottom: 1px solid #8005b4;}
+            .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #400020; border-left: 1px solid #400020; border-bottom: 1px solid #400020;}
 
-            .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #8005b4}
+            .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #400020}
       </style>`).appendTo('body');
   }
 }
