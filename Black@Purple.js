@@ -26,8 +26,8 @@
             .battle-controller .battle-content{border: 1px solid #8005b4 !important;}
             .battle-controller .battle-content .left-column{border: 1px solid #8005b4 !important;}
             /*.battle-controller .battle-content .right-column{display:none !important;}*/
-            .battle-controller .skill-usable-add-slots .skill-usable-slot{display: none;}
-
+            /*.battle-controller .skill-usable-add-slots .skill-usable-slot{display: none;}*/
+            
             .chat-channel-card-wrapper{border: 1px solid #8005b4 !important;}
             .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #8005b4 !important;}
             .chat-input-wrapper {background: #101010 !important;}
