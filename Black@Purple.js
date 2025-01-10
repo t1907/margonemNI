@@ -47,6 +47,7 @@
 
             .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
             .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
+            .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill-hider.png);}
 
             .dialogue-window .content .npc-message .rew_item .container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) -178px -264px}
             .salvage__reagents, .salvage__receives, .enhance__reagents, .enhance__r-item, .extraction__receives, .bonus-reselect-wnd__require {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -178px -3px;}
