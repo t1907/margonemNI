@@ -16,7 +16,7 @@
             .cll-timer-highlighted {background: #0a1f42 !important}
             .cll-timer-monster[style]{color: red !important;}
 
-            //.clan{color: #ffffff;}
+            .clan{color: #ffffff;}
 
             .chat-channel-card-wrapper{border: 1px solid #787878 !important;}
             .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #787878 !important;}
@@ -142,9 +142,9 @@
             .skills-window .left-column .middle-graphic, .divide-edit-panel .scroll-wrapper .scroll-pane .middle-graphic, .divide-and-color-edit .middle-graphic, .chests-window .brown-background, .item-changer .scroll-wrapper .scroll-pane .middle-graphics,
             .conquer-stats .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
 
-            //.border-window .content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/content-redleather.jpg);}
+            .border-window .content {background: #202020;}
 
-            .border-window {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
+            .border-window {color: #ffffff; border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
 
             .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
