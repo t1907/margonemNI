@@ -45,6 +45,19 @@
             .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 0 repeat !important;}
             .border {background: transparent !important;}
 
+            .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
+            .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
+
+            .dialogue-window .content .npc-message .rew_item .container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) -178px -264px}
+            .salvage__reagents, .salvage__receives, .enhance__reagents, .enhance__r-item, .extraction__receives, .bonus-reselect-wnd__require {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -178px -3px;}
+            .one-build .build-items-wrapper,.one-build-to-buy .build-items-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 0;}
+            .game-window-positioner .character_wrapper .equipment-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px;}
+            .game-window-positioner .inventory_wrapper .bags-navigation {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat 0 -140px}
+            .game-window-positioner .inventory_wrapper .bags-navigation .item {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -36px -181px}
+            .game-window-positioner .inventory_wrapper .inventory-grid-bg {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -175px 0;}
+            .show-eq .table-wrapper .right-side .other-items-wrapper .other-items {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px}
+            .eq-items-set {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png)}
+
             .ni-input input.default {border: 1px solid #787878}
 
             .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
