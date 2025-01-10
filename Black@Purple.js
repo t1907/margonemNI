@@ -61,10 +61,12 @@
             .show-eq .table-wrapper .right-side .other-items-wrapper .other-items {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px}
             .eq-items-set {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png)}
 
+            .trade-window .window-background {background-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/trade-window.png)}
+
             .ni-input input.default {border: 1px solid #787878}
 
             .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
-            // .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #787878; background: #101010;}
+            .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #787878; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
             .tw-list-item{background: #101010 !important;}
             .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #787878, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
