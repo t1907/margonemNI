@@ -169,9 +169,9 @@
             .showcase .header-bar, .amount-label, .skills-window .right-column .maku-wood, .MBEditor .buttons-wrapper, .help-window2 .scroll-wrapper .scroll-pane .content-header,
             .item-changer .scroll-wrapper .static-bar-table .table-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png)}
 
-            .clan .left-column .clan-list-repeat {background: 0 0;}
-            .clan .left-column .clan-info {background: 0 0;}
-            .clan .left-column .clan-list-bottom{background: 0 0;}
+            .clan .left-column .clan-list-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/clan-list-repeat.png) repeat;}
+            .clan .left-column .clan-info {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -14px -244px}
+            .clan .left-column .clan-list-bottom{background: background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -228px -247px}
 
             .stats-and-history .season-wnd .season-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/match-bar.png) 7 14 fill stretch;}
 
