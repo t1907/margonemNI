@@ -80,9 +80,9 @@
         .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
 
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
-        .popup-menu .menu-item {background-color: #101010; border: 1px solid #8c8c8c; border-radius: 1px;}
-        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #8c8c8c; background-color: #404040;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #404040; border: 1px solid #ff4040;}
+        .popup-menu .menu-item {background-color: #101010; border: 1px solid #787878; border-radius: 1px;}
+        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #787878; background-color: #606060;}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #704040; border: 1px solid #cf0a2c;}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #14705e;background-color: #104d47}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #177f6b; background-color: #135751}
 
