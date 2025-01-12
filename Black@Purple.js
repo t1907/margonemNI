@@ -10,7 +10,6 @@
         .cll-alert button:hover {border: 1px solid lime !important;}
         .cll-alert button:focus {border: 1px solid #57e106 !important;}
         .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
-        .cll-timer-monster {color: #57e106 !important;}
         .cll-timer-highlighted {background: #0a1f42 !important}
         .cll-timer-monster[style]{color: red !important;}
 
@@ -80,7 +79,9 @@
         .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
 
-        .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #252525); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
+        .popup-menu .menu-item {background-color: #101010; border: 1px solid #8c8c8c;}
+
+        .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
 
         .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #787878, inset 0 0 0 3px #101010!important;}
