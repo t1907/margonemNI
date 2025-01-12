@@ -82,10 +82,9 @@
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #8c8c8c; border-radius: 1px;}
         .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #8c8c8c; background-color: #404040;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #202020;}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #404040; border: 1px solid #ff4040;}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #14705e;background-color: #104d47}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #177f6b; background-color: #135751}
-        .popup-menu .menu-item.cooldown-disabled {background-color: #404040; border: 1px solid #ff4040;}
 
         .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
