@@ -79,7 +79,9 @@
         .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
 
-        .popup-menu .menu-item {background-color: #101010; border: 1px solid #8c8c8c;}
+        .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 0px;}
+        .popup-menu .menu-item {background-color: #101010; border: 1px solid #8c8c8c; border-radius: 0px;}
+        //.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #82ff00; background-color: #808080;}
 
         .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
@@ -88,7 +90,7 @@
         .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;}
 
         .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #cf0a2c,inset 0 0 0 3px #101010 !important;
+            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;
         }
 
         .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
