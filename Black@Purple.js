@@ -8,7 +8,7 @@
         .cll-alert{border: 1px solid #808080 !important; box-shadow: 0 0 0 1px #808080 !important; background: #101010 !important; color: #ffffff !important;}
         .cll-alert button{background: #101010 !important; border: 1px solid #808080 !important;}
         .cll-alert button:hover {border: 1px solid lime !important;}
-        .cll-alert button:focus {border: 1px solid #40ff40 !important;}
+        .cll-alert button:focus {border: 1px solid #40c040; !important;}
         .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
         .cll-timer-highlighted {background: #0a1f42 !important}
         .cll-timer-monster[style]{color: red !important;}
@@ -84,18 +84,18 @@
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
         .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #404040; border: 1px solid #ff4040;}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #404040; border: 1px solid #c04040;}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40c040; background-color: #202020}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40c040; background-color: #404040}
 
         .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #808080, inset 0 0 0 3px #101010;}
 
         .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010!important;}
-        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;}
+        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #c04040, inset 0 0 0 3px #101010 !important;}
 
         .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
+            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #c04040, inset 0 0 0 3px #101010 !important;
         }
 
         .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
@@ -106,7 +106,7 @@
         .button, .widget-button {border-radius: 0px !important;}
         .button, .widget-button::after {border-radius: 0px !important;}
         
-        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
+        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40c040; !important;}
 
         .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
