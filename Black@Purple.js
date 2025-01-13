@@ -136,7 +136,7 @@
         .item-changer .scroll-wrapper .scroll-pane .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill repeat;}
         .left-grouped-list-and-right-description-window .right-column .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill round;}
 
-        .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0;}
+        .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0; box-shadow: none;}
 
         .settings-window .bottom-bar, .friend-enemy-list .amound-wrapper, .friend-enemy-list .bottom-friend-panel, .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
         .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header, .change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
@@ -175,6 +175,10 @@
         .clan-treasury-content .table-header, .clan-treasury-content .scroll-wrapper .scroll-pane .history-table tr:first-child, .clan-manage-content .rank-edit-table tr:first-child,
         .showcase .header-bar, .amount-label, .skills-window .right-column .maku-wood, .MBEditor .buttons-wrapper, .help-window2 .scroll-wrapper .scroll-pane .content-header,
         .item-changer .scroll-wrapper .static-bar-table .table-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png)}
+
+        .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png) 0 20 fill stretch;}
+
+        .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round;}
 
         .clan .left-column .clan-list-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/clan-list-repeat.png) repeat;}
         .clan .left-column .clan-info {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -14px -244px}
