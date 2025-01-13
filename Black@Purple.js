@@ -73,13 +73,14 @@
         .tw-list-item{background: #101010 !important;}
         .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
 
-        .loot-window .button-holder .button{background:linear-gradient(to top,#101010,#101010)}
+        .loot-window .button-holder .button{background:linear-gradient(to top, #101010, #101010)}
         .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.want{background:linear-gradient(to top,#101010,#101010)}
         .loot-window .button-holder .button.want:before{box-shadow:inset 0 0 1px 1px #101010}
-        .loot-window .button-holder .button.not{background:linear-gradient(to top,#101010,#101010)}
+        .loot-window .button-holder .button.not{background:linear-gradient(to top, #101010, #101010)}
         .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #101010}
-        .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
+        .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
+        .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #40ff40;}
 
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
@@ -106,7 +107,7 @@
         .button, .widget-button {border-radius: 0px !important;}
         .button, .widget-button::after {border-radius: 0px !important;}
         
-        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
+        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #40ff40; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
         .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
