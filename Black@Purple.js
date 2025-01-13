@@ -2,25 +2,25 @@
      $(`<style> 
         #GAME_CANVAS {image-rendering: auto !important;}
         .gargonem-otherlist-other-button{color: lime !important;}
-        .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #787878, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+        .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
         .cll-alert-content{background: #101010 !important;color: #ffffff !important;}
-        .cll-alert{border: 1px solid #787878 !important; box-shadow: 0 0 0 1px #787878 !important; background: #101010 !important; color: #ffffff !important;}
-        .cll-alert button{background: #101010 !important; border: 1px solid #787878 !important;}
+        .cll-alert{border: 1px solid #808080 !important; box-shadow: 0 0 0 1px #808080 !important; background: #101010 !important; color: #ffffff !important;}
+        .cll-alert button{background: #101010 !important; border: 1px solid #808080 !important;}
         .cll-alert button:hover {border: 1px solid lime !important;}
-        .cll-alert button:focus {border: 1px solid #57e106 !important;}
+        .cll-alert button:focus {border: 1px solid #208000 !important;}
         .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
         .cll-timer-highlighted {background: #0a1f42 !important}
         .cll-timer-monster[style]{color: red !important;}
 
         .clan{color: #ffffff;}
 
-        .chat-channel-card-wrapper{border: 1px solid #787878 !important;}
-        .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #787878 !important;}
+        .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
+        .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
         .chat-input-wrapper {background: #101010 !important;}
-        .new-chat-window .menu-card .chat-channel-card-wrapper{border: #1f1f1f 1px solid !important;}
+        .new-chat-window .menu-card .chat-channel-card-wrapper{border: #202020 1px solid !important;}
         .new-chat-window {background: #101010 !important;}
-        .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #787878 !important; background: #101010 !important;}
+        .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #808080 !important; background: #101010 !important;}
 
         .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
         .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
@@ -28,12 +28,14 @@
         .linked-chat-item[data-item-type="t-upgraded"] {color: #ff59af !important;}
         .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
 
-        .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #787878 !important; }
-        .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #787878 !important; border-bottom: 1px solid #787878 !important;}
+        .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #808080 !important; }
+        .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #808080 !important; border-bottom: 1px solid #808080 !important;}
 
-        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #787878 !important; background: #787878 !important;}
-        .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #787878 !important; }
-        .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #787878 !important;}
+        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #808080 !important;}
+        .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #808080 !important; }
+        .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #808080 !important;}
+
+        .auction-window .main-column-auction {background: #202020;}
 
         .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oi7QxzB.png') 7 repeat !important;}
         .layer.interface-layer .main-column{background: #101010 !important;}
@@ -63,37 +65,37 @@
         .depo .find-and-manage-money-section .left-part .manage-money-wrapper .manage-money-wrapper-graphic, .depo .bottom-section .actions-bar-content .actions-bar-background {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/wood_bar.png) 1 1 23 1 fill}
         .depo .find-and-manage-money-section .right-part .money-info {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/info_money_bar.png) 1 1 23 11 fill}
 
-        .ni-input input.default {border: 1px solid #787878}
+        .ni-input input.default {border: 1px solid #808080}
 
         .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
-        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #787878; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
+        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #808080; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
         .tw-list-item{background: #101010 !important;}
-        .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #787878, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
+        .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important; border-radius: 0px;}
 
-        .loot-window .button-holder .button{background:linear-gradient(to top,#101010,#101010)}
+        .loot-window .button-holder .button{background:linear-gradient(to top, #101010, #101010)}
         .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.want{background:linear-gradient(to top,#101010,#101010)}
         .loot-window .button-holder .button.want:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.not{background:linear-gradient(to top,#101010,#101010)}
         .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #101010}
-        .loot-window .button-holder .button.must{background:linear-gradient(to top,#101010,#101010)}
+        .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
 
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
-        .popup-menu .menu-item {background-color: #101010; border: 1px solid #787878; border-radius: 1px;}
-        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #787878; background-color: #606060;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #704040; border: 1px solid #cf0a2c;}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #14705e;background-color: #104d47}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #177f6b; background-color: #135751}
+        .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
+        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #704040; border: 1px solid #c00000;}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #14705e;background-color: #208000}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #177f6b; background-color: #208000}
 
-        .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #414141, inset 0 0 0 3px #0c0d0d;}
-        .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #706854, inset 0 0 0 3px #25261d;}
+        .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010;}
+        .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #808080, inset 0 0 0 3px #101010;}
 
-        .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #787878, inset 0 0 0 3px #101010!important;}
-        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;}
+        .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010!important;}
+        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #c00000, inset 0 0 0 3px #101010 !important;}
 
         .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #cf0a2c, inset 0 0 0 3px #101010 !important;
+            background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #c00000, inset 0 0 0 3px #101010 !important;
         }
 
         .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
@@ -104,7 +106,7 @@
         .button, .widget-button {border-radius: 0px !important;}
         .button, .widget-button::after {border-radius: 0px !important;}
         
-        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #41c400 !important;}
+        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #208000 !important;}
 
         .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
@@ -223,7 +225,7 @@
         .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
         .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
         .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-        .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;}
+        .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #808080; border-left: 1px solid #808080; border-bottom: 1px solid #808080;}
 
         .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
         .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
@@ -244,9 +246,9 @@
         .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
         .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
         .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-        .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;}
+        .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #808080; border-left: 1px solid #808080; border-bottom: 1px solid #808080;}
 
-        .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #787878}
+        .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #808080}
     </style>`).appendTo('body');
   }
 )();
