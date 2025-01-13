@@ -1,5 +1,4 @@
-(function() {
-     $(`<style> 
+GM_addStyle ( `
         #GAME_CANVAS {image-rendering: auto !important;}
         .gargonem-otherlist-other-button{color: lime !important;}
         .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
@@ -249,6 +248,4 @@
         .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #808080; border-left: 1px solid #808080; border-bottom: 1px solid #808080;}
 
         .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #808080}
-    </style>`).appendTo('body');
-  }
-)();
+  ` );
