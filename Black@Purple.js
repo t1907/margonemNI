@@ -80,6 +80,7 @@
         .loot-window .button-holder .button.not{background:linear-gradient(to top,#101010,#101010)}
         .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #101010}
         .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
+        .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{box-shadow:inset 0 0 1px 1px #40ff40; !important;}
 
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
