@@ -106,7 +106,7 @@
         .button, .widget-button {border-radius: 0px !important;}
         .button, .widget-button::after {border-radius: 0px !important;}
         
-        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40; !important;}
+        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #40ff40; box-shadow:inset 0 0 1px 1px #40ff40; !important;}
 
         .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
