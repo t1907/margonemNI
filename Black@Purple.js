@@ -102,11 +102,11 @@
         .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #101010 !important;}
         .button.green.window-is-open::before, .widget-button.green.window-is-open::before {background-color: #101010 !important;}
         .button.red::before, .widget-button.red::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
-        .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
+        .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #101010;}
         .button, .widget-button {border-radius: 0px !important;}
         .button, .widget-button::after {border-radius: 0px !important;}
         
-        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #40ff40; box-shadow:inset 0 0 1px 1px #40ff40; !important;}
+        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40; !important;}
 
         .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
 
