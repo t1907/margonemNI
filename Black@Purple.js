@@ -85,7 +85,7 @@
         .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
         .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #404040; border: 1px solid #ff4040;}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #000000; border: 1px solid #ff4040;}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
         .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
 
