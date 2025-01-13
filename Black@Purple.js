@@ -92,7 +92,7 @@
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #808080, inset 0 0 0 3px #101010;}
 
         .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010!important;}
-        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #c04040, inset 0 0 0 3px #101010 !important;}
+        .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;}
 
         .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
             background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
