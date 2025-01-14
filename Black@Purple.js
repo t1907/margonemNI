@@ -270,6 +270,6 @@
         .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #808080; border-left: 1px solid #808080; border-bottom: 1px solid #808080;}
 
         .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #808080}
-    </style>`).appendTo('body');
+    </style>`).appendTo('head');
   }
 )();
