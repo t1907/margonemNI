@@ -32,9 +32,9 @@
         .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #808080 !important; }
         .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #808080 !important; border-bottom: 1px solid #808080 !important;}
 
-        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #808080 !important;}
-        .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #808080 !important; }
-        .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #808080 !important;}
+        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #101010 !important;}
+        .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #101010 !important; }
+        .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #101010 !important;}
 
         .auction-window .main-column-auction {background: #202020;}
 
@@ -186,12 +186,12 @@
         .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png");}
         
         .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png") 0 11 fill round; background: #101010;}
-        .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png") 0 11 fill round; background: #101010;}
+        .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png") 0 11 fill round; background: #101010; border-style: hidden;}
         .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png") 0 11 fill round; background: #101010;}
    
-        .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010;}
-        .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010;}
-        .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010;}
+        .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010; }
+        .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010; border-style: hidden;}
+        .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round; background: #101010; border-style: hidden;}
 
         .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png") 0 20 fill stretch;}
         .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch;}
