@@ -32,7 +32,7 @@
         .game-window-positioner .character_wrapper .stats-wrapper {background: #101010 !important; border: 1px solid #808080 !important; }
         .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #808080 !important; border-bottom: 1px solid #808080 !important;}
 
-        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #101010 !important;}
+        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #202020 !important;}
         .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #8c8c8c !important; }
         .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #8c8c8c !important;}
 
@@ -83,12 +83,12 @@
         .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
         .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
-        .popup-menu{box-shadow:none; background-color: #00000000; border-radius: 1px;}
+        .popup-menu{box-shadow:none; background-color: #101010; border-radius: 1px;}
         .popup-menu .menu-item {background-color: #101010; border: 1px solid #808080; border-radius: 1px;}
-        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
-        .popup-menu .menu-item.cooldown-disabled{background-color: #000000; border: 1px solid #ff4040;}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
-        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
+        //.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
+        //.popup-menu .menu-item.cooldown-disabled{background-color: #000000; border: 1px solid #ff4040;}
+        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
+        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
 
         .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #808080, inset 0 0 0 3px #101010;}
