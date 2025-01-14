@@ -51,7 +51,7 @@
         .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill_hot_skills.png) 0 -35px;}
         .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill_hot_skills.png)}
 
-        .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #808080;}
+        .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #202020;}
         .show-eq .table-wrapper .right-side .other-items-wrapper .other-items {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px}
 
         .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oneItemSlotToRepeat.png)}
