@@ -14,6 +14,7 @@
         .cll-timer-monster[style]{color: red !important;}
 
         .clan{color: #ffffff;}
+        .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #ffffff;}
 
         .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
         .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
