@@ -51,16 +51,13 @@
         .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill_hot_skills.png) 0 -35px;}
         .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill_hot_skills.png)}
 
-        .dialogue-window .content .npc-message .rew_item .container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) -178px -264px}
-        .salvage__reagents, .salvage__receives, .enhance__reagents, .enhance__r-item, .extraction__receives, .bonus-reselect-wnd__require {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -178px -3px;}
-        .one-build .build-items-wrapper,.one-build-to-buy .build-items-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 0;}
-        .game-window-positioner .character_wrapper .equipment-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px;}
-        .game-window-positioner .inventory_wrapper .bags-navigation {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat 0 -140px}
-        .game-window-positioner .inventory_wrapper .bags-navigation .item {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -36px -181px}
-        .game-window-positioner .inventory_wrapper .inventory-grid-bg {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) no-repeat -175px 0;}
+        .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #808080;}
         .show-eq .table-wrapper .right-side .other-items-wrapper .other-items {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px}
-        .eq-items-set {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png)}
 
+        .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oneItemSlotToRepeat.png)}
+        .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oneItemSlotToRepeat.png);}
+        .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oneItemSlotToRepeat.png);}
+        
         .trade-window .window-background {background-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/trade-window.png)}
 
         .depo .find-and-manage-money-section .left-part .manage-money-wrapper .manage-money-wrapper-graphic, .depo .bottom-section .actions-bar-content .actions-bar-background {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/wood_bar.png) 1 1 23 1 fill}
