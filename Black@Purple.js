@@ -164,6 +164,7 @@
         .clan .right-column {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 round}
         .clan-list-find-panel, .showcase .card-content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat}
         .skills-window .right-column .middle-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round}
+        .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) repeat;}
 
         .settings-window h2, .settings-window .hot-keys-config .scroll-wrapper .static-bar-table tr, .mails-window .content-header, .recovery-item .scroll-wrapper .static-bar-table .table-header, .card-content .table-header-wrapper,
         .clan-list-find-panel .clan-list-find-content .scroll-pane .background-wrapper .clan-find-header-0,.clan-list-find-panel .clan-list-find-content .scroll-pane .background-wrapper .clan-find-header-1,
