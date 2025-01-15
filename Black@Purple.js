@@ -150,7 +150,7 @@
         .skills-window .left-column .middle-graphic, .divide-edit-panel .scroll-wrapper .scroll-pane .middle-graphic, .divide-and-color-edit .middle-graphic, .chests-window .brown-background, .item-changer .scroll-wrapper .scroll-pane .middle-graphics,
         .conquer-stats .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
 
-        .border-window .content {background: #101010;}
+        .border-window .content {background: #101010; color: #ffffff;}
 
         .border-window {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
 
