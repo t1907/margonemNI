@@ -69,8 +69,7 @@
         .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
         input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
 
-        
-        //.loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #808080; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
+        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #808080; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
         .tw-list-item{background: #101010 !important;}
         .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000; border-radius: 0px;}
@@ -151,7 +150,7 @@
         .skills-window .left-column .middle-graphic, .divide-edit-panel .scroll-wrapper .scroll-pane .middle-graphic, .divide-and-color-edit .middle-graphic, .chests-window .brown-background, .item-changer .scroll-wrapper .scroll-pane .middle-graphics,
         .conquer-stats .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
 
-        .border-window .content {background: #202020;}
+        .border-window .content {background: #101010;}
 
         .border-window {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
 
