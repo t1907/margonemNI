@@ -38,7 +38,7 @@
         .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #8c8c8c !important; }
         .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #8c8c8c !important;}
 
-        .auction-window .main-column-auction {background: #202020;}
+        .auction-window .main-column-auction {background: #101010;}
 
         .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oi7QxzB.png') 7 repeat !important;}
         .layer.interface-layer .main-column{background: #101010 !important;}
@@ -54,7 +54,7 @@
         .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill_hot_skills.png)}
 
         .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #202020;}
-        .interface-element-grid-border {outline: 1px solid #101010; box-shadow: unset;}
+        .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
         .show-eq .table-wrapper .right-side .other-items-wrapper .other-items {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/eq.png) 0 -229px}
 
         .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oneItemSlotToRepeat.png)}
@@ -66,11 +66,11 @@
         .depo .find-and-manage-money-section .left-part .manage-money-wrapper .manage-money-wrapper-graphic, .depo .bottom-section .actions-bar-content .actions-bar-background {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/wood_bar.png) 1 1 23 1 fill}
         .depo .find-and-manage-money-section .right-part .money-info {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/info_money_bar.png) 1 1 23 11 fill}
 
-        .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: inset 0 0 6px 1px #808080;}
-        input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: inset 0 0 6px 1px #808080;}
+        .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
+        input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
 
-        .loot-window .bottom-wrapper .bottom-graphic{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/belka-wieksza.png) !important;}
-        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #808080; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
+        
+        //.loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #808080; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
         .tw-list-item{background: #101010 !important;}
         .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000; border-radius: 0px;}
