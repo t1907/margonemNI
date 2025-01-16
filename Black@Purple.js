@@ -15,6 +15,11 @@
 
         .clan{color: #ffffff;}
         .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #ffffff;}
+        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #ffffff;}
+        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #ffffff;}
+        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {
+          border-image: url(../img/gui/mail-item-box-border.png?v=1736844106308) 7 repeat;
+          background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-background.png);}
 
         .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
         .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
