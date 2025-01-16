@@ -91,10 +91,10 @@
 
         .popup-menu{border-radius: 1px;}
         .popup-menu .menu-item {border: 1px solid #808080; border-radius: 1px;}
-        //.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
-        //.popup-menu .menu-item.cooldown-disabled{background-color: #000000; border: 1px solid #ff4040;}
-        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
-        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
+        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #808080; background-color: #404040;}
+        .popup-menu .menu-item.cooldown-disabled{background-color: #000000; border: 1px solid #ff4040;}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
+        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #404040}
 
         .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #808080, inset 0 0 0 3px #101010;}
         .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #808080, inset 0 0 0 3px #101010;}
