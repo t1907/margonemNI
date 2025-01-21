@@ -125,13 +125,13 @@
         .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header,.change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
         .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
 
-        .border-window-background, .premium-panel .premium-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
-        .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg, .promo-window .background-graphic, .premium-panel .premium-graphic , .border-window .wnd-dark-bg,
-        .border-window-background, .recovery-item .scroll-wrapper .scroll-pane .paper-graphics, .stamina-shop .background-graphic, .matchmaking-summary .middle-graphics,
-        .stats-and-history .season-wnd .middle-wood, .news-panel .news-content .crazy-bar, .change-outfit .crazy-bar, .battle-pass-window .section .scroll-wrapper .battle-pass-bg {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png);}
+        .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg, .matchmaking-summary .middle-graphics, .news-panel .news-content .crazy-bar, .change-outfit .crazy-bar, .battle-pass-window .section .scroll-wrapper .battle-pass-bg {
+            background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png);}
 
-        .skills-window .left-column .middle-graphic, .divide-edit-panel .scroll-wrapper .scroll-pane .middle-graphic, .divide-and-color-edit .middle-graphic, .chests-window .brown-background, .item-changer .scroll-wrapper .scroll-pane .middle-graphics,
-        .conquer-stats .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
+        .promo-window .background-graphic, .premium-panel .premium-graphic, .border-window .wnd-dark-bg, .stamina-shop .background-graphic, .chests-window .brown-background, .conquer-stats .middle-graphics{
+            border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
+
+        .item-changer .scroll-wrapper .scroll-pane .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 10 fill repeat;}
 
         .border-window .content {background: #101010; color: #ffffff;}
 
@@ -139,26 +139,16 @@
 
         .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
-        .depo .bottom-section .cards-menu .cards-background, .matchmaking-ranking .cards-header-wrapper .header-background-graphic, .auction-window .cards-header-wrapper .header-background-graphic, .tabs-nav::before, .battle-pass-window .cards-header-wrapper .header-background-graphic,
-        .cards-header-wrapper .header-background-graphic, .achievement-panel .cards-header-wrapper .header-background-graphic, .help-window2 .cards-header-wrapper .header-background-graphic,
-        .mails-window .cards-header-wrapper .header-background-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/friend-header.png) 11 13 fill stretch}
+        .auction-window .cards-header-wrapper .header-background-graphic, .tabs-nav::before, .mails-window .cards-header-wrapper .header-background-graphic, .depo .bottom-section .cards-menu .cards-background, 
+        .matchmaking-ranking .cards-header-wrapper .header-background-graphic, .achievement-panel .cards-header-wrapper .header-background-graphic, .cards-header-wrapper .header-background-graphic, .battle-pass-window .cards-header-wrapper .header-background-graphic
+        {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/friend-header.png) 11 13 fill stretch}
 
-        .console-wnd.border-window .content, .mc-addon-window .content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 repeat}
-        .clan .right-column {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 round}
-        .clan-list-find-panel, .showcase .card-content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat}
-        .skills-window .right-column .middle-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round}
+        .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,.additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round;}
+        .clan-list-find-panel {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat}
+        .showcase .card-content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat;}
+        .mc-addon-window .content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 repeat}
         .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) repeat;}
 
-        .settings-window h2, .settings-window .hot-keys-config .scroll-wrapper .static-bar-table tr, .mails-window .content-header, .recovery-item .scroll-wrapper .static-bar-table .table-header, .card-content .table-header-wrapper,
-        .clan-list-find-panel .clan-list-find-content .scroll-pane .background-wrapper .clan-find-header-0,.clan-list-find-panel .clan-list-find-content .scroll-pane .background-wrapper .clan-find-header-1,
-        .clan-list-find-panel .clan-list-find-content .scroll-pane .background-wrapper .clan-find-header-2,.clan-list-find-panel .clan-list-butts-wrapper,
-        .clan-bless-content .header-bar,.clan-diplomacy-content .header-bar,.clan-edit-page-content .header-bar,.clan-history-content .header-bar,.clan-manage-content .header-bar,.clan-official-page-content .header-bar,
-        .clan-priv-page-content .header-bar,.clan-quests-content .header-bar,.clan-rank-edit-content .header-bar,.clan-recruit-content .header-bar,.clan-skills-content .header-bar,.clan-treasury-content .header-bar,
-        .clan-other-recruit-content .clan-list-butts-wrapper,.clan-recruit-content .clan-list-butts-wrapper,
-        .clan-other-recruit-content .clan-recruit-header-0,.clan-other-recruit-content .clan-recruit-header-1,.clan-other-recruit-content .clan-recruit-header-2,.clan-recruit-content .clan-recruit-header-0,
-        .clan-recruit-content .clan-recruit-header-1,.clan-recruit-content .clan-recruit-header-2,
-        .clan-treasury-content .table-header, .clan-treasury-content .scroll-wrapper .scroll-pane .history-table tr:first-child, .clan-manage-content .rank-edit-table tr:first-child,
-        .showcase .header-bar, .amount-label, .skills-window .right-column .maku-wood, .MBEditor .buttons-wrapper, .help-window2 .scroll-wrapper .scroll-pane .content-header,
         .item-changer .scroll-wrapper .static-bar-table .table-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png)}
 
         .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png) 0 20 fill stretch;}
