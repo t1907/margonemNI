@@ -120,7 +120,10 @@
 
         .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0; box-shadow: none;}
 
-        .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header, .change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
+        .interface-element-bottom-bar-background, .interface-element-bottom-bar-background-stretch  {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch}
+        .interface-element-bottom-bar-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch;}
+        .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header,.change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
+        .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
 
         .border-window-background, .premium-panel .premium-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
         .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg, .promo-window .background-graphic, .premium-panel .premium-graphic , .border-window .wnd-dark-bg,
