@@ -53,7 +53,7 @@
         .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 0 repeat !important;}
         .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
         .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
-        .layer.interface-layer .main-column.right-column .border { {background: transparent !important;}
+        .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
 
         .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
         .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
