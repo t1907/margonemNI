@@ -25,7 +25,6 @@
         .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
         .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
         .chat-input-wrapper {background: #101010 !important;}
-        .new-chat-window .menu-card .chat-channel-card-wrapper{border: #202020 1px solid !important;}
         .new-chat-window {background: #101010 !important;}
         .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #808080 !important; background: #101010 !important;}
 
@@ -48,10 +47,12 @@
 
         .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oi7QxzB.png') 7 repeat !important;}
         .layer.interface-layer .main-column{background: #101010 !important;}
-        .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oTLO9A2.png') -251px 0px !important;}
-        .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 -61px repeat !important;}
-        .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 0 repeat !important;}
-        .border {background: transparent !important;}
+        .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/oTLO9A2.png') -251px 0px !important;}
+        .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 -61px repeat !important;}
+        .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/VW7joVD.png') 0 0 repeat !important;}
+        .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
+        .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
+        .layer.interface-layer .main-column.right-column .border { {background: transparent !important;}
 
         .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
         .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
