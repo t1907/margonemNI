@@ -20,7 +20,8 @@
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #ffffff;}
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {
           border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-border.png) 7 repeat;
-          background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-background.png);}
+          background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-background.png);
+        }
 
         .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
         .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
