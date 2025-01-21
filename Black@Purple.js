@@ -117,36 +117,8 @@
         
         .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
-        .addons-panel .main-header, .left-grouped-list-and-right-description-window .main-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/1.png)}
-
-        .auction-window .left-column-auction-and-main-column-auction {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/2.png) -2px 0}
-        .left-grouped-list-and-right-description-window .left-column .middle-left-column-graphics, .addons-panel .left-column .middle-left-column-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/2.png)}
-
-        .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane, .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane,
-        .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,
-        .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/2.png) 0 30 fill repeat}
-
-        .addons-panel .right-column .middle-right-column-graphics, .left-grouped-list-and-right-description-window .right-column .middle-right-column-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/3.png)}
-
-        .addons-panel .left-column .bottom-left-column-graphics, .left-grouped-list-and-right-description-window .left-column .bottom-left-column-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/4.png)}
-
-        .promo-window .promo-bottom-panel, .premium-panel .premium-bottom-panel, .border-window .bottom-bar, .addons-panel .bottom-recipes-panel .bottom-panel-graphics, .mails-window .bottom-mail-panel .bottom-panel-graphics,
-        .recovery-item .recover-bottom-panel, .stamina-shop .footer .bottom-panel-graphics, .gold-shop .footer .bottom-panel-graphics, .divide-edit-panel .bottom-bar,
-        .left-grouped-list-and-right-description-window .bottom-row-panel .bottom-panel-graphics, .chests-window .chests-bottom-panel, .matchmaking-summary .bottom-panel-graphics, .matchmaking-panel .bottom-panel-graphics, .achievement-panel .bottom-panel-graphics, .item-changer .filter-wrapper,
-        .battle-pass-window .bottom-row-panel .bottom-panel-graphics  {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png)}
-
-        .auction-window .bottom-part .bottom-panel-graphics, .divide-panel .bottom-part .bottom-panel-graphics, .console-window .console-bottom-panel-wrapper .console-bottom-panel,
-        .skills-window .bottom-part .bottom-panel-graphics, .item-changer .bottom-item-changer-panel .bottom-panel-graphics,
-        .change-outfit .bottom-change-outfit-panel .bottom-panel-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png) 0 59 fill stretch;}
-
-        .addons-panel .right-column .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill round;}
-        .recovery-item .scroll-wrapper .scroll-pane .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill repeat}
-        .item-changer .scroll-wrapper .scroll-pane .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill repeat;}
-        .left-grouped-list-and-right-description-window .right-column .paper-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/7.png) 63 27 27 fill round;}
-
         .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0; box-shadow: none;}
 
-        .settings-window .bottom-bar, .friend-enemy-list .amound-wrapper, .friend-enemy-list .bottom-friend-panel, .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
         .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header, .change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
 
         .border-window-background, .premium-panel .premium-graphic {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
