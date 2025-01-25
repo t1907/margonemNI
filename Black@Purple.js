@@ -151,7 +151,7 @@
 
         .item-changer .scroll-wrapper .static-bar-table .table-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png)}
 
-        .console-wnd.border-window .content {border-image: none;}
+        .console-wnd.border-window .content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 repeat;}
 
         .auction-window .left-column-auction-and-main-column-auction{background: 0 0;}
 
