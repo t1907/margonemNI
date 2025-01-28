@@ -118,7 +118,7 @@
         
         .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
-        .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0; box-shadow: none;}
+        .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle, .trade-window header .h_background .left, .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
         .interface-element-bottom-bar-background, .interface-element-bottom-bar-background-stretch  {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch}
         .interface-element-bottom-bar-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch;}
@@ -136,7 +136,7 @@
         .border-window .content {background: #101010; color: #ffffff;}
 
         .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
-        
+
         .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
         .auction-window .cards-header-wrapper .header-background-graphic, .tabs-nav::before, .mails-window .cards-header-wrapper .header-background-graphic, .depo .bottom-section .cards-menu .cards-background, 
