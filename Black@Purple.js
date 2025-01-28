@@ -55,6 +55,8 @@
         .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
         .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
 
+        .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png)}
+
         .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
         .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
         .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill-hider.png);}
