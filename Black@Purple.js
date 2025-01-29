@@ -270,7 +270,7 @@
 .tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: lime;}
 .tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #daa520;}
 .tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #2090FE;}
-.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #c00080;}
+.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff0040;}
 .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #c00080;}
 
 .tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #808080;}
@@ -278,7 +278,7 @@
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #808080;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ff80; }
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: #f0f0f0;}
-.tip-wrapper[data-type=t_item] i.looter {color: #c00080;}
+.tip-wrapper[data-type=t_item] i.looter {color: #ff0040;}
 
 .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #2090FE}
 
@@ -286,7 +286,7 @@
 
 .tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #daa520;}
 
-.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080}
+.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff0040;}
 
 .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080}
 
