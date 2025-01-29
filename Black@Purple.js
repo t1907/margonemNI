@@ -259,7 +259,7 @@
 
 .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
-.tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #8c8c8c;}
+.tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #808080;}
 
 .tip-wrapper .content .info-wrapper .m {color: #0000ff}
 .tip-wrapper .content .info-wrapper .e {color: #ffce00}
@@ -267,13 +267,13 @@
 .tip-wrapper .warrior-energy {color: #ffab00}
 
 .tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #f0f0f0;}
-.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #00ff80;}
-.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #ff8000;}
-.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #0080ff;}
-.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff00ff;}
-.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #ff00ff;}
+.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: lime;}
+.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #daa520;}
+.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #2090FE;}
+.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #bb0088;}
+.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #bb0088;}
 
-.tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #202020;}
+.tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #808080;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #808080;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ff80; }
