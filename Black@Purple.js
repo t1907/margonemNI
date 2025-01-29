@@ -280,17 +280,17 @@
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] i.looter {color: #c00080;}
 
-.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #2090FE,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
+.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #2090FE}
 
-.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px lime,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
+.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px lime}
 
 .tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
 
-.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
+.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080}
 
-.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
+.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #c00080}
 
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #f0f0f0 ,0 0 0 3px #000000,0 0 0 4px #000000,0 0 0 5px #000000,0 0 0 6px #000000,0 0 0 7px #000000}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #f0f0f0}
    
 </style>`).appendTo('head');
   }
