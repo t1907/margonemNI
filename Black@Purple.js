@@ -133,6 +133,10 @@
         .promo-window .background-graphic, .premium-panel .premium-graphic, .border-window .wnd-dark-bg, .stamina-shop .background-graphic, .chests-window .brown-background, .conquer-stats .middle-graphics{
             border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
 
+        .promo-window .promo-bottom-panel, .matchmaking-summary .bottom-panel-graphics, .battle-pass-window .bottom-row-panel .bottom-panel-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png);}
+        .divide-panel .bottom-part .bottom-panel-graphics, .item-changer .bottom-item-changer-panel .bottom-panel-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png) 0 59 fill stretch;}
+        .item-changer .filter-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png) 1px -4px;}    
+
         .item-changer .scroll-wrapper .scroll-pane .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 10 fill repeat;}
 
         .border-window .content {background: #101010; color: #ffffff;}
