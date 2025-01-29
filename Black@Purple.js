@@ -259,7 +259,7 @@
 
 .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
-.tip-wrapper .content .info-wrapper .nick {background: #808080; border: 1px solid #8c8c8c;}
+.tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #8c8c8c;}
 
 .tip-wrapper .content .info-wrapper .m {color: #0000ff}
 .tip-wrapper .content .info-wrapper .e {color: #ffce00}
