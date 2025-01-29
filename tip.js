@@ -2,21 +2,21 @@
      $(`<style> 
 .tip-wrapper {box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625; color: #e6d6bf;}
 
-.tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #FF0000}
+.tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
-.tip-wrapper .content .info-wrapper .nick {background: hsl(0deg 100% 28.12% / 10%); border: 1px solid hsl(0deg 89.28% 42.75% / 20%);}
+.tip-wrapper .content .info-wrapper .nick {background: #808080; border: 1px solid #8c8c8c;}
 
 .tip-wrapper .content .info-wrapper .m {color: #0000ff}
 .tip-wrapper .content .info-wrapper .e {color: #ffce00}
 .tip-wrapper .warrior-mana {color: #00abff}
 .tip-wrapper .warrior-energy {color: #ffab00}
 
-.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #9da1a7}
-.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ff59af}
-.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #fffb00}
-.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #38b8eb}
-.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff8400}
-.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e84646}
+.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #808080;}
+.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #e45d3b;}
+.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #fac633;}
+.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #3eaff1;}
+.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #e45d3b;}
+.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e45d3b;}
 
 .tip-wrapper[data-type=t_item] .item-head {background: #303030; border: 1px solid rgb(80 80 80);}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #c7c7c7;}
