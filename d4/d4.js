@@ -55,6 +55,8 @@
        .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
        .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
 
+       .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png)}
+
        .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/battle-panel-header.png);}
        .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/battle-panel-middle.png) repeat;}
        .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/skill-hider.png);}
@@ -118,7 +120,7 @@
        
        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
-       .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle { background: 0 0; box-shadow: none;}
+       .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle, .trade-window header .h_background .left, .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
        .interface-element-bottom-bar-background, .interface-element-bottom-bar-background-stretch  {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_bar.png) 0 20 fill stretch}
        .interface-element-bottom-bar-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_bar.png) 0 20 fill stretch;}
@@ -131,11 +133,15 @@
        .promo-window .background-graphic, .premium-panel .premium-graphic, .border-window .wnd-dark-bg, .stamina-shop .background-graphic, .chests-window .brown-background, .conquer-stats .middle-graphics{
            border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_middle.png) 0 11 fill repeat;}
 
+       .promo-window .promo-bottom-panel, .matchmaking-summary .bottom-panel-graphics, .battle-pass-window .bottom-row-panel .bottom-panel-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/5.png);}
+       .divide-panel .bottom-part .bottom-panel-graphics, .item-changer .bottom-item-changer-panel .bottom-panel-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/5.png) 0 59 fill stretch;}
+       .item-changer .filter-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/5.png) 1px -4px;}    
+
        .item-changer .scroll-wrapper .scroll-pane .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_middle.png) 10 fill repeat;}
 
        .border-window .content {background: #101010; color: #ffffff;}
 
-       .border-window {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/window-frame.png) 32 20 fill repeat;}
+       .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/window-frame.png) 32 20 fill repeat;}
 
        .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
