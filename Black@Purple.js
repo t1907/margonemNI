@@ -178,6 +178,9 @@
 
         .auction-window .left-column-auction-and-main-column-auction{background: 0 0;}
 
+        .interface-element-green-box-background {background: #101010;}
+        .interface-element-green-box-background-stretch {background: #101010;}
+
         .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png) 0 20 fill stretch;}
         .interface-element-header-2-background-stretch {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/match-bar.png") 7 14 fill stretch;}
 
@@ -227,6 +230,8 @@
 
         .shop-wrapper .shop-content.normal-shop-zl {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/normal-shop-gold.png) 0 -34px}
         .shop-wrapper .shop-content.normal-shop-sl {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/normal-shop-gold.png) 0 -34px}
+        
+        .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #808080;}
 
         .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
         .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
