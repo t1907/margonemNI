@@ -62,13 +62,13 @@
         .interface-element-card-background, .interface-element-card-background-stretch, .tabs-nav .card, .auction-off-item-panel input.default,.auction-window input.default, 
         .auction-window .cards-header-wrapper .cards-header .card, .mails-window .cards-header-wrapper .cards-header .card,  .matchmaking-ranking .cards-header-wrapper .cards-header .card, 
         .achievement-panel .cards-header-wrapper .cards-header .card, .cards-header-wrapper .cards-header .car, 
-        .battle-pass-window .cards-header-wrapper .cards-header .card{ background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) no-repeat;}
+        .battle-pass-window .cards-header-wrapper .cards-header .card{ background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) no-repeat; background-size: 100% 100%;}
         
         .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) 17 20 fill repeat}
 
         .interface-element-active-card-background, .interface-element-active-card-background-stretch,  .tabs-nav .card.active, .auction-window .cards-header-wrapper .cards-header .active, 
         .mails-window .cards-header-wrapper .cards-header .active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, .achievement-panel .cards-header-wrapper .cards-header .active, 
-        .cards-header-wrapper .cards-header .card.active, .battle-pass-window .cards-header-wrapper .cards-header .active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) no-repeat;}
+        .cards-header-wrapper .cards-header .card.active, .battle-pass-window .cards-header-wrapper .cards-header .active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) no-repeat; background-size: 100% 100%;}
         
         .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) 17 20 fill repeat}
 
