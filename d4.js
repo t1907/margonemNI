@@ -4,7 +4,7 @@
        .gargonem-otherlist-other-button{color: lime !important;}
        .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #640064, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
-       .cll-alert-content{background: #101010 !important;color: #ffffff !important;}
+       .cll-alert-content{background: #101010 !important; color: #ffffff !important;}
        .cll-alert{border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #640064 !important; background: #101010 !important; color: #ffffff !important;}
        .cll-alert button{background: #101010 !important; border: 1px solid #640064 !important;}
        .cll-alert button:hover {border: 1px solid lime !important;}
@@ -13,7 +13,6 @@
        .cll-timer-highlighted {background: #0a1f42 !important}
        .cll-timer-monster[style]{color: red !important;}
 
-       .clan{color: #ffffff;}
        .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #ffffff;}
        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #ffffff;}
        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #ffffff;}
@@ -39,10 +38,9 @@
        .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
        .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
 
-
        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #202020 !important;}
-       .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #8c8c8c !important; }
-       .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #8c8c8c !important;}
+       .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; }
+       .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important;}
 
        .auction-window .main-column-auction {background: #101010;}
 
@@ -180,19 +178,10 @@
        .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_bar.png") 0 20 fill stretch;}
        .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/quest_bar.png) 0 20 fill stretch;}
 
-       .clan .left-column .clan-list-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/clan-list-repeat.png) repeat;}
-       .clan .left-column .clan-info {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat -14px -244px}
-       .clan .left-column .clan-list-bottom{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat -228px -247px}
-       .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat 0 -867px;}
+
+
 
        .stats-and-history .season-wnd .season-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/match-bar.png) 7 14 fill stretch;}
-
-       .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .stone {border-image: url(../img/gui/recipes/one-reagent.png?v=1734604145496) 6 6 fill round stretch}
-       .divide-list-group .card-graphic {border-image: url(../img/gui/recipes/one-reagent.png?v=1734604145496) 5 fill repeat stretch}
-
-       .one-clan-skill .skill-icon-wrapper {background: url(../img/gui/skills/skill-box2.png?v=1734604145496);}
-       .skill.chosen {background: url(../img/gui/skills/skill-box-active2.png?v=1734604145496)}
-       .skill {background: url(../img/gui/skills/skill-box3.png?v=1734604145496)}
 
        .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .addons-panel, .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label {color: #ffffff}
        .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .board-graphic {border-width: 0; border-image: none;}
@@ -210,6 +199,12 @@
 
        .shop-wrapper .shop-content.normal-shop-zl {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/normal-shop-gold.png) 0 -34px}
        .shop-wrapper .shop-content.normal-shop-sl {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/normal-shop-gold.png) 0 -34px}
+
+       .clan{color: #ffffff;}
+       .clan .left-column .clan-list-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/clan-list-repeat.png) repeat;}
+       .clan .left-column .clan-info {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat -14px -244px}
+       .clan .left-column .clan-list-bottom{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat -228px -247px}
+       .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/buttony.png) no-repeat 0 -867px;}
 
        .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
        .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
