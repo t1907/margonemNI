@@ -164,7 +164,7 @@
 
         .auction-window .cards-header-wrapper .header-background-graphic, .tabs-nav::before, .mails-window .cards-header-wrapper .header-background-graphic, .depo .bottom-section .cards-menu .cards-background, 
         .matchmaking-ranking .cards-header-wrapper .header-background-graphic, .achievement-panel .cards-header-wrapper .header-background-graphic, .cards-header-wrapper .header-background-graphic, .battle-pass-window .cards-header-wrapper .header-background-graphic
-        {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/friend-header.png) 11 13 fill stretch}
+        {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/friend-header.png) 11 13 fill stretch;}
 
         .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,.additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round;}
         .clan-list-find-panel {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat}
