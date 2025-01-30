@@ -266,31 +266,32 @@
 .tip-wrapper .warrior-mana {color: #00abff}
 .tip-wrapper .warrior-energy {color: #ffab00}
 
-.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #f0f0f0;}
-.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #e0ff33;}
-.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #ffcd41;}
-.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #0da1f6;}
-.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #e53a0f;}
-.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e53a0f;}
+.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #9da1a7;}
+.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ff59af;}
+.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #fffb00;}
+.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #38b8eb;}
+.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff8400;}
+.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e84646;}
+.tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #fffb00;}
 
 .tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #808080;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ff80; }
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ff80;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: #f0f0f0;}
-.tip-wrapper[data-type=t_item] i.looter {color: #e53a0f;}
+.tip-wrapper[data-type=t_item] i.looter {color: #ff8400; text-align: center;}
 
-.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #0da1f6;}
+.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #38b8eb;}
 
-.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e0ff33}
+.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff59af;}
 
-.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ffcd41;}
+.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #fffb00;}
 
-.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e53a0f;}
+.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff8400;}
 
-.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e53a0f}
+.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e84646;}
 
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #f0f0f0}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #9da1a7;}
    
 </style>`).appendTo('head');
   }
