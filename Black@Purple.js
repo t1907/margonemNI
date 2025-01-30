@@ -57,6 +57,23 @@
 
         .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png)}
 
+        .search-wrapper {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/search.png) 5 9 23 34 fill}
+
+        .interface-element-card-background, .interface-element-card-background-stretch, .tabs-nav .card, .auction-off-item-panel input.default,.auction-window input.default, 
+        .auction-window .cards-header-wrapper .cards-header .card, .mails-window .cards-header-wrapper .cards-header .card,  .matchmaking-ranking .cards-header-wrapper .cards-header .card, 
+        .achievement-panel .cards-header-wrapper .cards-header .card, .cards-header-wrapper .cards-header .car, 
+        .battle-pass-window .cards-header-wrapper .cards-header .card{ background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) no-repeat;}
+        
+        .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) 17 20 fill repeat}
+
+        .interface-element-active-card-background, .interface-element-active-card-background-stretch,  .tabs-nav .card.active, .auction-window .cards-header-wrapper .cards-header .active, 
+        .mails-window .cards-header-wrapper .cards-header .active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, .achievement-panel .cards-header-wrapper .cards-header .active, 
+        .cards-header-wrapper .cards-header .card.active, .battle-pass-window .cards-header-wrapper .cards-header .active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) no-repeat;}
+        
+        .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) 17 20 fill repeat}
+
+        .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/auctions/header_left.png);}
+
         .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-header.png);}
         .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/battle-panel-middle.png) repeat;}
         .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/skill-hider.png);}
