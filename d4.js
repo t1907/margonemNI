@@ -41,8 +41,8 @@
 
 
        .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #202020 !important;}
-       .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #8c8c8c !important; }
-       .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #8c8c8c !important;}
+       .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; }
+       .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important;}
 
        .auction-window .main-column-auction {background: #101010;}
 
@@ -93,8 +93,8 @@
        .depo .find-and-manage-money-section .left-part .manage-money-wrapper .manage-money-wrapper-graphic, .depo .bottom-section .actions-bar-content .actions-bar-background {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/wood_bar.png) 1 1 23 1 fill}
        .depo .find-and-manage-money-section .right-part .money-info {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/info_money_bar.png) 1 1 23 11 fill}
 
-       .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
-       input.default {border: 1px solid #8c8c8c; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
+       .ni-input input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
+       input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
 
        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #640064; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
