@@ -136,6 +136,7 @@
        .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #101010;}
        .button, .widget-button {border-radius: 0px !important;}
        .button, .widget-button::after {border-radius: 0px !important; box-shadow: 0 2px 0 1px #101010}
+       .widget-button .widget-blink{display: none;}
        
        .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
