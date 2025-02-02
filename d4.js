@@ -4,8 +4,8 @@
        .gargonem-otherlist-other-button{color: lime !important;}
        .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #640064, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
-       .cll-alert-content{background: #101010 !important;color: #ffffff !important;}
-       .cll-alert{border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #640064 !important; background: #101010 !important; color: #ffffff !important;}
+       .cll-alert-content{background: #101010 !important;color: #CDDC39 !important;}
+       .cll-alert{border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #640064 !important; background: #101010 !important; color: #CDDC39 !important;}
        .cll-alert button{background: #101010 !important; border: 1px solid #640064 !important;}
        .cll-alert button:hover {border: 1px solid lime !important;}
        .cll-alert button:focus {border: 1px solid #40ff40; !important;}
@@ -13,11 +13,11 @@
        .cll-timer-highlighted {background: #0a1f42 !important}
        .cll-timer-monster[style]{color: red !important;}
 
-       .clan{color: #ffffff;}
-       .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #ffffff;}
-       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #ffffff;}
-       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #ffffff;}
-       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #ffffff;}
+       .clan{color: #CDDC39;}
+       .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #CDDC39;}
+       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #CDDC39;}
+       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #CDDC39;}
+       .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #CDDC39;}
        .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {
          border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-border.png) 7 repeat;
          background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/mail-item-box-background.png);
@@ -27,7 +27,7 @@
        .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #640064 !important;}
        .chat-input-wrapper {background: #101010 !important;}
        .new-chat-window {background: #101010 !important;}
-       .chat-configure-window .chat-option-header {color: #FFFFFF !important; border: 1px solid #640064 !important; background: #101010 !important;}
+       .chat-configure-window .chat-option-header {color: #CDDC39 !important; border: 1px solid #640064 !important; background: #101010 !important;}
 
        .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
        .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
@@ -93,8 +93,8 @@
        .depo .find-and-manage-money-section .left-part .manage-money-wrapper .manage-money-wrapper-graphic, .depo .bottom-section .actions-bar-content .actions-bar-background {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/wood_bar.png) 1 1 23 1 fill}
        .depo .find-and-manage-money-section .right-part .money-info {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/info_money_bar.png) 1 1 23 11 fill}
 
-       .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
-       input.default {border: 1px solid #8c8c8c; background: #101010; color: #ffffff; box-shadow: none; border-radius: 0px;}
+       .ni-input input.default {border: 1px solid #8c8c8c; background: #101010; color: #CDDC39; box-shadow: none; border-radius: 0px;}
+       input.default {border: 1px solid #8c8c8c; background: #101010; color: #CDDC39; box-shadow: none; border-radius: 0px;}
 
        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #640064; background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/buttony.png) no-repeat -231px -274px;}
 
@@ -132,6 +132,7 @@
        .button.green.window-is-open::before, .widget-button.green.window-is-open::before {background-color: #101010 !important;}
        .button.red::before, .widget-button.red::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
        .button.purple::before, .button.violet::before, .widget-button.purple::before, .widget-button.violet::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
+       .button.blink-violet::before, .widget-button.blink-violet::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
        .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #101010;}
        .button, .widget-button {border-radius: 0px !important;}
        .button, .widget-button::after {border-radius: 0px !important; box-shadow: 0 2px 0 1px #101010}
@@ -157,7 +158,7 @@
 
        .item-changer .scroll-wrapper .scroll-pane .middle-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 10 fill repeat;}
 
-       .border-window .content {background: #101010; color: #ffffff;}
+       .border-window .content {background: #101010; color: #CDDC39;}
 
        .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/window-frame.png) 32 20 fill repeat;}
 
@@ -169,7 +170,7 @@
 
        .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,.additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 11 fill round;}
        .clan-list-find-panel {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat}
-       .showcase .card-content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat;}
+       .showcase .card-content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 9 repeat; color: #CDDC39}
        .mc-addon-window .content {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) 0 10 repeat}
        .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/middle_graphics.png) repeat;}
 
@@ -215,7 +216,7 @@
        .skill.chosen {background: url(../img/gui/skills/skill-box-active2.png?v=1734604145496)}
        .skill {background: url(../img/gui/skills/skill-box3.png?v=1734604145496)}
 
-       .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .addons-panel, .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label {color: #ffffff}
+       .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .addons-panel, .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label {color: #CDDC39}
        .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .board-graphic {border-width: 0; border-image: none;}
 
        .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/sprite.png) -7px 0;}
