@@ -318,5 +318,5 @@
 .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #9da1a7;}
   
 </style>`).appendTo('head');
- }
+}
 )();
