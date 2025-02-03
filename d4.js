@@ -111,11 +111,11 @@
        .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
        .popup-menu{border-radius: 1px;}
-       .popup-menu .menu-item {background: #202020; border: 1px solid #640064; border-radius: 1px;}
-       .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #640064; background-color: #640064;}
-       .popup-menu .menu-item.cooldown-disabled{background-color: #a00000; border: 1px solid #a00000;}
-       .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #646464; background-color: #646464}
-       .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #646464; background-color: #646464}
+       .popup-menu .menu-item {background: #404040; border: 1px solid #202020; border-radius: 1px;}
+       .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #006400; background-color: #640064;}
+       .popup-menu .menu-item.cooldown-disabled{background-color: #a00000; border: 1px solid #640064;}
+       .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background-color: #a00000; border: 1px solid #a00000;}
+       .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #202020; background-color: #202020;}
 
        .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #640064, inset 0 0 0 3px #101010;}
        .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #640064, inset 0 0 0 3px #101010;}
