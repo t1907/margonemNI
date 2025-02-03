@@ -110,7 +110,7 @@
        .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
        .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
-       .popup-menu {border-radius: 1px; background-color: #101010; box-shadow: 0 0 0 1px #640064;}
+       .popup-menu {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
        .popup-menu .menu-item {background: #202020; border: 1px solid #808080; border-radius: 1px;}
        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background-color: #640064;}
        .popup-menu .menu-item.disabled{background-color: #640000;}
