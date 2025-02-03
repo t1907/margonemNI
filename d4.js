@@ -111,9 +111,9 @@
        .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
        .popup-menu{border-radius: 1px;}
-       .popup-menu .menu-item {background: #202020; border: 1px solid #640064; border-radius: 1px;}
-       .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #40ff40; background-color: #640064;}
-      // .popup-menu .menu-item.cooldown-disabled{background-color:rgba(255, 64, 64, 0.5); border: 1px solid #ff4040;}
+       .popup-menu .menu-item {background: #202020; border: 1px solid #101010; border-radius: 1px;}
+       .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #640064; background-color: #640064;}
+       .popup-menu .menu-item.cooldown-disabled{background-color: #a00000; border: 1px solid #a000000;}
        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #40ff40; background-color: #202020}
        //.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #40ff40; background-color: #640064}
 
