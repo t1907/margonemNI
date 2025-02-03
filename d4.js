@@ -114,7 +114,7 @@
        .popup-menu .menu-item {background: #202020; border: 1px solid #808080; border-radius: 1px;}
        .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background-color: #640064;}
        .popup-menu .menu-item.disabled{background-color: #640000;}
-       .popup-menu .menu-item.cooldown-disabled{background-color: #a00000;}
+       .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
        .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #202020;}
        .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #640064;}
 
