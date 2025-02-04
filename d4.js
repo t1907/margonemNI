@@ -89,7 +89,7 @@
        input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
 
        .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #640064; border: 1px solid #64006400;}
-       .loot-window .items-wrapper .loot-item-wrapper .slot {border: 1px solid rgba(100, 0, 100, 0)}
+       .loot-window .items-wrapper .loot-item-wrapper .slot {border: 1px solid #640064;}
        .loot-window .items-wrapper .loot-item-wrapper .text-info {border-top: 1px solid #101010;border-bottom: 1px solid #101010;}
 
        .tw-list-item{background: #101010 !important;}
