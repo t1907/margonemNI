@@ -105,7 +105,7 @@
      .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
      .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
-     .interface-element-one-item-slot {background: #101010; border: 1px solid #640064;}
+     .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -800px -79px;}
      .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
      .interface-element-box-shadow-1 {box-shadow inset 0 0 5px 0 #640064;} 
 
