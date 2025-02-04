@@ -154,6 +154,8 @@
        .interface-element-green-box-background {background: #101010;}
        .interface-element-green-box-background-stretch {background: #101010;}
 
+       .interface-element-wood-box-background {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/d4/info-box-2.png); background-size: 100% 100%}
+
        .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/table_header.png) 0 20 fill stretch;}
        .interface-element-header-2-background-stretch {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/match-bar.png") 7 14 fill stretch;}
 
