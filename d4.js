@@ -6,7 +6,7 @@
 
        .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
        .cll-alert{border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #640064 !important; background: #101010 !important; color: #f5f5f5 !important;}
-       .cll-alert button{background: #101010 !important; border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #101010;}
+       .cll-alert button{background: #101010 !important; border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #101010 !important;}
        .cll-alert button:hover {border: 1px solid lime !important;}
        .cll-alert button:focus {border: 1px solid #40ff40; !important;}
        .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
