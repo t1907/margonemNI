@@ -55,8 +55,6 @@
      .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
      .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
 
-     .bottomItem .highlight.h-exist,.bottomItem .icon.h-exist,.item .highlight.h-exist,.item .icon.h-exist {background: url(https://i.imgur.com/NoJugCL.png)}
-
      .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png)}
 
      .search-wrapper {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/search.png) 5 9 23 34 fill}
