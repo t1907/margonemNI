@@ -32,6 +32,7 @@
        .linked-chat-item[data-item-type="t-upgraded"] {color: #ff59af !important;}
        .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
 
+       .interface-element-background-color-1 {background: #101010;}
        .interface-element-background-color-3 {background: #101010;}
        
        .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
