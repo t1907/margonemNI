@@ -192,6 +192,7 @@
        .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/normal-shop-gold.png) 0 -34px}
        .shop-wrapper .shop-background.pet-shop-zl .canopy{}
        .shop-wrapper .shop-background.pet-shop-sl .canopy{}
+       .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #640064;}
        
        .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #640064;}
 
