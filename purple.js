@@ -107,6 +107,7 @@
 
      .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -800px -79px;}
      .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
+     .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
      .interface-element-box-shadow-1 {box-shadow inset 0 0 5px 0 #640064;} 
 
      .popup-menu {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
