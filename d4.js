@@ -67,7 +67,7 @@
        .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button-active.png) 17 20 fill repeat}
 
        .interface-element-active-card-background, .interface-element-active-card-background-stretch,  .tabs-nav .card.active, .auction-window .cards-header-wrapper .cards-header .active, 
-       .mails-window .cards-header-wrapper .cards-header .active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, .achievement-panel .cards-header-wrapper .cards-header .active, 
+       .mails-window .cards-header-wrapper .cards-header .active, .achievement-panel .cards-header-wrapper .cards-header .active, 
        .cards-header-wrapper .cards-header .card.active, .battle-pass-window .cards-header-wrapper .cards-header .active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) no-repeat; background-size: 100% 100%;}
        
        .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/width-card-button.png) 17 20 fill repeat}
@@ -145,18 +145,19 @@
 
        .interface-element-bottom-bar-background, .interface-element-bottom-bar-background-stretch  {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch}
        .interface-element-bottom-bar-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 0 20 fill stretch;}
-       .matchmaking-summary .summary-content .wood-bar, .change-outfit .preview-outfit .outfit-header,.change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
-       .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
+       
+        .change-outfit .preview-outfit .outfit-header,.change-outfit .your-outfit .outfit-header {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png) 3 3 fill stretch;}
+        .news-panel .news-content .section-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_bar.png);}
 
-       .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg, .matchmaking-summary .middle-graphics, .news-panel .news-content .crazy-bar, .change-outfit .crazy-bar, .battle-pass-window .section .scroll-wrapper .battle-pass-bg {
+       .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg, .news-panel .news-content .crazy-bar, .change-outfit .crazy-bar, .battle-pass-window .section .scroll-wrapper .battle-pass-bg {
            background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png); }
 
-        .matchmaking-summary .middle-graphics, .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
+        .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
 
        .promo-window .background-graphic, .premium-panel .premium-graphic, .border-window .wnd-dark-bg, .stamina-shop .background-graphic, .chests-window .brown-background, .conquer-stats .middle-graphics{
            border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/quest_middle.png) 0 11 fill repeat;}
 
-       .promo-window .promo-bottom-panel, .matchmaking-summary .bottom-panel-graphics, .battle-pass-window .bottom-row-panel .bottom-panel-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png);}
+       .promo-window .promo-bottom-panel, .battle-pass-window .bottom-row-panel .bottom-panel-graphics {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png);}
        .divide-panel .bottom-part .bottom-panel-graphics, .item-changer .bottom-item-changer-panel .bottom-panel-graphics {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png) 0 59 fill stretch;}
        .item-changer .filter-wrapper {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/images/5.png) 1px -4px;}    
 
