@@ -33,6 +33,7 @@
      .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
 
      .interface-element-background-color-1 {background: #101010;}
+     .interface-element-background-color-2 {background: #101010;}
      .interface-element-background-color-3 {background: #101010;}
      
      .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
@@ -104,7 +105,9 @@
      .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
      .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
-     .interface-element-one-item-slot {background: 0 0;}
+     .interface-element-one-item-slot {background: #101010; border: 1px solid #640064;}
+     .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
+     .interface-element-box-shadow-1 {box-shadow inset 0 0 5px 0 #640064;} 
 
      .popup-menu {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
      .popup-menu .menu-item {background: #202020; border: 1px solid #808080; border-radius: 1px;}
