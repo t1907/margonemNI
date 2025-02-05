@@ -46,11 +46,11 @@
   
        .auction-window .main-column-auction {background: #101010;}
   
-       .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oi7QxzB.png') 7 repeat !important;}
+       .interface-layer{border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oi7QxzB.png') 7 repeat !important;}
        .layer.interface-layer .main-column{background: #101010 !important;}
-       .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oTLO9A2.png') -251px 0px !important;}
-       .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/VW7joVD.png') 0 -61px repeat !important;}
-       .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/VW7joVD.png') 0 0 repeat !important;}
+       .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oTLO9A2.png') -251px 0px !important;}
+       .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/VW7joVD.png') 0 -61px repeat !important;}
+       .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/VW7joVD.png') 0 0 repeat !important;}
        .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
        .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
        .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
