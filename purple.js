@@ -110,9 +110,9 @@
      .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
      .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #640064;} 
 
-     .popup-menu {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
-     .popup-menu .menu-item {background: #202020; border: 1px solid #808080; border-radius: 1px;}
-     .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background-color: #640064;}
+     .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
+     .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #202020; border: 1px solid #808080; border-radius: 1px;}
+     .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #640064;}
      .popup-menu .menu-item.disabled{background-color: #640000;}
      .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
      .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #202020;}
