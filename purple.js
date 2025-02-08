@@ -65,10 +65,12 @@
 
       .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) 17 20 fill repeat}
 
-      .interface-element-active-card-background, .interface-element-active-card-background-stretch, .tabs-nav .card.active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, 
+      .interface-element-active-card-background, .tabs-nav .card.active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, 
       .cards-header-wrapper .cards-header .card.active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat; background-size: 100% 100%;}
      
       .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 17 20 fill repeat}
+
+      .interface-element-active-card-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 5 fill repeat stretch;}
 
      .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/auctions/header_left.png);}
 
