@@ -13,7 +13,7 @@
      .cll-timer-highlighted {background: #0a1f42 !important}
      .cll-timer-monster[style]{color: red !important;}
 
-     .clan{color: #f5f5f5;}
+     .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
      .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
      .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
      .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
