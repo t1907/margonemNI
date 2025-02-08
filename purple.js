@@ -61,7 +61,7 @@
 
       .interface-element-card-background, .interface-element-card-background-stretch, .tabs-nav .card, .auction-window input.default, .auction-off-item-panel input.default, 
       .matchmaking-ranking .cards-header-wrapper .cards-header .card, .cards-header-wrapper .cards-header .card, 
-      .battle-pass-window .cards-header-wrapper .cards-header .card { background: #101010; background-size: 100% 100%;}
+      .battle-pass-window .cards-header-wrapper .cards-header .card { background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat; background-size: 100% 100%;}
 
       .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) 17 20 fill repeat}
 
