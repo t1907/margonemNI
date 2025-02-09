@@ -80,8 +80,6 @@
      .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png) 0 -35px;}
      .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
      .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
-     .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .header .right-wrapper, .scroll-wrapper .scroll-pane, .scroll-wrapper.classic-bar .scroll-pane{color: #f5f5f5;}
-
      
      .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
 
@@ -151,7 +149,7 @@
 
       .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
  
-     .border-window .content {background: #101010;}
+     .border-window .content {background: #101010; color: #f5f5f5;}
 
      .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png) 32 20 fill repeat;}
 
