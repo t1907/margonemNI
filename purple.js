@@ -80,6 +80,7 @@
      .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png) 0 -35px;}
      .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
      .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
+     .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .header .right-wrapper, .scroll-wrapper .scroll-pane, .scroll-wrapper.classic-bar .scroll-pane{color: #f5f5f5;}
 
      
      .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
