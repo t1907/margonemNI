@@ -277,17 +277,17 @@
   .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
   .tip-wrapper[data-type=t_item] i.looter {color: #ff8400; text-align: center;}
 
-.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 6px 3px #2090fe;}
-
-.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0px 0px 6px 3px #ffff00;}
-
-.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow:  0px 0px 6px 3px #daa520;}
-
-.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0px 0px 6px 3px #cc0099;}
-
-.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 6px 3px #cc0099;}
-
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 6px 3px #785046;}
+  .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #38b8eb;}
+  
+  .tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff59af;}
+  
+  .tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #fffb00;}
+  
+  .tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff8400;}
+  
+  .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e84646;}
+  
+  .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #9da1a7;}
 
 </style>`).appendTo('head');
 }
