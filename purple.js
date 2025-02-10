@@ -26,12 +26,6 @@
      .new-chat-window {background: #101010 !important;}
      .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #640064 !important; background: #101010 !important;}
 
-     .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
-     .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
-     .linked-chat-item[data-item-type="t-her"] {color: #38b8eb !important;}
-     .linked-chat-item[data-item-type="t-upgraded"] {color: #ff59af !important;}
-     .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
-
      .interface-element-background-color-1 {background: #101010;}
      .interface-element-background-color-2 {background: #101010;}
      .interface-element-background-color-3 {background: #101010;}
@@ -262,7 +256,13 @@
 .tip-wrapper .warrior-mana {color: #00abff}
 .tip-wrapper .warrior-energy {color: #ffab00}
 
-.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #785046;}
+.linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
+.linked-chat-item[data-item-type="t-uniupg"] {color: #daa520 !important;}
+.linked-chat-item[data-item-type="t-her"] {color: #2090fe !important;}
+.linked-chat-item[data-item-type="t-upgraded"] {color: #cc0099 !important;}
+.linked-chat-item[data-item-type="t-leg"] {color: #cc0099 !important;}
+
+.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #9da1a7;}
 .tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ffff00;}
 .tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #daa520;}
 .tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #2090fe;}
