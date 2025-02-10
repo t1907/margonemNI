@@ -38,9 +38,9 @@
      
      .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #5a4b41 !important; border-bottom: 1px solid #5a4b41 !important;}
      .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-     .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #202020;}
+     .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #1e140f;}
 
-     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #5a4b41 !important; background: #202020 !important;}
+     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #5a4b41 !important; background: #1e140f !important;}
      .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #5a4b41 !important; }
      .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #5a4b41 !important;}
 
@@ -111,12 +111,12 @@
      .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
      .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #5a4b41;} 
 
-     .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
-     .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #202020; border: 1px solid #808080; border-radius: 1px;}
+     .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #1e140f; box-shadow: 0 0 0 1px #5a4b41;}
+     .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #1e140f; border: 1px solid #5a4b41; border-radius: 1px;}
      .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #5a4b41;}
      .popup-menu .menu-item.disabled{background-color: #640000;}
      .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
-     .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #202020;}
+     .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #1e140f;}
      .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #5a4b41;}
 
      .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #1e140f, #1e140f); box-shadow: inset 0 0 1px 1px #5a4b41, inset 0 0 0 3px #1e140f;}
@@ -270,7 +270,7 @@
 .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #cc0099;}
 .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #daa520;}
 
-.tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #5a4b41;}
+.tip-wrapper[data-type=t_item] .item-head {background: #1e140f; border: 1px solid #5a4b41;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ffff; text-align: center;}
