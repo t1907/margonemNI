@@ -173,7 +173,7 @@
      .interface-element-header-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png") 0 20 fill stretch;}
      .interface-element-header-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/match-bar.png") 7 14 fill stretch;}
      
-     .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png");}
+     .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png"); background-size: 100% 100%;}
      
      .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #1e140f; border-style: hidden;}
      .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #1e140f; border-style: hidden;}
@@ -262,7 +262,7 @@
 .tip-wrapper .warrior-mana {color: #00abff}
 .tip-wrapper .warrior-energy {color: #ffab00}
 
-.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #5a4b41;}
+.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #785046;}
 .tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ffff00;}
 .tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #daa520;}
 .tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #2090fe;}
@@ -273,7 +273,7 @@
 .tip-wrapper[data-type=t_item] .item-head {background: #1e140f; border: 1px solid #5a4b41;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ffff; text-align: center;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #cc0099; text-align: center;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
 .tip-wrapper[data-type=t_item] i.looter {color: #daa520; text-align: center;}
 
@@ -287,7 +287,7 @@
 
 .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 6px 3px #cc0099;}
 
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 6px 3px #5a4b41;}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 6px 3px #785046;}
 
 </style>`).appendTo('head');
 }
