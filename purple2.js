@@ -2,11 +2,11 @@
   $(`<style> 
      #GAME_CANVAS {image-rendering: auto !important;}
      .gargonem-otherlist-other-button{color: lime !important;}
-     .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #640064, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+     .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #574a42, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
      .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
-     .cll-alert{border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #640064 !important; background: #101010 !important; color: #f5f5f5 !important;}
-     .cll-alert button{background: #101010 !important; border: 1px solid #640064 !important; box-shadow: 0 0 0 1px #101010 !important;}
+     .cll-alert{border: 1px solid #574a42 !important; box-shadow: 0 0 0 1px #574a42 !important; background: #101010 !important; color: #f5f5f5 !important;}
+     .cll-alert button{background: #101010 !important; border: 1px solid #574a42 !important; box-shadow: 0 0 0 1px #101010 !important;}
      .cll-alert button:hover {border: 1px solid lime !important;}
      .cll-alert button:focus {border: 1px solid #40ff40; !important;}
      .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -20,11 +20,11 @@
      .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
      .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
 
-     .chat-channel-card-wrapper{border: 1px solid #640064 !important;}
-     .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #640064 !important;}
+     .chat-channel-card-wrapper{border: 1px solid #574a42 !important;}
+     .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #574a42 !important;}
      .chat-input-wrapper {background: #101010 !important;}
      .new-chat-window {background: #101010 !important;}
-     .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #640064 !important; background: #101010 !important;}
+     .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #574a42 !important; background: #101010 !important;}
 
      .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
      .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
@@ -36,13 +36,13 @@
      .interface-element-background-color-2 {background: #101010;}
      .interface-element-background-color-3 {background: #101010;}
      
-     .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
+     .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #574a42 !important; border-bottom: 1px solid #574a42 !important;}
      .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
      .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #202020;}
 
-     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #202020 !important;}
-     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; }
-     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important;}
+     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #574a42 !important; background: #202020 !important;}
+     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #574a42 !important; }
+     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #574a42 !important;}
 
      .auction-window .main-column-auction {background: #101010;}
 
@@ -87,15 +87,15 @@
      .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png);}
      .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png);}
  
-     .ni-input input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
-     input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
+     .ni-input input.default {border: 1px solid #574a42; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
+     input.default {border: 1px solid #574a42; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
 
-     .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #640064; border: 1px solid #64006400;}
-     .loot-window .items-wrapper .loot-item-wrapper .slot {border: 1px solid #640064;}
+     .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #574a42; border: 1px solid #574a4200;}
+     .loot-window .items-wrapper .loot-item-wrapper .slot {border: 1px solid #574a42;}
      .loot-window .items-wrapper .loot-item-wrapper .text-info {border-top: 1px solid #101010;border-bottom: 1px solid #101010;}
 
      .tw-list-item{background: #101010 !important;}
-     .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #640064, 0 0 0 3px #000000, 2px 2px 3px 3px #000; border-radius: 0px;}
+     .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #574a42, 0 0 0 3px #000000, 2px 2px 3px 3px #000; border-radius: 0px;}
 
      .loot-window .button-holder .button{background:linear-gradient(to top, #101010, #101010)}
      .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #101010}
@@ -109,20 +109,20 @@
      .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -800px -79px;}
      .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
      .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
-     .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #640064;} 
+     .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #574a42;} 
 
      .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
      .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #202020; border: 1px solid #808080; border-radius: 1px;}
-     .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #640064;}
+     .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #574a42;}
      .popup-menu .menu-item.disabled{background-color: #640000;}
      .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
      .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #202020;}
-     .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #640064;}
+     .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #574a42;}
 
-     .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #640064, inset 0 0 0 3px #101010;}
-     .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #640064, inset 0 0 0 3px #101010;}
+     .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #574a42, inset 0 0 0 3px #101010;}
+     .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #574a42, inset 0 0 0 3px #101010;}
 
-     .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #640064, inset 0 0 0 3px #101010!important;}
+     .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #574a42, inset 0 0 0 3px #101010!important;}
      .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;}
 
      .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
@@ -203,9 +203,9 @@
      .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
      .shop-wrapper .shop-background.pet-shop-zl .canopy{}
      .shop-wrapper .shop-background.pet-shop-sl .canopy{}
-     .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #640064;}
+     .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #574a42;}
      
-     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #640064;}
+     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #574a42;}
 
      .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
      .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
@@ -226,7 +226,7 @@
      .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
      .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
      .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-     .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #640064; border-left: 1px solid #640064; border-bottom: 1px solid #640064;}
+     .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #574a42; border-left: 1px solid #574a42; border-bottom: 1px solid #574a42;}
 
      .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
      .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
@@ -247,15 +247,15 @@
      .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
      .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
      .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-     .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #640064; border-left: 1px solid #640064; border-bottom: 1px solid #640064;}
+     .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #574a42; border-left: 1px solid #574a42; border-bottom: 1px solid #574a42;}
 
-     .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
+     .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #574a42}
 
 .tip-wrapper {box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625; color: #e6d6bf;}
 
 .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
-.tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #640064;}
+.tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #574a42;}
 
 .tip-wrapper .content .info-wrapper .m {color: #0000ff}
 .tip-wrapper .content .info-wrapper .e {color: #ffce00}
@@ -270,7 +270,7 @@
 .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e84646;}
 .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #fffb00;}
 
-.tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #640064;}
+.tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #574a42;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ffff; text-align: center;}
