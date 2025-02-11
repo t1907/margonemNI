@@ -274,17 +274,17 @@
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
 .tip-wrapper[data-type=t_item] i.looter {color: #ffff00; text-align: center;}
 
-.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 6px 3px #2090fe;}
+.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 1px 1px #2090fe;}
 
-.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0px 0px 6px 3px #ffff00;}
+.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0px 0px 1px 1px #ffff00;}
 
-.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow:  0px 0px 6px 3px #daa520;}
+.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow:  0px 0px 1px 1px #daa520;}
 
-.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0px 0px 6px 3px #cc0099;}
+.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0px 0px 1px 1px #cc0099;}
 
-.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 6px 3px #cc0099;}
+.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 1px 1px #cc0099;}
 
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 6px 3px #785046;}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 1px 1px #785046;}
 
 </style>`).appendTo('head');
 }
