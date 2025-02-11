@@ -41,8 +41,8 @@
      .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #1e140f;}
 
      .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #5a4b41 !important; background: #1e140f !important;}
-     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #5a4b41 !important; }
-     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #5a4b41 !important;}
+     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #5a4b41 !important; background: #1e140f;}
+     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #5a4b41 !important; background: #1e140f;}
 
      .auction-window .main-column-auction {background: #1e140f;}
 
