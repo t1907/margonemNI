@@ -149,7 +149,7 @@
      .border-window {color: #f5f5f5;}
      .border-window .content {background: #1e140f;}
 
-     .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame2.png) 32 20 fill repeat;}
+     .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame.png) 32 20 fill repeat;}
 
      .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
