@@ -146,7 +146,8 @@
 
      .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
  
-     .border-window { color: #f5f5f5;}
+     .border-window {color: #f5f5f5;}
+     .border-window .content {background: #1e140f;}
 
      .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame.png) 32 20 fill repeat;}
 
