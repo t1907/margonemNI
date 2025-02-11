@@ -248,7 +248,7 @@
 
      .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #5a4b41}
 
-.tip-wrapper {box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625; color: #e6d6bf;}
+.tip-wrapper {box-shadow: 0px 0px 1px 1px #5a4b41; color: #e6d6bf;}
 
 .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
@@ -270,9 +270,9 @@
 .tip-wrapper[data-type=t_item] .item-head {background: #1e140f; border: 1px solid #5a4b41;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ffff00; text-align: center;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ff59af; text-align: center;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
-.tip-wrapper[data-type=t_item] i.looter {color: #ffff00; text-align: center;}
+.tip-wrapper[data-type=t_item] i.looter {color: #ff59af; text-align: center;}
 
 .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 1px 1px #2090fe;}
 
@@ -284,7 +284,7 @@
 
 .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 1px 1px #cc0099;}
 
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 1px 1px #785046;}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 1px 1px #f5f5f5;}
 
 </style>`).appendTo('head');
 }
