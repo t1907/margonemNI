@@ -270,9 +270,9 @@
 .tip-wrapper[data-type=t_item] .item-head {background: #101010; border: 1px solid #640064;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
 .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #80808000;}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ff8400; text-align: center;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ff80; text-align: center;}
 .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
-.tip-wrapper[data-type=t_item] i.looter {color: #ff8400; text-align: center;}
+.tip-wrapper[data-type=t_item] i.looter {color:#00ff80; text-align: center;}
 
 .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 1px 1px #2090fe;}
 
