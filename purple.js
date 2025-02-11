@@ -26,17 +26,23 @@
      .new-chat-window {background: #101010 !important;}
      .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #640064 !important; background: #101010 !important;}
 
+     .linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
+     .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
+     .linked-chat-item[data-item-type="t-her"] {color: #38b8eb !important;}
+     .linked-chat-item[data-item-type="t-upgraded"] {color: #ff59af !important;}
+     .linked-chat-item[data-item-type="t-leg"] {color: #ff8400 !important;}
+
      .interface-element-background-color-1 {background: #101010;}
      .interface-element-background-color-2 {background: #101010;}
      .interface-element-background-color-3 {background: #101010;}
      
      .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
      .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-     .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #202020;}
+     .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
 
-     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #202020 !important;}
-     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; }
-     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important;}
+     .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #101010 !important;}
+     .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; background: #101010;}
+     .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important; background: #101010;}
 
      .auction-window .main-column-auction {background: #101010;}
 
@@ -105,12 +111,12 @@
      .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
      .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #640064;} 
 
-     .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #202020; box-shadow: 0 0 0 1px #808080;}
-     .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #202020; border: 1px solid #808080; border-radius: 1px;}
+     .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #101010; box-shadow: 0 0 0 1px #640064;}
+     .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #101010; border: 1px solid #640064; border-radius: 1px;}
      .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #640064;}
      .popup-menu .menu-item.disabled{background-color: #640000;}
      .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
-     .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #202020;}
+     .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
      .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #640064;}
 
      .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #640064, inset 0 0 0 3px #101010;}
@@ -127,7 +133,7 @@
      .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #101010 !important;}
      .button.green.window-is-open::before, .widget-button.green.window-is-open::before {background-color: #101010 !important;}
      .button.red::before, .widget-button.red::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
-     .button.purple::before, .button.violet::before, .widget-button.purple::before, .widget-button.violet::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
+     .button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
      .button.blink-violet::before, .widget-button.blink-violet::before{box-shadow: inset 0 0 1px 1px #101010 !important;}
      .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #101010;}
      .button, .widget-button {border-radius: 0px !important;}
@@ -138,17 +144,14 @@
 
      .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle, .trade-window header .h_background .left, .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
-      .interface-element-bottom-bar-background, .interface-element-bottom-bar-background-stretch  {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch}
-      .interface-element-bottom-bar-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch;}
-
-      .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
+     .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
  
-     .border-window .content {background: #101010; color: #f5f5f5;}
+     .border-window {color: #f5f5f5;}
+     .border-window .content {background: #101010;}
 
      .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png) 32 20 fill repeat;}
 
      .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
-
 
      .tabs-nav::before, .mails-window .cards-header-wrapper .header-background-graphic, .depo .bottom-section .cards-menu .cards-background, .matchmaking-ranking .cards-header-wrapper .header-background-graphic, 
      .cards-header-wrapper .header-background-graphic, 
@@ -167,15 +170,15 @@
      .interface-element-header-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png") 0 20 fill stretch;}
      .interface-element-header-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/match-bar.png") 7 14 fill stretch;}
      
-     .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png");}
+     .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png"); background-size: 100% 100%;}
      
-     .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010; border-style: hidden;}
-     .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010; border-style: hidden;}
+     .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
+     .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
      .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
 
-     .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010; }
-     .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010; border-style: hidden;}
-     .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010; border-style: hidden;}
+     .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010;}
+     .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010;}
+     .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010;}
 
      .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png") 0 20 fill stretch;}
      .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch;}
@@ -245,7 +248,7 @@
 
      .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
 
-.tip-wrapper {box-shadow: 0 0 0 0 #2b282a,0 0 0 1px #353131,0 0 0 2px #191311,0 0 0 3px #2b2727,0 0 0 4px #59595a,0 0 0 5px #9da1a7,0 0 0 6px #5a585b,0 0 0 7px #2c2625; color: #e6d6bf;}
+.tip-wrapper {box-shadow: 0px 0px 1px 1px #640064; color: #f5f5f5;}
 
 .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #20ff20;}
 
@@ -256,38 +259,32 @@
 .tip-wrapper .warrior-mana {color: #00abff}
 .tip-wrapper .warrior-energy {color: #ffab00}
 
-.linked-chat-item[data-item-type="t-norm"] {color: #9da1a7 !important;}
-.linked-chat-item[data-item-type="t-uniupg"] {color: #daa520 !important;}
-.linked-chat-item[data-item-type="t-her"] {color: #2090fe !important;}
-.linked-chat-item[data-item-type="t-upgraded"] {color: #cc0099 !important;}
-.linked-chat-item[data-item-type="t-leg"] {color: #cc0099 !important;}
+.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #785046;}
+.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ffff00;}
+.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #daa520;}
+.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #2090fe;}
+.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #cc0099;}
+.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #cc0099;}
+.tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #daa520;}
 
-  .tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #9da1a7;}
-  .tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #ff59af;}
-  .tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #fffb00;}
-  .tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #38b8eb;}
-  .tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff8400;}
-  .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #e84646;}
-  .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #fffb00;}
-  
-  .tip-wrapper[data-type=t_item] .item-head {background: #202020; border: 1px solid #808080;}
-  .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
-  .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid rgba(128, 128, 128, 0);}
-  .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #00ffff; text-align: center;}
-  .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
-  .tip-wrapper[data-type=t_item] i.looter {color: #ff8400; text-align: center;}
+.tip-wrapper[data-type=t_item] .item-head {background: #101010; border: 1px solid #640064;}
+.tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #f0f0f0;}
+.tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #80808000;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ff8400; text-align: center;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
+.tip-wrapper[data-type=t_item] i.looter {color: #ff8400; text-align: center;}
 
-  .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #38b8eb;}
-  
-  .tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff59af;}
-  
-  .tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #fffb00;}
-  
-  .tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #ff8400;}
-  
-  .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #e84646;}
-  
-  .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0 0 0 0 #000000, 0 0 0 1px #000000,0 0 0 2px #9da1a7;}
+.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 1px 1px #2090fe;}
+
+.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0px 0px 1px 1px #ffff00;}
+
+.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow:  0px 0px 1px 1px #daa520;}
+
+.tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0px 0px 1px 1px #cc0099;}
+
+.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 1px 1px #cc0099;}
+
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 1px 1px #f5f5f5;}
 
 </style>`).appendTo('head');
 }
