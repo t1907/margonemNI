@@ -51,6 +51,7 @@
 
         .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
         .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
+        .left-grouped-list-and-right-description-window{color: #f5f5f5;}
 
         .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #808080 !important; background: #101010 !important;}
         .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #808080 !important; background: #101010;}
