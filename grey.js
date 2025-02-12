@@ -80,7 +80,7 @@
         .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/skill_hot_skills.png)}
         .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
 
-        .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #808080;}
+        .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #202020;}
 
         .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oneItemSlotToRepeat.png)}
         .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oneItemSlotToRepeat.png);}
