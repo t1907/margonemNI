@@ -1,10 +1,10 @@
 (function() {
     $(`<style> 
         #GAME_CANVAS {image-rendering: auto !important;}
-        // GARGONEM
+        
         .gargonem-otherlist-other-button{color: lime !important;}
         .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
-        // LOOTLOG
+        
         .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
         .cll-alert{border: 1px solid #808080 !important; box-shadow: 0 0 0 1px #808080 !important; background: #101010 !important; color: #f5f5f5 !important;}
         .cll-alert button{background: #101010 !important; border: 1px solid #808080 !important; box-shadow: 0 0 0 1px #101010 !important;}
@@ -13,7 +13,7 @@
         .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
         .cll-timer-highlighted {background: #0a1f42 !important}
         .cll-timer-monster[style]{color: red !important;}
-        // LAYER 
+        
         .layer.interface-layer {border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oi7QxzB.png') 7 repeat !important;}
         .layer.interface-layer .main-column{background: #101010 !important;}
         .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/oTLO9A2.png') -251px 0px !important;}
@@ -23,16 +23,16 @@
         .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
         .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
         .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
-        // STATY
+        
         .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #808080 !important; border-bottom: 1px solid #808080 !important;}
         .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
         .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
-        // POCZTA
+        
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
         .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
-        // CZAT
+        
         .chat-channel-card-wrapper{border: 1px solid #808080 !important;}
         .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #808080 !important;}
         .chat-input-wrapper {background: #101010 !important;}
