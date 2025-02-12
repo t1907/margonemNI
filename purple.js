@@ -241,7 +241,7 @@
 
       .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
 
-      .tip-wrapper {box-shadow: 0px 0px 1px 1px #640064; color: #808080;}
+      .tip-wrapper {box-shadow: 0px 0px 1px 1px #640064; color: #f5f5f5;}
 
       .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #00ff00;}
 
