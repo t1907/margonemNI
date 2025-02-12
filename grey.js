@@ -70,7 +70,7 @@
         .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/width-card-button.png) 17 20 fill repeat}
         .interface-element-active-card-background, .interface-element-active-card-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/width-card-button.png) 5 fill repeat stretch;}
 
-        .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/auctions/header_left.png);}
+        .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/header_left.png);}
 
         .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/battle-panel-header.png);}
         .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/grey/battle-panel-middle.png) repeat;}
