@@ -283,7 +283,7 @@
 
       .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 5px 2px #ff00c8;}
 
-      .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 5px 2px #f5f5f5;}
+      .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 5px 2px #808080;}
 
       </style>`).appendTo('head');
       }
