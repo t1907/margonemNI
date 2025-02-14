@@ -1,6 +1,6 @@
 (function() {
   $(`<style>
-    .layer.loader-layer .progress-bar .progress-bar-and-image-wrapper .loader-image{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/loader-image.png'}
+    .layer.loader-layer .progress-bar .progress-bar-and-image-wrapper .loader-image{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/loader-image.png') !important;}
 
       #GAME_CANVAS {image-rendering: auto !important;}
       
