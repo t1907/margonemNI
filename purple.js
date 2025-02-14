@@ -77,6 +77,7 @@
     .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png") 32 20 fill repeat; background-size: 100% 100%;}
 
     .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
+    .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png")  32 20 fill repeat; background-size: 100% 100%;}
     .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
 
     .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
