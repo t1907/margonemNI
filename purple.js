@@ -73,6 +73,9 @@
     .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/battle-panel-middle.png) repeat;}
     .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png) 0 -35px;}
     .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill-hider.png);}
+
+    .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png") 32 20 fill repeat; background-size: 100% 100%;}
+
     .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
     .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
 
@@ -170,6 +173,7 @@
     .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
     .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
     .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
+    .interface-element-middle-4-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png") 0 11 fill round; background: #101010;}
 
     .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010;}
     .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round; background: #101010;}
