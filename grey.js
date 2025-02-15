@@ -94,7 +94,7 @@
       .loot-window .items-wrapper .loot-item-wrapper .text-info {border-top: 1px solid #101010;border-bottom: 1px solid #101010;}
   
       .tw-list-item{background: #101010 !important;}
-      .border-window.transparent .border-image{box-shadow: 0 0 0 1px #000, 0 0 0 2px #808080, 0 0 0 3px #000000, 2px 2px 3px 3px #000; border-radius: 0px;}
+      .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #808080; border-radius: 0px;}
   
       .loot-window .button-holder .button{background:linear-gradient(to top, #101010, #101010)}
       .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #101010}
