@@ -44,6 +44,8 @@
       .interface-element-background-color-1 {background: #101010;}
       .interface-element-background-color-2 {background: #101010;}
       .interface-element-background-color-3 {background: #101010;}
+
+      .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
   
       .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
       .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
