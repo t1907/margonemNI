@@ -45,6 +45,8 @@
     .interface-element-background-color-2 {background: #101010;}
     .interface-element-background-color-3 {background: #101010;}
 
+    .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
+
     .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
     .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
     .left-grouped-list-and-right-description-window{color: #f5f5f5;}
@@ -69,22 +71,21 @@
 
     .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/header_left.png);}
 
-    .battle-controller .graphics .header-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/battle-panel-header.png);}
-    .battle-controller .graphics .middle-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/battle-panel-middle.png) repeat;}
-    .battle-controller .graphics .bottom-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png) 0 -35px;}
-    .battle-controller .skill-hider {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill-hider.png);}
+    .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
 
     .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png") 32 20 fill repeat; background-size: 100% 100%;}
 
     .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
     .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png")  32 20 fill repeat; background-size: 100% 100%;}
-    .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5;}
+    .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper{color: #f5f5f5;}
 
     .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
 
     .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png)}
     .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png);}
     .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png);}
+
+    .interface-element-active-card-border-image{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 5 fill repeat stretch}
 
     .ni-input input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
     input.default {border: 1px solid #640064; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
@@ -106,6 +107,7 @@
     .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
     .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -800px -79px;}
+    .interface-element-one-item-slot-2 {border: 1px solid #640064;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
     .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
     .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
     .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #640064;} 
@@ -184,17 +186,6 @@
     .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch;}
 
     .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat 0 -867px;}
-
-    .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -7px 0;}
-    .bottom-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -6px -73px no-repeat}
-    .bottom-panel.end-game {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -6px -354px no-repeat}
-    .bottom-panel .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -8px -199px;}
-    .bottom-panel .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) no-repeat -123px -184px;}
-    .bottom-panel .exp-bar-wrapper .exp-progress.left .ribbon.end-game-ribbon,.bottom-panel .exp-bar-wrapper .exp-progress.right .ribbon.end-game-ribbon {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png)}
-    .bottom-panel .battle-bars-wrapper .battle-bar .background {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -404px -199px}
-    .bottom-panel .battle-bars-wrapper .battle-bar .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/sprite.png) -409px -186px;}
-
-    .bottom-panel-pointer-bg {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/extInterface.png);}
 
     .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
     .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
@@ -290,7 +281,7 @@
 
     .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 3px 1px #ff00c8;}
 
-    .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 3px 1px #808080;}
+    .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 3px 1px #640064;}
     </style>`).appendTo('head');
   }
 )();
