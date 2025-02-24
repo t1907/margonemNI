@@ -73,10 +73,10 @@
 
     .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/skill_hot_skills.png)}
 
-    .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame.png") 32 20 fill repeat; background-size: 100% 100%;}
+    .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame2.png") 32 20 fill repeat; background-size: 100% 100%;}
 
     .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/skill_hot_skills.png)}
-    .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame.png")  32 20 fill repeat; background-size: 100% 100%;}
+    .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame2.png")  32 20 fill repeat; background-size: 100% 100%;}
     .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper{color: #f5f5f5;}
 
     .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
@@ -150,7 +150,7 @@
     .border-window {color: #f5f5f5;}
     .border-window .content {background: #101010;}
 
-    .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame.png) 32 20 fill repeat;}
+    .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/frame2.png) 32 20 fill repeat;}
 
     .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
