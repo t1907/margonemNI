@@ -18,13 +18,21 @@
     
     .interface-layer {border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oi7QxzB.png') 7 repeat !important;}
     .layer.interface-layer .main-column{background: #101010 !important;}
+    .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
     .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/background.png') !important;}
     .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/gora.png') !important;}
-    .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png)}
     .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/dol.png') !important;}
     .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
     .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
-    .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
+    
+    .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) -87px -109px}
+    .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png)}
+    .bottom-panel-of-bottom-positioner .bottom-panel-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -256px -870px;}
+    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -450px -955px}
+    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -450px -976px}
+    .bottom-panel-pointer-bg .pointer-exp-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -704px -953px}
+    .bottom-panel-pointer-bg .pointer-ttl-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -777px -953px}
+    .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -701px -1016px}
     
     .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #484848 !important; border-bottom: 1px solid #484848 !important;}
     .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
