@@ -203,6 +203,8 @@
 
     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #640064;}
 
+    .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
+
     .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
     .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
     .card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
