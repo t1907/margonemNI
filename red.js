@@ -29,35 +29,35 @@
 }
 
 .interface-element-one-item-slot-background-to-repeat{
-  background:url(../img/gui/oneItemSlotToRepeat.png)
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/oneItemSlotToRepeat.png)
 }
 .interface-element-item-slot-grid-stretch{
-  background:url(../img/gui/oneItemSlotToRepeat.png)
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/oneItemSlotToRepeat.png)
 }
 .interface-element-vertical-wood{
-  background:url(../img/gui/middle_graphics.png) repeat
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) repeat
 }
 .interface-element-active-card-border-image{
-  border-image:url(../img/gui/width-card-button.png) 5 fill repeat stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) 5 fill repeat stretch
 }
 .interface-element-active-card-background{
-  background:url(../img/gui/width-card-button.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) no-repeat;
   background-size:100% 100%
 }
 .interface-element-card-background{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%
 }
 .interface-element-wood-box-background{
-  background:url(../img/gui/info-box-2.png);
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/info-box-2.png);
   background-size:100% 100%
 }
 .interface-element-card-background-stretch{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%
 }
 .interface-element-active-card-background-stretch{
-  border-image:url(../img/gui/width-card-button.png) 5 fill repeat stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) 5 fill repeat stretch
 }
 .interface-element-green-box-background{
   background:linear-gradient(to right,#0d140b 0,#192615 7%,#1e4116 30%,#1e4116 70%,#192615 93%,#0d140b 100%)
@@ -88,29 +88,29 @@
   background:#281d15;box-shadow:inset 2px 0 15px 1px #000
 }
 .interface-element-middle-1-background{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#1d1210
 }
 .interface-element-middle-2-background{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#f1dca7
 }
 .interface-element-middle-3-background{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#282929
 }
 .interface-element-middle-4-background{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:rgba(0,0,0,.6)
 }
 .interface-element-bottom-bar-background{
-  border-image:url(../img/gui/quests/quest_bar.png) 0 20 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/quests/quest_bar.png) 0 20 fill stretch
 }
 .interface-element-header-1-background{
-  border-image:url(../img/gui/table_header.png) 0 20 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/table_header.png) 0 20 fill stretch
 }
 .interface-element-header-2-background{
-  border-image:url(../img/gui/match-bar.png) 7 14 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/match-bar.png) 7 14 fill stretch
 }
 .interface-element-table-td-3-border{
   border:1px solid #615a59
@@ -135,91 +135,91 @@
   border:1px solid #615a59
 }
 .interface-element-table-header-1-background{
-  background:url(../img/gui/table_header.png);
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/table_header.png);
   background-size:100% 100%
 }
 .interface-element-middle-1-background-stretch{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;background:#1d1210;}
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;background:#1d1210;}
 .interface-element-line-1-background{
   background:linear-gradient(to right,#000 0,#898989 30%,#949494 50%,#898989 70%,#000 100%)}
 .interface-element-middle-2-background-stretch{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#f1dca7
 }
 .interface-element-middle-3-background-stretch{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#282929
 }
 .interface-element-bottom-bar-background-stretch{
-  border-image:url(../img/gui/quests/quest_bar.png) 0 20 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/quests/quest_bar.png) 0 20 fill stretch
 }
 .interface-element-header-1-background-stretch{
-  border-image:url(../img/gui/table_header.png) 0 20 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/table_header.png) 0 20 fill stretch
 }
 .interface-element-header-2-background-stretch{
-  border-image:url(../img/gui/match-bar.png) 7 14 fill stretch
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/match-bar.png) 7 14 fill stretch
 }
 .interface-element-header-1{
   color:#cfc8a2
 }
 
 .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane{
-  background:url(../img/gui/oneItemSlotToRepeat.png)
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/oneItemSlotToRepeat.png)
 }
 .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,.additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after{
-  border-image:url(../img/gui/middle_graphics.png) 0 11 fill round;
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/middle_graphics.png) 0 11 fill round;
   background:#1d1210
 }
-.tabs-nav .card.active{pointer-events:none;background:url(../img/gui/width-card-button.png) no-repeat;
+.tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) no-repeat;
   background-size:100% 100%;
   color:#fff
 }
 .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected{
   color:#fff;
-  background:url(../img/gui/width-card-button.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) no-repeat;
   background-size:100% 100%
 }
 .depo .bottom-section .cards-menu .card:not(.disabled).active::before{
-  border-image:url(../img/gui/width-card-button.png) 17 20 fill repeat
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) 17 20 fill repeat
 }
 .matchmaking-ranking .ranking-tabs .cards-header .active{
-  background:url(../img/gui/width-card-button.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) no-repeat;
   background-size:100% 100%;
   color:#fff
 }
 .cards-header-wrapper .cards-header .card.active{
-  background:url(../img/gui/width-card-button.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button.png) no-repeat;
   background-size:100% 100%;
   color:#fff
 }
 .tabs-nav .card{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%;
   color:#707172
 }
 .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%}
 .auction-off-item-panel input.default,.auction-window input.default{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%;
   border:1px solid #615a59;
   color:#fff
 }
 .depo .bottom-section .cards-menu .card::before{
-  border-image:url(../img/gui/width-card-button-active.png) 17 20 fill repeat
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) 17 20 fill repeat
 }
 .matchmaking-ranking .ranking-tabs .cards-header .card{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%;
   color:#707172}
 .cards-header-wrapper .cards-header .card{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%;
   color:#707172
 }
 .battle-pass-window .cards-header-wrapper .cards-header .card{
-  background:url(../img/gui/width-card-button-active.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/width-card-button-active.png) no-repeat;
   background-size:100% 100%;
   color:#707172
 }
