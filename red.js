@@ -109,7 +109,7 @@
 .layer.interface-layer .main-column.right-column .border{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/oTLO9A2.png) -251px 0}
 .layer.interface-layer .main-column .extended-stats .border{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/oTLO9A2.png) -251px 0}
 .layer.interface-layer .positioner.top .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/belka-gora-dol.png) 0 -61px repeat}
-.layer.interface-layer .positioner.bottom .bg{background:url(hhttps://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/belka-gora-dol.png) 0 0 repeat}
+.layer.interface-layer .positioner.bottom .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/belka-gora-dol.png) 0 0 repeat}
 
 .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/buttony.png) -87px -109px}
 .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png);}
