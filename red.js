@@ -4,7 +4,7 @@
     .interface-element-border-window-frame{
       border-style:solid;
       border-width:34px 20px;
-      border-image:url(../img/gui/window-frame.png?v=1742221680524) 32 20 fill repeat;
+      border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/window-frame.png) 32 20 fill repeat;
       background-size:100% 100%
     }
     .border-window{
@@ -14,7 +14,7 @@
       min-width:160px;
       border-style:solid;
       border-width:34px 20px;
-      border-image:url(../img/gui/window-frame.png?v=1742221680524) 32 20 fill repeat;
+      border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/window-frame.png) 32 20 fill repeat;
       background-size:100% 100%
     }
     .battle-controller .graphics .battle-border{
@@ -25,7 +25,7 @@
       bottom:-34px;
       border-style:solid;
       border-width:34px 20px;
-      border-image:url(../img/gui/window-frame.png?v=1742221680524) 32 20 fill repeat;
+      border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/window-frame.png) 32 20 fill repeat;
       background-size:100% 100%
     }
     .additional-skill-panel .graphics .additional-skill-panel-border{
@@ -35,7 +35,7 @@
       bottom:-34px;
       border-style:solid;
       border-width:34px 20px;
-      border-image:url(../img/gui/window-frame.png?v=1742221680524) 32 20 fill repeat;
+      border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/window-frame.png) 32 20 fill repeat;
       background-size:100% 100%
     }
 
