@@ -1,7 +1,5 @@
 (function() {
   $(`<style>
-    .loader-image{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/loader-image.png') !important;}
-
     #GAME_CANVAS {image-rendering: auto !important;}
     
     .gargonem-otherlist-other-button{color: lime !important;}
