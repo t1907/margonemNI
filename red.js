@@ -122,7 +122,7 @@
 .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/buttony.png) no-repeat 0 -867px;}
 
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: none !important;}
-.border-window .header-label-positioner .header-label .text{color:#601010;line-height:28px;text-align:center}
+//.border-window .header-label-positioner .header-label .text{color:#601010;line-height:28px;text-align:center}
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/red/skill_hot_skills.png)}
 
