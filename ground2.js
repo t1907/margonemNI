@@ -3,11 +3,11 @@
 #GAME_CANVAS {image-rendering: auto !important;}
 
 .gargonem-otherlist-other-button{color: lime !important;}
-.gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #0077B6, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+.gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #a8a9ad, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
 .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
-.cll-alert{border: 1px solid #0077B6 !important; box-shadow: 0 0 0 1px #0077B6 !important; background: #101010 !important; color: #f5f5f5 !important;}
-.cll-alert button{background: #101010 !important; border: 1px solid #0077B6 !important; box-shadow: 0 0 0 1px #101010 !important;}
+.cll-alert{border: 1px solid #a8a9ad !important; box-shadow: 0 0 0 1px #a8a9ad !important; background: #101010 !important; color: #f5f5f5 !important;}
+.cll-alert button{background: #101010 !important; border: 1px solid #a8a9ad !important; box-shadow: 0 0 0 1px #101010 !important;}
 .cll-alert button:hover {border: 1px solid lime !important;}
 .cll-alert button:focus {border: 1px solid #40ff40 !important;}
 .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -23,7 +23,7 @@
 }
 
 .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
-.interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #0077B6;background:#101010}
+.interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #a8a9ad;background:#101010}
 
 .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oneItemSlotToRepeat.png)}
 
@@ -42,10 +42,10 @@
 
 .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#101010}
 
-.interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #0077B6}
-.interface-element-box-shadow-2{box-shadow: 0 0 0 1px #0077B6}
+.interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #a8a9ad}
+.interface-element-box-shadow-2{box-shadow: 0 0 0 1px #a8a9ad}
 
-.interface-element-one-item-slot-2{border: 1px solid #0077B6;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
+.interface-element-one-item-slot-2{border: 1px solid #a8a9ad;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
 
 .interface-element-middle-1-background, .interface-element-middle-2-background, .interface-element-middle-3-background, .interface-element-middle-4-background{
   border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png) 0 11 fill round;background:#101010
@@ -56,13 +56,13 @@
 .interface-element-header-1-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png) 0 20 fill stretch}
 .interface-element-header-2-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/match-bar.png) 7 14 fill stretch}
 
-.interface-element-table-td-3-border{border:1px solid #0077B6}
-.interface-element-table-header-3-border{border:1px solid #0077B6}
+.interface-element-table-td-3-border{border:1px solid #a8a9ad}
+.interface-element-table-header-3-border{border:1px solid #a8a9ad}
 .interface-element-table-header-3-background{background:#101010}
 .interface-element-table-3{color:#f0f0f0}
-.interface-element-table-3 .table-header-tr td{border:1px solid #0077B6;background:#101010}
+.interface-element-table-3 .table-header-tr td{border:1px solid #a8a9ad;background:#101010}
 .interface-element-table-3 tr:nth-of-type(2n+1){background: #101010;}
-.interface-element-table-3 td{border:1px solid #0077B6}
+.interface-element-table-3 td{border:1px solid #a8a9ad}
 .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png);background-size:100% 100%}
 
 .interface-element-middle-1-background-stretch, .interface-element-middle-2-background-stretch, .interface-element-middle-3-background-stretch{
@@ -94,7 +94,7 @@
 
 .tabs-nav .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
 .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%}
-.auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #0077B6;color:#f0f0f0}
+.auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #a8a9ad;color:#f0f0f0}
 .depo .bottom-section .cards-menu .card::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) 17 20 fill repeat}
 .matchmaking-ranking .ranking-tabs .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
 .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
@@ -140,7 +140,7 @@
 .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
 
 .tw-list-item{background: #101010 !important;}
-.border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #0077B6; border-radius: 1px;}
+.border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #a8a9ad; border-radius: 1px;}
 
 .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
 .auction-window .main-column-auction {background: #101010;}
@@ -154,28 +154,28 @@
 .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/normal-shop-gold.png) 0 -34px}
 .shop-wrapper .shop-background.pet-shop-zl .canopy{}
 .shop-wrapper .shop-background.pet-shop-sl .canopy{}
-.shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #0077B6;}
+.shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #a8a9ad;}
 
 .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
 .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
 .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
 .left-grouped-list-and-right-description-window{color: #f5f5f5;}
 
-.world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #0077B6 !important; background: #101010 !important;}
-.hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #0077B6 !important; background: #101010;}
-.players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #0077B6 !important; background: #101010;}
+.world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #a8a9ad !important; background: #101010 !important;}
+.hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #a8a9ad !important; background: #101010;}
+.players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #a8a9ad !important; background: #101010;}
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/skill_hot_skills.png)}
 
-.game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #0077B6 !important; border-bottom: 1px solid #0077B6 !important;}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #a8a9ad !important; border-bottom: 1px solid #a8a9ad !important;}
 .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
 .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
 
-.chat-channel-card-wrapper{border: 1px solid #0077B6 !important;}
-.new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #0077B6 !important;}
+.chat-channel-card-wrapper{border: 1px solid #a8a9ad !important;}
+.new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #a8a9ad !important;}
 .chat-input-wrapper {background: #101010 !important;}
 .new-chat-window {background: #101010 !important;}
-.chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #0077B6 !important; background: #101010 !important;}
+.chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #a8a9ad !important; background: #101010 !important;}
 
 
 </style>`).appendTo('head');
