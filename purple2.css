@@ -126,6 +126,10 @@
 
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
 .border-window .header-label-positioner .header-label .text{color:#f0f0f0;line-height:28px;text-align:center}
+.border-window .header-label-positioner .header-label, 
+.trade-window header .h_background .middle, 
+.trade-window header .h_background .left, 
+.trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
 

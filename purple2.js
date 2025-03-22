@@ -43,7 +43,7 @@
 .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#101010}
 
 .interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #640064}
-.interface-element-box-shadow-2{box-shadow:inset 2px 0 15px 1px #640064}
+.interface-element-box-shadow-2{box-shadow: 0 0 0 1px #640064}
 
 .interface-element-one-item-slot-2{border: 1px solid #640064;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
 
@@ -126,8 +126,44 @@
 .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -701px -1016px}
 .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat 0 -867px;}
 
+.border-window {color: #f5f5f5;}
+.border-window .content {background: #101010;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
 .border-window .header-label-positioner .header-label .text{color:#f0f0f0;line-height:28px;text-align:center}
+.border-window .header-label-positioner .header-label, 
+.trade-window header .h_background .middle, 
+.trade-window header .h_background .left, 
+.trade-window header .h_background .right { background: 0 0; box-shadow: none;}
+.trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
+.trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
+
+.battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
+
+.tw-list-item{background: #101010 !important;}
+.border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #640064; border-radius: 1px;}
+
+.border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
+.auction-window .main-column-auction {background: #101010;}
+
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
+
+.shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
+.shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
+.shop-wrapper .shop-background.pet-shop-zl .canopy{}
+.shop-wrapper .shop-background.pet-shop-sl .canopy{}
+.shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #640064;}
+
+.clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
+.left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
+.border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
+.left-grouped-list-and-right-description-window{color: #f5f5f5;}
+
+.world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #101010 !important;}
+.hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; background: #101010;}
+.players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important; background: #101010;}
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
 
@@ -140,6 +176,8 @@
 .chat-input-wrapper {background: #101010 !important;}
 .new-chat-window {background: #101010 !important;}
 .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #640064 !important; background: #101010 !important;}
+
+
 </style>`).appendTo('head');
 }
 )();
