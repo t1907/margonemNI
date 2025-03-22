@@ -131,9 +131,15 @@
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
 
+    .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
+    .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
+    .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
 
-
-
+    .chat-channel-card-wrapper{border: 1px solid #640064 !important;}
+    .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #640064 !important;}
+    .chat-input-wrapper {background: #101010 !important;}
+    .new-chat-window {background: #101010 !important;}
+    .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #640064 !important; background: #101010 !important;}
 
 
 
