@@ -70,7 +70,7 @@
 }
 .interface-element-line-1-background{background:#101010}
 
-.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quests/quest_bar.png) 0 20 fill stretch}
+.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quests/quest_bar.png) 0 20 fill stretch; border-style:none;}
 
 .interface-element-header-1-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png) 0 20 fill stretch}
 .interface-element-header-2-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/match-bar.png) 7 14 fill stretch}
