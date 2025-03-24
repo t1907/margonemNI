@@ -177,6 +177,51 @@
 .new-chat-window {background: #101010 !important;}
 .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #6c635c !important; background: #101010 !important;}
 
+.popup-menu {
+    box-shadow: 0 0 0 1px #6c635c;
+    background-color: #202020;   
+}
+.popup-menu .menu-item {
+    background-color: #202020;
+    color: #f0f0f0;
+    border: 1px solid #6c635c;
+}
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
+    border: 1px solid #6c635c;
+    background-color: #202020
+}
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
+    border: 1px solid #6c635c;
+    background-color: #202020
+}
+.popup-menu .menu-item.menu-item--red {
+    background: #801010;
+    border-color: #6c635c;
+}
+.popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    background: #801010;
+    border-color: #6c635c;
+}
+.popup-menu .menu-item.menu-item--debug {
+    background: #801010;
+    border-color: #6c635c;
+}
+.popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    background: #801010;
+    border-color: #6c635c;
+}
+.popup-menu .menu-item.disabled {background-color: #202020}
+.popup-menu .menu-item.cooldown-disabled {background-color: #202020}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    border: 1px solid #6c635c;
+    background-color: #202020
+}
+.popup-menu .s_cost {
+    border: 1px solid #6c635c;
+    background-color: #202020;
+    color: #f5f5f5;
+}
+
 
 </style>`).appendTo('head');
 }
