@@ -6,7 +6,7 @@
     .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
     
     .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
-    .cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #004848 !important; background: #101010 !important; color: #f5f5f5 !important;}
+    .cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #101010 !important; color: #f5f5f5 !important;}
     .cll-alert button{background: #101010 !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #101010 !important;}
     .cll-alert button:hover {border: 1px solid lime !important;}
     .cll-alert button:focus {border: 1px solid #40ff40; !important;}
@@ -14,23 +14,23 @@
     .cll-timer-highlighted {background: #0a1f42 !important}
     .cll-timer-monster[style]{color: red !important;}
     
-    .interface-layer {border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oi7QxzB.png') 7 repeat !important;}
+    .interface-layer {border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oi7QxzB.png') 7 repeat !important;}
     .layer.interface-layer .main-column{background: #101010 !important;}
     .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
     .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/background.png') !important;}
-    .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/gora.png') !important;}
-    .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/dol.png') !important;}
+    .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/gora.png') !important;}
+    .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/dol.png') !important;}
     .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #101010;}
     .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #101010;}
     
-    .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) -87px -109px}
+    .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) -87px -109px}
     .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png);}
-    .bottom-panel-of-bottom-positioner .bottom-panel-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -256px -870px;}
-    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -450px -955px}
-    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -450px -976px}
-    .bottom-panel-pointer-bg .pointer-exp-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -704px -953px}
-    .bottom-panel-pointer-bg .pointer-ttl-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -777px -953px}
-    .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -701px -1016px}
+    .bottom-panel-of-bottom-positioner .bottom-panel-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -256px -870px;}
+    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -450px -955px}
+    .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -450px -976px}
+    .bottom-panel-pointer-bg .pointer-exp-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -704px -953px}
+    .bottom-panel-pointer-bg .pointer-ttl-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -777px -953px}
+    .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -701px -1016px}
     
     .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #2f5c5c !important; border-bottom: 1px solid #2f5c5c !important;}
     .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
@@ -63,35 +63,35 @@
 
     .auction-window .main-column-auction {background: #101010;}
 
-    .search-wrapper {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/search.png) 5 9 23 34 fill}
+    .search-wrapper {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/search.png) 5 9 23 34 fill}
 
     .interface-element-card-background, .interface-element-card-background-stretch, .tabs-nav .card, .auction-window input.default, .auction-off-item-panel input.default, 
     .matchmaking-ranking .cards-header-wrapper .cards-header .card, .cards-header-wrapper .cards-header .card, 
-    .battle-pass-window .cards-header-wrapper .cards-header .card { background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) no-repeat; background-size: 100% 100%;}
-    .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button-active.png) 17 20 fill repeat}
+    .battle-pass-window .cards-header-wrapper .cards-header .card { background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button-active.png) no-repeat; background-size: 100% 100%;}
+    .depo .bottom-section .cards-menu .card::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button-active.png) 17 20 fill repeat}
 
     .tabs-nav .card.active, .matchmaking-ranking .cards-header-wrapper .cards-header .active, 
-    .cards-header-wrapper .cards-header .card.active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button.png) no-repeat; background-size: 100% 100%;}
-    .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button.png) 17 20 fill repeat}
-    .interface-element-active-card-background, .interface-element-active-card-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button.png) 5 fill repeat stretch;}
+    .cards-header-wrapper .cards-header .card.active {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) no-repeat; background-size: 100% 100%;}
+    .depo .bottom-section .cards-menu .card:not(.disabled).active::before {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) 17 20 fill repeat}
+    .interface-element-active-card-background, .interface-element-active-card-background-stretch {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) 5 fill repeat stretch;}
 
-    .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/header_left.png);}
+    .drop-down-menu-section .type-header {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/header_left.png);}
 
-    .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/skill_hot_skills.png)}
+    .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/skill_hot_skills.png)}
 
-    .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame.png") 32 20 fill repeat; background-size: 100% 100%;}
+    .battle-controller .graphics .battle-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/window-frame.png") 32 20 fill repeat; background-size: 100% 100%;}
 
-    .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/skill_hot_skills.png)}
-    .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame.png")  32 20 fill repeat; background-size: 100% 100%;}
+    .additional-skill-panel {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/skill_hot_skills.png)}
+    .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/window-frame.png")  32 20 fill repeat; background-size: 100% 100%;}
     .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper{color: #f5f5f5;}
 
     .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
 
-    .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oneItemSlotToRepeat.png)}
-    .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oneItemSlotToRepeat.png);}
-    .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oneItemSlotToRepeat.png);}
+    .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png)}
+    .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png);}
+    .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png);}
 
-    .interface-element-active-card-border-image{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/width-card-button.png) 5 fill repeat stretch}
+    .interface-element-active-card-border-image{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) 5 fill repeat stretch}
 
     .ni-input input.default {border: 1px solid #2f5c5c; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
     input.default {border: 1px solid #2f5c5c; background: #101010; color: #f5f5f5; box-shadow: none; border-radius: 0px;}
@@ -112,7 +112,7 @@
     .loot-window .button-holder .button.must{background:linear-gradient(to top, #101010, #101010)}
     .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #101010;}
 
-    .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
+    .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -800px -79px;}
     .interface-element-one-item-slot-2 {border: 1px solid #2f5c5c;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
     .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
     .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
@@ -156,45 +156,45 @@
     .border-window {color: #f5f5f5;}
     .border-window .content {background: #101010;}
 
-    .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/window-frame.png) 32 20 fill repeat;}
+    .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/window-frame.png) 32 20 fill repeat;}
 
     .border-window .header-label-positioner .header-label .left-decor, .border-window .header-label-positioner .header-label .right-decor {background: 0 0;}
 
     .tabs-nav::before, .mails-window .cards-header-wrapper .header-background-graphic, .depo .bottom-section .cards-menu .cards-background, .matchmaking-ranking .cards-header-wrapper .header-background-graphic, 
     .cards-header-wrapper .header-background-graphic, 
-    .battle-pass-window .cards-header-wrapper .header-background-graphic{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/friend-header.png) 11 13 fill stretch;}
+    .battle-pass-window .cards-header-wrapper .header-background-graphic{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/friend-header.png) 11 13 fill stretch;}
 
-    .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png) repeat;}
+    .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) repeat;}
 
     .interface-element-green-box-background {background: #101010;}
     .interface-element-green-box-background-stretch {background: #101010;}
 
-    .interface-element-wood-box-background {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/info-box-2.png); background-size: 100% 100%}
+    .interface-element-wood-box-background {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/info-box-2.png); background-size: 100% 100%}
 
-    .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png) 0 20 fill stretch;}
-    .interface-element-header-2-background-stretch {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/match-bar.png") 7 14 fill stretch;}
+    .interface-element-header-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png) 0 20 fill stretch;}
+    .interface-element-header-2-background-stretch {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/match-bar.png") 7 14 fill stretch;}
 
-    .interface-element-header-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png") 0 20 fill stretch;}
-    .interface-element-header-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/match-bar.png") 7 14 fill stretch;}
+    .interface-element-header-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png") 0 20 fill stretch;}
+    .interface-element-header-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/match-bar.png") 7 14 fill stretch;}
 
-    .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/table_header.png"); background-size: 100% 100%;}
+    .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png"); background-size: 100% 100%;}
 
-    .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #101010;}
-    .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #101010;}
-    .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #101010;}
-    .interface-element-middle-4-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png") 0 11 fill round; background: #101010;}
+    .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #101010;}
+    .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #101010;}
+    .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #101010;}
+    .interface-element-middle-4-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #101010;}
 
-    .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png) 0 11 fill round; background: #101010;}
-    .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png) 0 11 fill round; background: #101010;}
-    .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/middle_graphics.png) 0 11 fill round; background: #101010;}
+    .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #101010;}
+    .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #101010;}
+    .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #101010;}
 
-    .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/quest_bar.png") 0 20 fill stretch;}
-    .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/quest_bar.png) 0 20 fill stretch;}
+    .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png") 0 20 fill stretch;}
+    .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch;}
 
-    .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat 0 -867px;}
+    .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat 0 -867px;}
 
-    .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/normal-shop-gold.png) 0 -34px}
-    .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/normal-shop-gold.png) 0 -34px}
+    .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
+    .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
     .shop-wrapper .shop-background.pet-shop-zl .canopy{}
     .shop-wrapper .shop-background.pet-shop-sl .canopy{}
     .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #2f5c5c;}
