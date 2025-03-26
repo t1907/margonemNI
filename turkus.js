@@ -150,7 +150,7 @@ body, p, .ni-input input {
 .button.small.green.pressed {
   background-image: linear-gradient(to top, #15232e, #0a1a2a) !important; /* Surowy, nordycki granat */
   box-shadow: inset 0 0 1px 1px #3b6b7b, inset 0 0 0 3px #101010 !important; /* Zimny, lodowy efekt */
-
+  }
 
     .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
     .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #101010 !important;}
