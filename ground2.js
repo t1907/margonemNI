@@ -278,7 +278,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
   background-image: linear-gradient(to top, #101010, #101010);
-  box-shadow:inset 0 0 0 1px #2f5c5c;
+  box-shadow:inset 0 0 0 1px #183232;
 }
 
 .button.black::before,
