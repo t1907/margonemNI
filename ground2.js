@@ -278,7 +278,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-  background-image: linear-gradient(to top, #2f5c5c, #2f5c5c);
+  background-image: linear-gradient(to top, #101010, #101010);
   box-shadow:inset 0 0 0 1px #48a0a0;
 }
 
@@ -296,7 +296,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
 .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #2f5c5c;
+  box-shadow:inset 0 0 1px 1px #101010;
 }
 
 .button.black.window-is-open::before,
@@ -305,7 +305,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-  background-color: #183232;
+  background-color: #101010;
 }
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
