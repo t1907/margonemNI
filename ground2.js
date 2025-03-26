@@ -239,6 +239,30 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
+.button, .widget-button {
+    border-radius: 1px;
+    background-color: #101010; 
+    box-shadow: inset 0 0 0 1px #2f5c5c, inset 0 0 0 3px #183232; 
+    border: solid 1px #183232;
+    background-image: linear-gradient(to top, #0f2a2a, #1f4e4e); 
+    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #183232;
+    color: #dcdcdc; 
+}
+
+.button::before, .widget-button::before {
+    box-shadow: inset 0 0 1px 1px rgba(47, 92, 92, 0.65);
+    border-radius: 4px;
+}
+
+.button.active::before, .widget-button.active::before {
+    box-shadow: inset 0 0 1px 1px rgba(23, 58, 58, 0.65);
+}
+
+.button.window-is-open::before, .widget-button.window-is-open::before {
+    background-color: #0d2424;
+}
+
+
 
     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
