@@ -248,7 +248,6 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   color: #dcdcdc
 }
 .button.red,.widget-button.red{background-image: linear-gradient(to top, #101010, #101010); box-shadow:inset 0 0 0 1px #4a1e1e}
-
 .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
   background-image: linear-gradient(to top, #101010, #101010);
   box-shadow:inset 0 0 0 1px #2f5c5c;
@@ -272,6 +271,41 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 }
 
 .widget-button::after{box-shadow: none; border-radius:0;}
+
+.button.black,
+.widget-button.black,
+body.mobile-version .button:not(.no-hover):not(.disabled):active,
+body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
+.widget-button:not(.no-hover):not(.disabled):hover:not(.active){
+  background-image: linear-gradient(to top, #101010, #101010);
+  box-shadow:inset 0 0 0 1px #2f5c5c;
+}
+
+.button.black::before,
+.widget-button.black::before,
+body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
+body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,body:not(.mobile-version) 
+.widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
+  box-shadow:inset 0 0 1px 1px #101010;
+  border-radius:0;
+}
+
+.button.black.active::before,
+.widget-button.black.active::before,
+body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
+.button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
+.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
+  box-shadow:inset 0 0 1px 1px #183232;
+}
+
+.button.black.window-is-open::before,
+.widget-button.black.window-is-open::before,
+body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open::before,
+body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
+body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
+.widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
+  background-color: #183232
+}
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
