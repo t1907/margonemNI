@@ -1,13 +1,5 @@
 (function() {
   $(`<style>
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;600&display=swap');
-
-body, p, .ni-input input {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #e0ddd0; /* Złamana biel dla przyjemniejszego kontrastu */
-}
-
     #GAME_CANVAS {image-rendering: auto !important;}
     
     .gargonem-otherlist-other-button{color: lime !important;}
