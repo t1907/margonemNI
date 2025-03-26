@@ -183,7 +183,7 @@
 
 .console-window .scroll-wrapper .scroll-pane .console-content{color: #dcdcdc}
 
-.loot-window{color:#dcdcdc}
+.loot-window{color: #dcdcdc}
 .loot-window.colorized.t-her .middle-graphics:after{
 background:radial-gradient(ellipse at center,rgba(112,179,224,.8) 0,rgba(255,255,255,0) 100%)}
 .loot-window.colorized.t-leg .middle-graphics:after{
@@ -200,9 +200,9 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .loot-window .items-wrapper .loot-item-wrapper{box-shadow:2px 2px 2px 0 rgba(0,0,0,.6);border:1px solid #2f5c5c}
 .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
 .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #2f5c5c}
-.loot-window .items-wrapper .loot-item-wrapper .text-info{color: #eaeaea;border-top:1px solid #2f5c5c;border-bottom:1px solid #2f5c5c} 
+.loot-window .items-wrapper .loot-item-wrapper .text-info{color: #dcdcdc;border-top:1px solid #2f5c5c;border-bottom:1px solid #2f5c5c} 
 .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color:rgba(137,196,0,.5)}
-.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #b5a68d}
+.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #2f5c5c}
 
 
 
