@@ -257,49 +257,137 @@
 
     .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #2f5c5c}
 
-    .tip-wrapper {box-shadow: 0px 0px 1px 1px #2f5c5c; color: #d4d4d4;}
+.tip-wrapper {
+    background: #101010; /* Ciemne tło */
+    color: #dcdcdc; /* Jasny tekst */
+    border: 1px solid #2f5c5c; /* Zimne, kamienne akcenty */
+    box-shadow: 0 0 0 1px #2f5c5c; /* Zimny cień */
+}
 
-    .tip-wrapper.normal-tip .damage,.tip-wrapper.sticky-tip .damage {color: #00ff00;}
+.tip-wrapper.normal-tip .damage, .tip-wrapper.sticky-tip .damage {
+    color: #00ff00; /* Akcenty w zieleni dla obrażeń */
+}
 
-    .tip-wrapper .content .info-wrapper .nick {background: #303030; border: 1px solid #2f5c5c;}
+.tip-wrapper .content .info-wrapper .nick {
+    background: #303030; /* Lekko ciemniejsze tło dla nazw */
+    border: 1px solid #2f5c5c; /* Zimne, kamienne akcenty */
+}
 
-    .tip-wrapper .content .info-wrapper .m {color: #0000ff}
-    .tip-wrapper .content .info-wrapper .e {color: #ffce00}
-    .tip-wrapper .warrior-mana {color: #00abff}
-    .tip-wrapper .warrior-energy {color: #fffb00;}
+.tip-wrapper .content .info-wrapper .m {
+    color: #1e90ff; /* Zimny niebieski dla wiadomości */
+}
 
-    .linked-chat-item[data-item-type="t-norm"] {color: #d4d4d4 !important;}
-    .linked-chat-item[data-item-type="t-uniupg"] {color: #fffb00 !important;}
-    .linked-chat-item[data-item-type="t-her"] {color: #38b8eb !important;}
-    .linked-chat-item[data-item-type="t-upgraded"] {color: #c800c8 !important;}
-    .linked-chat-item[data-item-type="t-leg"] {color: #fffb00 !important;}
+.tip-wrapper .content .info-wrapper .e {
+    color: #ffce00; /* Złote akcenty na błyskotliwe elementy */
+}
 
-    .tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common {color: #d4d4d4;}
-    .tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {color: #fffb00;}
-    .tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique {color: #fffb00;}
-    .tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic {color: #38b8eb;}
-    .tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary {color: #ff8400;}
-    .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #ff8400;}
-    .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #fffb00;}
+.tip-wrapper .warrior-mana {
+    color: #00abff; /* Niebieski dla many */
+}
 
-    .tip-wrapper[data-type=t_item] .item-head {background: #101010; border: 1px solid #2f5c5c;}
-    .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #d4d4d4;}
-    .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #2f5c5c00;}
-    .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ff8400; text-align: center;}
-    .tip-wrapper[data-type=t_item] .item-tip-section.s-7 {color: whitesmoke;}
-    .tip-wrapper[data-type=t_item] i.looter {color: #00ff00; text-align: center;}
+.tip-wrapper .warrior-energy {
+    color: #fffb00; /* Żółty dla energii */
+}
 
-    .tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her] {box-shadow: 0px 0px 3px 1px #38b8eb;}
+.linked-chat-item[data-item-type="t-norm"] {
+    color: #dcdcdc !important; /* Normalne przedmioty */
+}
 
-    .tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded] {box-shadow: 0px 0px 3px 1px #fffb00;}
+.linked-chat-item[data-item-type="t-uniupg"] {
+    color: #fffb00 !important; /* Upgrady */
+}
 
-    .tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique] {box-shadow:  0px 0px 3px 1px #fffb00;}
+.linked-chat-item[data-item-type="t-her"] {
+    color: #38b8eb !important; /* Heroiczne przedmioty */
+}
 
-    .tip-wrapper[data-item-type=legendary],.tip-wrapper[data-item-type=t-leg] {box-shadow: 0px 0px 3px 1px #ff8400;}
+.linked-chat-item[data-item-type="t-upgraded"] {
+    color: #c800c8 !important; /* Zaktualizowane przedmioty */
+}
 
-    .tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art] {box-shadow: 0px 0px 3px 1px #ff8400;}
+.linked-chat-item[data-item-type="t-leg"] {
+    color: #fffb00 !important; /* Legendarne przedmioty */
+}
 
-    .tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm] {box-shadow: 0px 0px 3px 1px #2f5c5c;}
+.tip-wrapper[data-type=t_item] .item-head .common, .tip-wrapper[data-type=t_item] .item-tip-section .common {
+    color: #dcdcdc; /* Standardowe przedmioty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .upgraded, .tip-wrapper[data-type=t_item] .item-tip-section .upgraded {
+    color: #fffb00; /* Upgrady */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .unique, .tip-wrapper[data-type=t_item] .item-tip-section .unique {
+    color: #fffb00; /* Unikalne przedmioty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .heroic, .tip-wrapper[data-type=t_item] .item-tip-section .heroic {
+    color: #38b8eb; /* Heroiczne przedmioty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .legendary, .tip-wrapper[data-type=t_item] .item-tip-section .legendary {
+    color: #ff8400; /* Legendarne przedmioty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .artefact, .tip-wrapper[data-type=t_item] .item-tip-section .artefact {
+    color: #ff8400; /* Artefakty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .elite, .tip-wrapper[data-type=t_item] .item-tip-section .elite {
+    color: #fffb00; /* Elitarne przedmioty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head {
+    background: #101010; /* Ciemne tło dla nagłówka */
+    border: 1px solid #2f5c5c; /* Zimne, kamienne akcenty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .item-builds, .tip-wrapper[data-type=t_item] .item-head .item-type {
+    color: #dcdcdc; /* Tekst nagłówka */
+}
+
+.tip-wrapper[data-type=t_item] .item-tip-section {
+    border-bottom: 1px solid #2f5c5c00; /* Podział między sekcjami */
+}
+
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {
+    color: #ff8400; /* Pomarańczowe akcenty */
+    text-align: center;
+}
+
+.tip-wrapper[data-type=t_item] .item-tip-section.s-7 {
+    color: #dcdcdc; /* Białe dla dodatkowych informacji */
+}
+
+.tip-wrapper[data-type=t_item] i.looter {
+    color: #00ff00; /* Zielony dla przedmiotów lootera */
+    text-align: center;
+}
+
+.tip-wrapper[data-item-type=heroic], .tip-wrapper[data-item-type=t-her] {
+    box-shadow: 0px 0px 3px 1px #38b8eb; /* Niebieska poświata dla heroicznych */
+}
+
+.tip-wrapper[data-item-type=t-upgraded], .tip-wrapper[data-item-type=upgraded] {
+    box-shadow: 0px 0px 3px 1px #fffb00; /* Żółta poświata dla upgrade'ów */
+}
+
+.tip-wrapper[data-item-type=elite], .tip-wrapper[data-item-type=t-elite], .tip-wrapper[data-item-type=t-uniupg], .tip-wrapper[data-item-type=unique] {
+    box-shadow: 0px 0px 3px 1px #fffb00; /* Poświata dla elitarnych przedmiotów */
+}
+
+.tip-wrapper[data-item-type=legendary], .tip-wrapper[data-item-type=t-leg] {
+    box-shadow: 0px 0px 3px 1px #ff8400; /* Poświata dla legendarnych */
+}
+
+.tip-wrapper[data-item-type=artefact], .tip-wrapper[data-item-type=t-art] {
+    box-shadow: 0px 0px 3px 1px #ff8400; /* Poświata dla artefaktów */
+}
+
+.tip-wrapper[data-item-type=normal], .tip-wrapper[data-item-type=t-norm] {
+    box-shadow: 0px 0px 3px 1px #2f5c5c; /* Zimna poświata dla normalnych */
+}
+
     </style>`).appendTo('head');
   }
 )();
