@@ -27,6 +27,7 @@
 
 .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png)}
 .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
+.interface-element-one-item-slot-decor{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) -857px -828px}
 .interface-element-vertical-wood{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) repeat}
 
 .interface-element-active-card-border-image{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) 5 fill repeat stretch}
@@ -161,6 +162,7 @@
 .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
 .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
 .left-grouped-list-and-right-description-window{color: #f5f5f5;}
+.left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #2f5c5c}
 
 .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #101010 !important;}
 .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #101010;}
