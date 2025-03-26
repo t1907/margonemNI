@@ -7,7 +7,7 @@ body, p, .ni-input input {
   font-weight: 400;
   color: #e0ddd0; /* Złamana biel dla przyjemniejszego kontrastu */
 }
-  
+
     #GAME_CANVAS {image-rendering: auto !important;}
     
     .gargonem-otherlist-other-button{color: lime !important;}
@@ -137,12 +137,20 @@ body, p, .ni-input input {
     .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #101010, #101010); box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010;}
     .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #2f5c5c, inset 0 0 0 3px #101010;}
 
-    .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010!important;}
-    .button.red, .widget-button.red  {background-image: linear-gradient(to top, #101010, #101010)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;}
+    .button, .widget-button, .button.green, .widget-button.green {
+  background-image: linear-gradient(to top, #0a1a2a, #15232e) !important; /* Mroźny granat */
+  box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important; /* Chłodne akcenty */
+}
+.button.red, .widget-button.red {
+  background-image: linear-gradient(to top, #2e0d0d, #450000) !important; /* Głębokie, krwawe czerwienie */
+  box-shadow: inset 0 0 1px 1px #b33939, inset 0 0 0 3px #101010 !important;
+}
+.button.black, .button:not(.no-hover):not(.disabled):hover:not(.active),
+.widget-button.black, .widget-button:not(.no-hover):not(.disabled):hover:not(.active),
+.button.small.green.pressed {
+  background-image: linear-gradient(to top, #15232e, #0a1a2a) !important; /* Surowy, nordycki granat */
+  box-shadow: inset 0 0 1px 1px #3b6b7b, inset 0 0 0 3px #101010 !important; /* Zimny, lodowy efekt */
 
-    .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-    background-image: linear-gradient(to top, #101010,#101010)!important; box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
-    }
 
     .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #101010 !important;}
     .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #101010 !important;}
@@ -155,8 +163,10 @@ body, p, .ni-input input {
     .button, .widget-button::after {border-radius: 0px !important; box-shadow: 0 2px 0 1px #101010}
     .widget-button .widget-blink{display: none !important;}
 
-    .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #101010; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
-
+   .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed) {
+  border-color: #101010;
+  box-shadow: inset 0 0 1px 1px #1f6f5f !important; /* Przygaszona zieleń, mistyczny efekt */
+}
     .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle, .trade-window header .h_background .left, .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
     .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
