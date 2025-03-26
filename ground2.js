@@ -239,6 +239,67 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
+.button, .widget-button {
+    background-image: linear-gradient(to top, #101010, #101010) !important;
+    box-shadow: inset 0 0 1px 1px #484848, inset 0 0 0 3px #101010 !important;
+    border-radius: 0px !important;
+}
+
+.button.red, .widget-button.red {
+    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
+}
+
+.button.green, .widget-button.green {
+    box-shadow: inset 0 0 1px 1px #40ff40 !important;
+}
+
+.button.green:not(.pressed), .widget-button.green:not(.pressed) {
+    border-color: #101010;
+}
+
+.button.black, .widget-button.black, 
+.button:not(.no-hover):not(.disabled):hover:not(.active), 
+.widget-button.black:not(.no-hover):not(.disabled):hover:not(.active) {
+    background-image: linear-gradient(to top, #101010, #101010) !important;
+    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
+}
+
+.button.black:before, .widget-button.black:before,
+.button:not(.no-hover):not(.disabled):hover:not(.active):before,
+.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {
+    box-shadow: inset 0 0 1px 1px #101010 !important;
+}
+
+.button.black.active:before, .widget-button.black.active:before {
+    box-shadow: inset 0 0 1px 1px #101010 !important;
+}
+
+.button.green.window-is-open::before, 
+.widget-button.green.window-is-open::before {
+    background-color: #101010 !important;
+}
+
+.button.red::before, 
+.widget-button.red::before, 
+.button.ground::before, 
+.button.violet::before, 
+.widget-button.ground::before, 
+.widget-button.violet::before, 
+.button.blink-violet::before, 
+.widget-button.blink-violet::before {
+    box-shadow: inset 0 0 1px 1px #101010 !important;
+}
+
+.widget-button .widget-blink {
+    display: none !important;
+}
+
+.content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed) {
+    border-color: #101010;
+    box-shadow: inset 0 0 1px 1px #40ff40 !important;
+}
+
+
     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
     .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
