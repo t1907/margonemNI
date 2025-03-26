@@ -126,7 +126,6 @@
 .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -701px -1016px}
 .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat 0 -867px;}
 
-.border-window {color: #dcdcdc;}
 .border-window .content {background: #101010;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
 .border-window .header-label-positioner .header-label .text{color:#f0f0f0;line-height:28px;text-align:center}
@@ -182,7 +181,7 @@
 .one-item-on-divide-list .name-wrapper:hover{color: #a4a4a4}
 
 .console-window .scroll-wrapper .scroll-pane .console-content{color: #dcdcdc}
-.skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper,
+.skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper,
 .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
 .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #dcdcdc}
 
