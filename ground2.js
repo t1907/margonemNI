@@ -249,7 +249,18 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 }
 
 .button.red,.widget-button.red, .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet{
-  background-image:linear-gradient(to top,#310b0b,#831f1f);box-shadow:inset 0 0 0 1px #2f5c5c;
+  background-image:none;
+  box-shadow:inset 0 0 0 1px #2f5c5c;
+}
+
+.button::before,.widget-button::before{
+  box-shadow:inset 0 0 1px 1px #183232;
+  border-radius:0
+}
+.button.red::before,.widget-button.red::before, .button.blue::before,.widget-button.blue::before, .button.green::before,.widget-button.green::before, 
+.button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before{
+  box-shadow:inset 0 0 1px 1px #183232;
+  border-radius:0
 }
 
 
