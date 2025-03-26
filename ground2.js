@@ -231,6 +231,31 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
     color: #f5f5f5;
 }
 
+.popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {
+    border-radius: 1px;
+    background-color: #101010;
+    box-shadow: 0 0 0 1px #2f5c5c;
+}
+.popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {
+    background: #101010;
+    border: 1px solid #2f5c5c;
+    border-radius: 1px;
+    color: #dcdcdc; 
+}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
+    background-color: #183232; 
+}
+.popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled {
+    background-color: #4a1e1e; /* Przygaszona czerwień zamiast mocnego #640000 dla lepszego dopasowania */
+}
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
+    background: #101010;
+}
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
+    background-color: #183232;
+}
+
+
     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
     .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
