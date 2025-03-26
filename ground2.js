@@ -239,71 +239,71 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
-.button, .widget-button, .button.green, .widget-button.green {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important;
+.button, .widget-button {
+    border-radius: 0px;
+    background-color: #1a2b2b; /* ciemna zieleń z nutą szarości */
+    box-shadow: inset 0 0 0 1px #2f5c5c, inset 0 0 0 3px #0c0d0d; /* cień w kolorze obramowania */
+    border: solid 1px #2f5c5c; /* obramowanie w kolorze turkusu */
+    background-image: linear-gradient(to top, #2a3f3f, #3e5858); /* gradient odcieni szarości i zieleni */
+    color: #f5f5f5; /* tekst w jasnym kolorze */
+}
+
+.button::before, .widget-button::before {
+    box-shadow: inset 0 0 1px 1px rgba(126, 197, 104, .65); /* delikatny efekt runicznego podświetlenia */
+    border-radius: 0px;
+}
+
+.button.active::before, .widget-button.active::before {
+    box-shadow: inset 0 0 1px 1px rgba(42, 102, 85, .65); /* ciemniejsza poświata na aktywnym przycisku */
+}
+
+.button.window-is-open::before, .widget-button.window-is-open::before {
+    background-color: #1c1a1e; /* ciemniejsze tło przy otwartym oknie */
 }
 
 .button.red, .widget-button.red {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #872626, inset 0 0 0 3px #101010 !important;
-}
-
-.button.black, .button:not(.no-hover):not(.disabled):hover:not(.active),
-.widget-button.black, .widget-button:not(.no-hover):not(.disabled):hover:not(.active),
-.button.small.green.pressed {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important;
-}
-
-.button.black:before, .button:not(.no-hover):not(.disabled):hover:not(.active):before,
-.widget-button.black:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {
-    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
-}
-
-.button.black.active:before, .button:not(.no-hover):not(.disabled):hover:not(.active).active:before,
-.widget-button.black.active:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {
-    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
-}
-
-.button.green.window-is-open::before, .widget-button.green.window-is-open::before {
-    background-color: #0d2424 !important;
+    background-image: linear-gradient(to top, #3a2222, #7e3f3f); /* ciemniejszy czerwony z turkusem */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
 .button.red::before, .widget-button.red::before {
-    box-shadow: inset 0 0 1px 1px #872626 !important;
+    box-shadow: inset 0 0 1px 1px rgba(218, 97, 97, .65);
+    border-radius: 0px;
 }
 
-.button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before {
-    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+.button.red.active::before, .widget-button.red.active::before {
+    box-shadow: inset 0 0 1px 1px rgba(69, 16, 16, .65);
 }
 
-.button.blink-violet::before, .widget-button.blink-violet::before {
-    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+.button.blue, .widget-button.blue {
+    background-image: linear-gradient(to top, #1c2f3f, #2a4c63); /* ciemny niebieski z turkusem */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
-.button::before, .widget-button::before, .button.green::before, .widget-button.green::before {
-    box-shadow: inset 0 0 1px 1px #2f5c5c;
+.button.green, .widget-button.green {
+    background-image: linear-gradient(to top, #1d3226, #3a634d); /* ciemna zieleń */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
-.button, .widget-button {
-    border-radius: 3px !important;
+.button.purple, .widget-button.purple {
+    background-image: linear-gradient(to top, #2e2633, #4f3e5b); /* ciemny fiolet */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
-.button, .widget-button::after {
-    border-radius: 3px !important;
-    box-shadow: 0 2px 0 1px #101010;
+.button.orange, .widget-button.orange {
+    background-image: linear-gradient(to top, #4a2b1d, #7f5e3e); /* ciepły pomarańczowy z elementami turkusu */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
-.widget-button .widget-blink {
-    display: none !important;
+.button.transparent, .widget-button.transparent {
+    background-image: linear-gradient(to top, #101010, #434343); /* przejście szarości */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
 
-.content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed) {
-    border-color: #2f5c5c;
-    box-shadow: inset 0 0 1px 1px #40ff40 !important;
+.button.pressed, .widget-button.pressed {
+    background-image: linear-gradient(to top, #0f0f0f, #1c1a1e); /* ciemniejsze tło dla przycisków wciśniętych */
+    box-shadow: inset 0 0 1px 1px #cecece, inset 0 0 0 3px #0c0d0d;
 }
-
 
 
 
