@@ -247,7 +247,10 @@
     border:solid 1px #101010;
     color: #dcdcdc
   }
-  .button.red,.widget-button.red{  background-image: linear-gradient(to top, #101010, #101010); box-shadow:inset 0 0 0 1px #4a1e1e}
+  .button.red,.widget-button.red{
+  background-image: linear-gradient(to top, #101010, #101010); 
+  box-shadow:inset 0 0 0 1px #4a1e1e
+  }
   .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
     background-image: linear-gradient(to top, #101010, #101010);
     box-shadow:inset 0 0 0 1px #640064;
@@ -307,7 +310,23 @@
   .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
     background-color: #101010;
   }
-  
+
+.button.pressed,.widget-button.pressed{
+background-image:linear-gradient(to top, #000, #1c1a1e);
+box-shadow:inset 0 0 1px 1px #cecece,inset 0 0 0 3px #0c0d0d
+}
+.button.pressed::before,.widget-button.pressed::before{
+box-shadow:inset 0 0 1px 1px rgba(105,97,112,.65);
+border-radius:3px;
+}
+.button.pressed.active::before,.widget-button.pressed.active::before{
+box-shadow:inset 0 0 1px 1px rgba(0,0,0,.65)
+}
+.button.pressed.window-is-open::before,.widget-button.pressed.window-is-open::before{
+background-color: #1c1a1e
+}
+
+
   .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #640064;}
   
   .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
