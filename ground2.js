@@ -186,6 +186,16 @@
 .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
 .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #dcdcdc}
 
+.MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,
+.MBEditor .buttons-wrapper .save-btn .mb-label {color: #dcdcdc}
+.MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #2f5c5c}
+.MBEditor .skills-list .single-skill-row.usable {border-color: #2f5c5c}
+.MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(47, 92, 92, 0.15)} 
+.MBEditor .skills-list .single-skill-row.usable .number {border-color: #2f5c5c}
+.MBEditor .skills-list .single-skill-row.usable:hover {background: #183232}
+.MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #2f5c5c} 
+
+
 .loot-window{color: #dcdcdc}
 .loot-window.colorized.t-her .middle-graphics:after{
 background:radial-gradient(ellipse at center,rgba(112,179,224,.8) 0,rgba(255,255,255,0) 100%)}
