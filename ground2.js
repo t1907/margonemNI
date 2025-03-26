@@ -177,6 +177,10 @@
 .new-chat-window {background: #101010 !important;}
 .chat-configure-window .chat-option-header {color: #dcdcdc !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
 
+.left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #dcdcdc}
+.one-item-on-divide-list .name-wrapper{color: #dcdcdc}
+.one-item-on-divide-list .name-wrapper:hover{color: #a4a4a4}
+
 .loot-window{color:#dcdcdc}
 .loot-window.colorized.t-her .middle-graphics:after{
 background:radial-gradient(ellipse at center,rgba(112,179,224,.8) 0,rgba(255,255,255,0) 100%)}
