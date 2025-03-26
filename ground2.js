@@ -239,28 +239,71 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
+.button, .widget-button, .button.green, .widget-button.green {
+    background-image: linear-gradient(to top, #101010, #101010) !important;
+    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important;
+}
+
+.button.red, .widget-button.red {
+    background-image: linear-gradient(to top, #101010, #101010) !important;
+    box-shadow: inset 0 0 1px 1px #872626, inset 0 0 0 3px #101010 !important;
+}
+
+.button.black, .button:not(.no-hover):not(.disabled):hover:not(.active),
+.widget-button.black, .widget-button:not(.no-hover):not(.disabled):hover:not(.active),
+.button.small.green.pressed {
+    background-image: linear-gradient(to top, #101010, #101010) !important;
+    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important;
+}
+
+.button.black:before, .button:not(.no-hover):not(.disabled):hover:not(.active):before,
+.widget-button.black:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {
+    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+}
+
+.button.black.active:before, .button:not(.no-hover):not(.disabled):hover:not(.active).active:before,
+.widget-button.black.active:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {
+    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+}
+
+.button.green.window-is-open::before, .widget-button.green.window-is-open::before {
+    background-color: #0d2424 !important;
+}
+
+.button.red::before, .widget-button.red::before {
+    box-shadow: inset 0 0 1px 1px #872626 !important;
+}
+
+.button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before {
+    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+}
+
+.button.blink-violet::before, .widget-button.blink-violet::before {
+    box-shadow: inset 0 0 1px 1px #2f5c5c !important;
+}
+
+.button::before, .widget-button::before, .button.green::before, .widget-button.green::before {
+    box-shadow: inset 0 0 1px 1px #2f5c5c;
+}
+
 .button, .widget-button {
-    border-radius: 1px;
-    background-color: #101010; 
-    box-shadow: inset 0 0 0 1px #2f5c5c, inset 0 0 0 3px #183232; 
-    border: solid 1px #183232;
-    background-image: linear-gradient(to top, #0f2a2a, #1f4e4e); 
-    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #183232;
-    color: #dcdcdc; 
+    border-radius: 3px !important;
 }
 
-.button::before, .widget-button::before {
-    box-shadow: inset 0 0 1px 1px rgba(47, 92, 92, 0.65);
-    border-radius: 4px;
+.button, .widget-button::after {
+    border-radius: 3px !important;
+    box-shadow: 0 2px 0 1px #101010;
 }
 
-.button.active::before, .widget-button.active::before {
-    box-shadow: inset 0 0 1px 1px rgba(23, 58, 58, 0.65);
+.widget-button .widget-blink {
+    display: none !important;
 }
 
-.button.window-is-open::before, .widget-button.window-is-open::before {
-    background-color: #0d2424;
+.content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed) {
+    border-color: #2f5c5c;
+    box-shadow: inset 0 0 1px 1px #40ff40 !important;
 }
+
 
 
 
