@@ -306,8 +306,6 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-i
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
   background-color: #48b4b4;
-  background-image: linear-gradient(to top, #1a1d21, #2a2f35);
-  box-shadow: inset 0 0 3px #48b4b4, 0 0 8px rgba(58, 120, 120, 0.7);
 }
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
