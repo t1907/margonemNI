@@ -146,6 +146,7 @@
 
 .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
 .auction-window .main-column-auction {background: #101010;}
+.auction-window .main-column-auction .auction-search-item{border:1px solid #2f5c5c}
 
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
@@ -179,7 +180,7 @@
 .chat-channel-card-wrapper{border: 1px solid #2f5c5c !important;}
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #2f5c5c !important;}
 .chat-input-wrapper {background: #101010 !important;}
-.new-chat-window {background: #101010 !important;}
+.new-chat-window {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/background.png) -251px 0 !important;}
 .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
 
 .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
