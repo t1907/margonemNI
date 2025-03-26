@@ -241,15 +241,15 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 
 .button,.widget-button{
   border-radius: 3px;
-  background-image: linear-gradient(to top, #101010, #1a1d21);
+  background-image: linear-gradient(to top, #101010, #101010);
   background-color: #101010;
   box-shadow:inset 0 0 0 1px #2f5c5c;
   border:solid 1px #101010;
   color: #dcdcdc
 }
-.button.red,.widget-button.red{  background-image: linear-gradient(to top, #101010, #1a1d21); box-shadow:inset 0 0 0 1px #4a1e1e}
+.button.red,.widget-button.red{  background-image: linear-gradient(to top, #101010, #101010); box-shadow:inset 0 0 0 1px #4a1e1e}
 .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
-  background-image: linear-gradient(to top, #101010, #1a1d21);
+  background-image: linear-gradient(to top, #101010, #101010);
   box-shadow:inset 0 0 0 1px #2f5c5c;
 }
 
@@ -278,8 +278,8 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-  background-image: linear-gradient(to top, #101010, #1a1d21);
-  box-shadow:inset 0 0 0 1px #183232;
+  background-image: linear-gradient(to top, #101010, #101010);
+  box-shadow:inset 0 0 0 1px #48a0a0;
 }
 
 .button.black::before,
@@ -296,7 +296,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
 .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #48a0a0;
+  box-shadow:inset 0 0 1px 1px #2f5c5c;
 }
 
 .button.black.window-is-open::before,
