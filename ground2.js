@@ -241,16 +241,16 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 
 .button, .widget-button {
     background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #484848, inset 0 0 0 3px #101010 !important;
-    border-radius: 0px !important;
+    box-shadow: inset 0 0 1px 1px #2f5c5c
+    border-radius: 0;
 }
 
 .button.red, .widget-button.red {
-    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
+    box-shadow: inset 0 0 1px 1px #2f5c5c;
 }
 
 .button.green, .widget-button.green {
-    box-shadow: inset 0 0 1px 1px #40ff40 !important;
+    box-shadow: inset 0 0 1px 1px #2f5c5c;
 }
 
 .button.green:not(.pressed), .widget-button.green:not(.pressed) {
@@ -261,7 +261,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .button:not(.no-hover):not(.disabled):hover:not(.active), 
 .widget-button.black:not(.no-hover):not(.disabled):hover:not(.active) {
     background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
+    box-shadow: inset 0 0 1px 1px #183232;
 }
 
 .button.black:before, .widget-button.black:before,
@@ -276,7 +276,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 
 .button.green.window-is-open::before, 
 .widget-button.green.window-is-open::before {
-    background-color: #101010 !important;
+    background-color: #183232 !important;
 }
 
 .button.red::before, 
