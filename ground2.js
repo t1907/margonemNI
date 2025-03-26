@@ -19,7 +19,7 @@
   background-size:100% 100%
 }
 .border-window{
-  color: #101010;
+  color: #dcdcdc;
 }
 
 .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
