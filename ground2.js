@@ -241,7 +241,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 
 .button,.widget-button{
   border-radius:0;
-  background-image: none;
+  background-image: linear-gradient(to top, #101010, #101010);
   background-color: #101010;
   box-shadow:inset 0 0 0 1px #2f5c5c;
   border:solid 1px #101010;
@@ -250,17 +250,17 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .button.red,.widget-button.red{box-shadow:inset 0 0 0 1px #4a1e1e}
 
 .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
-  background-image:none;
+  background-image: linear-gradient(to top, #101010, #101010);
   box-shadow:inset 0 0 0 1px #2f5c5c;
 }
 
 .button::before,.widget-button::before{
-  box-shadow:inset 0 0 1px 1px #183232;
+  box-shadow:inset 0 0 1px 1px #101010;
   border-radius:0
 }
 .button.red::before,.widget-button.red::before, .button.blue::before,.widget-button.blue::before, .button.green::before,.widget-button.green::before, 
 .button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before, .button.blink-violet::before,.widget-button.blink-violet::before{
-  box-shadow:inset 0 0 1px 1px #183232;
+  box-shadow:inset 0 0 1px 1px #101010;
   border-radius:0
 }
 
@@ -271,7 +271,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   background-color: #183232;
 }
 
-.widget-button::after{box-shadow: none;}
+.widget-button::after{box-shadow: none; border-radius:0;}
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
