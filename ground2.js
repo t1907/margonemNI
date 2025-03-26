@@ -5,8 +5,8 @@
 .gargonem-otherlist-other-button{color: lime !important;}
 .gargonem-window {color: #000000 !important; background: #101010; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
-.cll-alert-content{background: #101010 !important;color: #dcdcdc !important;}
-.cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #101010 !important; color: #dcdcdc !important;}
+.cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
+.cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #101010 !important; color: #f5f5f5 !important;}
 .cll-alert button{background: #101010 !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #101010 !important;}
 .cll-alert button:hover {border: 1px solid lime !important;}
 .cll-alert button:focus {border: 1px solid #40ff40 !important;}
@@ -19,7 +19,7 @@
   background-size:100% 100%
 }
 .border-window{
-  color: #dcdcdc;
+  color: #f5f5f5;
 }
 
 .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
@@ -128,13 +128,13 @@
 
 .border-window .content {background: #101010;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
-.border-window .header-label-positioner .header-label .text{color: #dcdcdc; line-height:28px; margin-top: 5px; text-align:center}
+.border-window .header-label-positioner .header-label .text{color: #f5f5f5; line-height:28px; margin-top: 5px; text-align:center}
 .border-window .header-label-positioner .header-label, 
 .trade-window header .h_background .middle, 
 .trade-window header .h_background .left, 
 .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
-.trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #dcdcdc;}
+.trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
 
 .border-window.transparent .header-label-positioner{top: -45px;}
 
@@ -146,9 +146,9 @@
 .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
 .auction-window .main-column-auction {background: #101010;}
 
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #dcdcdc;}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #dcdcdc;}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #dcdcdc;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
 
 .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
@@ -158,9 +158,9 @@
 .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #2f5c5c;}
 
 .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
-.left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #dcdcdc;}
-.border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #dcdcdc;}
-.left-grouped-list-and-right-description-window{color: #dcdcdc;}
+.left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
+.border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
+.left-grouped-list-and-right-description-window{color: #f5f5f5;}
 
 .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #101010 !important;}
 .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #101010;}
@@ -176,18 +176,18 @@
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #2f5c5c !important;}
 .chat-input-wrapper {background: #101010 !important;}
 .new-chat-window {background: #101010 !important;}
-.chat-configure-window .chat-option-header {color: #dcdcdc !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
+.chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
 
-.left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #dcdcdc}
-.one-item-on-divide-list .name-wrapper{color: #dcdcdc}
+.left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
+.one-item-on-divide-list .name-wrapper{color: #f5f5f5}
 .one-item-on-divide-list .name-wrapper:hover{color: #a4a4a4}
 
-.console-window .scroll-wrapper .scroll-pane .console-content{color: #dcdcdc}
+.console-window .scroll-wrapper .scroll-pane .console-content{color: #f5f5f5}
 .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper,
 .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
-.skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #dcdcdc}
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5}
 
-.MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #dcdcdc}
+.MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #f5f5f5}
 .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #2f5c5c}
 .MBEditor .skills-list .single-skill-row.usable {border-color: #2f5c5c}
 .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(47, 92, 92, 0.15)} 
@@ -196,7 +196,7 @@
 .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #2f5c5c} 
 
 
-.loot-window{color: #dcdcdc}
+.loot-window{color: #f5f5f5}
 .loot-window.colorized.t-her .middle-graphics:after{
 background:radial-gradient(ellipse at center,rgba(112,179,224,.8) 0,rgba(255,255,255,0) 100%)}
 .loot-window.colorized.t-leg .middle-graphics:after{
@@ -213,9 +213,9 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .loot-window .items-wrapper .loot-item-wrapper{box-shadow:2px 2px 2px 0 rgba(0,0,0,.6);border:1px solid #2f5c5c}
 .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
 .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #2f5c5c}
-.loot-window .items-wrapper .loot-item-wrapper .text-info{color: #dcdcdc;border-top:1px solid #2f5c5c;border-bottom:1px solid #2f5c5c} 
+.loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #2f5c5c;border-bottom:1px solid #2f5c5c} 
 .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color:rgba(137,196,0,.5)}
-.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #dcdcdc}
+.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
 
 
 
