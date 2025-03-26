@@ -1,5 +1,9 @@
 (function() {
   $(`<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body {
+  font-family: 'Cinzel', serif;
+}
     #GAME_CANVAS {image-rendering: auto !important;}
     
     .gargonem-otherlist-other-button{color: lime !important;}
