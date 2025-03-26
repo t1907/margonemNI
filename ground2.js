@@ -263,6 +263,13 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   border-radius:0
 }
 
+.button.window-is-open::before,.widget-button.window-is-open::before, .button.red.window-is-open::before,.widget-button.red.window-is-open::before, 
+.button.blue.window-is-open::before,.widget-button.blue.window-is-open::before, .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
+.button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before{
+  background-color: #183232;
+}
+
+.widget-button::after{box-shadow: none;}
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
