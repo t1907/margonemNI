@@ -128,13 +128,15 @@
 
 .border-window .content {background: #101010;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
-.border-window .header-label-positioner .header-label .text{color:#f0f0f0;line-height:28px;text-align:center}
+.border-window .header-label-positioner .header-label .text{color: #dcdcdc; line-height:28px; margin-top: 5px; text-align:center}
 .border-window .header-label-positioner .header-label, 
 .trade-window header .h_background .middle, 
 .trade-window header .h_background .left, 
 .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
 .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #dcdcdc;}
+
+.border-window.transparent .header-label-positioner{top: -45px;}
 
 .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
 
