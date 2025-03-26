@@ -181,7 +181,7 @@
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
 .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #2f5c5c !important; box-shadow: none;}
 .chat-input-wrapper {background: #101010 !important;}
-.new-chat-window {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/background.png) -251px 0 !important;}
+.new-chat-window {background: #101010 !important;}
 .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
 
 .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
