@@ -182,6 +182,9 @@
 .one-item-on-divide-list .name-wrapper:hover{color: #a4a4a4}
 
 .console-window .scroll-wrapper .scroll-pane .console-content{color: #dcdcdc}
+.skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper,
+.skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #dcdcdc}
 
 .loot-window{color: #dcdcdc}
 .loot-window.colorized.t-her .middle-graphics:after{
