@@ -71,7 +71,7 @@
 }
 .interface-element-line-1-background{background:#0d0f12}
 
-.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch; border-style:none;}
+.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch;}
 
 .interface-element-header-1-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png) 0 20 fill stretch}
 .interface-element-header-2-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/match-bar.png) 7 14 fill stretch}
@@ -271,6 +271,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 }
 
 .widget-button::after{box-shadow: none; border-radius:3px;}
+.widget-button .widget-blink{display: none !important;}
 
 .button.black,
 .widget-button.black,
@@ -278,7 +279,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
     background-image: linear-gradient(to top, #0d0f12, #1a1d21);
-  box-shadow:inset 0 0 0 1px #3a7878;
+  box-shadow:inset 0 0 0 1px #48b4b4;
 }
 
 .button.black::before,
@@ -304,9 +305,9 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-  background-color: #3a7878;
+  background-color: #48b4b4;
   background-image: linear-gradient(to top, #1a1d21, #2a2f35);
-  box-shadow: inset 0 0 3px #3a7878, 0 0 8px rgba(58, 120, 120, 0.7);
+  box-shadow: inset 0 0 3px #48b4b4, 0 0 8px rgba(58, 120, 120, 0.7);
 }
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
