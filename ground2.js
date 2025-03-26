@@ -296,7 +296,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
 .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #183232;
+  box-shadow:inset 0 0 1px 1px #48a0a0;
 }
 
 .button.black.window-is-open::before,
