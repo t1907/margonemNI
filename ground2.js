@@ -239,116 +239,67 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
-.button, .widget-button, .button.green, .widget-button.green {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #101010 !important;
+.button,.widget-button{
+  border-radius:0;
+  background-image: none;
+  background-color: #101010;
+  box-shadow:inset 0 0 0 1px #2f5c5c;
+  border:solid 1px #101010;
+  color: #dcdcdc
 }
 
-.button.red, .widget-button.red {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
-}
-
-.button.black, .button:not(.no-hover):not(.disabled):hover:not(.active), .widget-button.black, .widget-button:not(.no-hover):not(.disabled):hover:not(.active), .button.small.green.pressed {
-    background-image: linear-gradient(to top, #101010, #101010) !important;
-    box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #101010 !important;
-}
-
-.button.black:before, .button:not(.no-hover):not(.disabled):hover:not(.active):before, .widget-button.black:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {
-    box-shadow: inset 0 0 1px 1px #101010 !important;
-}
-
-.button.black.active:before, .button:not(.no-hover):not(.disabled):hover:not(.active).active:before, .widget-button.black.active:before, .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {
-    box-shadow: inset 0 0 1px 1px #101010 !important;
-}
-
-.button.green.window-is-open::before, .widget-button.green.window-is-open::before {
-    background-color: #101010 !important;
-}
-
-.button.red::before, .widget-button.red::before {
-    box-shadow: inset 0 0 1px 1px #101010 !important;
-}
-
-.button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before {
-    box-shadow: inset 0 0 1px 1px #101010 !important;
-}
-
-.button.blink-violet::before, .widget-button.blink-violet::before {
-    box-shadow: inset 0 0 1px 1px #101010 !important;
-}
-
-.button::before, .widget-button::before, .button.green::before, .widget-button.green::before {
-    box-shadow: inset 0 0 1px 1px #101010;
-}
-
-.button, .widget-button {
-    border-radius: 0px !important;
-}
-
-.button, .widget-button::after {
-    border-radius: 0px !important;
-    box-shadow: 0 2px 0 1px #101010;
-}
-
-.widget-button .widget-blink {
-    display: none !important;
-}
-
-.content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed) {
-    border-color: #101010;
-    box-shadow: inset 0 0 1px 1px #40ff40 !important;
+.button.red,.widget-button.red, .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet{
+  background-image:linear-gradient(to top,#310b0b,#831f1f);box-shadow:inset 0 0 0 1px #2f5c5c;
 }
 
 
+.card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
-    .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
+.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
 
-    .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
+.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
+.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
+.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
+.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
+.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #2f5c5c; border-left: 1px solid #2f5c5c; border-bottom: 1px solid #2f5c5c;}
 
-    .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
-    .card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
-    .card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table,
-    .card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-    .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #2f5c5c; border-left: 1px solid #2f5c5c; border-bottom: 1px solid #2f5c5c;}
+.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
+.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #2f5c5c; border-left: 1px solid #2f5c5c; border-bottom: 1px solid #2f5c5c;}
 
-    .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-    .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #2f5c5c; border-left: 1px solid #2f5c5c; border-bottom: 1px solid #2f5c5c;}
-
-    .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #2f5c5c}
+.clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #2f5c5c}
 
 
 
