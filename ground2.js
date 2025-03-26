@@ -19,7 +19,7 @@
   background-size:100% 100%
 }
 .border-window{
-  color: #444444;
+  color: #101010;
 }
 
 .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
@@ -180,6 +180,8 @@
 .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #dcdcdc}
 .one-item-on-divide-list .name-wrapper{color: #dcdcdc}
 .one-item-on-divide-list .name-wrapper:hover{color: #a4a4a4}
+
+.console-window .scroll-wrapper .scroll-pane .console-content{color: #dcdcdc}
 
 .loot-window{color:#dcdcdc}
 .loot-window.colorized.t-her .middle-graphics:after{
