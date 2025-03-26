@@ -3,11 +3,11 @@
 #GAME_CANVAS {image-rendering: auto !important;}
 
 .gargonem-otherlist-other-button{color: lime !important;}
-.gargonem-window {color: #000000 !important; background: #0d0f12; border-radius:3px0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+.gargonem-window {color: #000000 !important; background: #101010; border-radius:3px!important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
 
-.cll-alert-content{background: #0d0f12 !important;color: #f5f5f5 !important;}
-.cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #0d0f12 !important; color: #f5f5f5 !important;}
-.cll-alert button{background: #0d0f12 !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #0d0f12 !important;}
+.cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
+.cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #101010 !important; color: #f5f5f5 !important;}
+.cll-alert button{background: #101010 !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #101010 !important;}
 .cll-alert button:hover {border: 1px solid lime !important;}
 .cll-alert button:focus {border: 1px solid #40ff40 !important;}
 .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -22,8 +22,8 @@
   color: #f5f5f5;
 }
 
-.interface-element-grid-border {outline: 1px solid #0d0f12; box-shadow: 0 0 0 1px #404040;}
-.interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #2f5c5c;background:#0d0f12}
+.interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
+.interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #2f5c5c;background:#101010}
 
 .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png)}
 .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
@@ -38,18 +38,18 @@
 
 .interface-element-wood-box-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/info-box-2.png);background-size:100% 100%}
 
-.interface-element-green-box-background{background:#0d0f12}
-.interface-element-green-box-background-stretch{background:#0d0f12}
+.interface-element-green-box-background{background:#101010}
+.interface-element-green-box-background-stretch{background:#101010}
 
-.interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#0d0f12}
+.interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#101010}
 
 .interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #2f5c5c}
 .interface-element-box-shadow-2{box-shadow: 0 0 0 1px #2f5c5c}
 
-.interface-element-one-item-slot-2{border: 1px solid #2f5c5c;outline: 2px solid #0d0f12; background: #0d0f12; box-shadow: inset 2px 0 15px 1px #000;}
+.interface-element-one-item-slot-2{border: 1px solid #2f5c5c;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
 
 .interface-element-middle-1-background, .interface-element-middle-2-background, .interface-element-middle-3-background, .interface-element-middle-4-background{
-  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#0d0f12
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#101010
 }
 
 .interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch}
@@ -59,17 +59,17 @@
 
 .interface-element-table-td-3-border{border:1px solid #2f5c5c}
 .interface-element-table-header-3-border{border:1px solid #2f5c5c}
-.interface-element-table-header-3-background{background:#0d0f12}
+.interface-element-table-header-3-background{background:#101010}
 .interface-element-table-3{color:#f0f0f0}
-.interface-element-table-3 .table-header-tr td{border:1px solid #2f5c5c;background:#0d0f12}
-.interface-element-table-3 tr:nth-of-type(2n+1){background: #0d0f12;}
+.interface-element-table-3 .table-header-tr td{border:1px solid #2f5c5c;background:#101010}
+.interface-element-table-3 tr:nth-of-type(2n+1){background: #101010;}
 .interface-element-table-3 td{border:1px solid #2f5c5c}
 .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png);background-size:100% 100%}
 
 .interface-element-middle-1-background-stretch, .interface-element-middle-2-background-stretch, .interface-element-middle-3-background-stretch{
-  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#0d0f12
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#101010
 }
-.interface-element-line-1-background{background:#0d0f12}
+.interface-element-line-1-background{background:#101010}
 
 .interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch;}
 
@@ -81,7 +81,7 @@
 
 .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,
 .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after{
-  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#0d0f12}
+  border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#101010}
 
 .tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
 
@@ -127,37 +127,37 @@
 .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -701px -1016px}
 .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat 0 -867px;}
 
-.border-window .content {background: #0d0f12;}
+.border-window .content {background: #101010;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
 .border-window .header-label-positioner .header-label .text{color: #f5f5f5; line-height:28px; margin-top: 5px; text-align:center}
 .border-window .header-label-positioner .header-label, 
 .trade-window header .h_background .middle, 
 .trade-window header .h_background .left, 
 .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
-.trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #0d0f12;}
+.trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
 .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
 
 .border-window.transparent .header-label-positioner{top: -45px;}
 
 .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
 
-.tw-list-item{background: #0d0f12 !important;}
+.tw-list-item{background: #101010 !important;}
 .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #2f5c5c; border-radius: 3px;}
 
-.border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #0d0f12;}
-.auction-window .main-column-auction {background: #0d0f12;}
+.border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
+.auction-window .main-column-auction {background: #101010;}
 .auction-window .main-column-auction .auction-search-item{border:1px solid #2f5c5c}
 
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #0d0f12;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
 
 .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
 .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
 .shop-wrapper .shop-background.pet-shop-zl .canopy{}
 .shop-wrapper .shop-background.pet-shop-sl .canopy{}
-.shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #0d0f12; box-shadow: inset 0 0 1px 0 #2f5c5c;}
+.shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #2f5c5c;}
 
 .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
 .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
@@ -165,24 +165,24 @@
 .left-grouped-list-and-right-description-window{color: #f5f5f5;}
 .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #2f5c5c}
 
-.world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #0d0f12 !important;}
-.hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #0d0f12;}
-.players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #2f5c5c !important; background: #0d0f12;}
+.world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #101010 !important;}
+.hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #101010;}
+.players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #2f5c5c !important; background: #101010;}
 
-.crafting-reagent{background: #0d0f12; border: 1px solid #2f5c5c}
+.crafting-reagent{background: #101010; border: 1px solid #2f5c5c}
 
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/skill_hot_skills.png)}
 
 .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #2f5c5c !important; border-bottom: 1px solid #2f5c5c !important;}
 .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-.game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #0d0f12;}
+.game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
 
 .chat-channel-card-wrapper{border: 1px solid #2f5c5c !important;}
 .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
 .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #2f5c5c !important; box-shadow: none;}
-.chat-input-wrapper {background: #0d0f12 !important;}
-.new-chat-window {background: #0d0f12 !important;}
-.chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #2f5c5c !important; background: #0d0f12 !important;}
+.chat-input-wrapper {background: #101010 !important;}
+.new-chat-window {background: #101010 !important;}
+.chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #2f5c5c !important; background: #101010 !important;}
 
 .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
 .one-item-on-divide-list .name-wrapper{color: #f5f5f5}
@@ -231,35 +231,35 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
     color: #f5f5f5;
 }
 
-.popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 3px;background-color: #0d0f12;box-shadow: 0 0 0 1px #2f5c5c;}
-.popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #0d0f12;border: 1px solid #2f5c5c;border-radius: 3px;color: #dcdcdc; }
+.popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 3px;background-color: #101010;box-shadow: 0 0 0 1px #2f5c5c;}
+.popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #101010;border: 1px solid #2f5c5c;border-radius: 3px;color: #dcdcdc; }
 .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), 
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #183232; }
 .popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled {background-color: #4a1e1e}
-.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #0d0f12;}
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
 .button,.widget-button{
   border-radius: 3px;
-  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
-  background-color: #0d0f12;
+  background-image: linear-gradient(to top, #101010, #1a1d21);
+  background-color: #101010;
   box-shadow:inset 0 0 0 1px #2f5c5c;
-  border:solid 1px #0d0f12;
+  border:solid 1px #101010;
   color: #dcdcdc
 }
-.button.red,.widget-button.red{  background-image: linear-gradient(to top, #0d0f12, #1a1d21); box-shadow:inset 0 0 0 1px #4a1e1e}
+.button.red,.widget-button.red{  background-image: linear-gradient(to top, #101010, #1a1d21); box-shadow:inset 0 0 0 1px #4a1e1e}
 .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
-    background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  background-image: linear-gradient(to top, #101010, #1a1d21);
   box-shadow:inset 0 0 0 1px #2f5c5c;
 }
 
 .button::before,.widget-button::before{
-  box-shadow:inset 0 0 1px 1px #0d0f12;
+  box-shadow:inset 0 0 1px 1px #101010;
   border-radius:3px
 }
 .button.red::before,.widget-button.red::before, .button.blue::before,.widget-button.blue::before, .button.green::before,.widget-button.green::before, 
 .button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before, .button.blink-violet::before,.widget-button.blink-violet::before{
-  box-shadow:inset 0 0 1px 1px #0d0f12;
+  box-shadow:inset 0 0 1px 1px #101010;
   border-radius:3px
 }
 
@@ -278,8 +278,8 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
-  box-shadow:inset 0 0 0 1px #48b4b4;
+  background-image: linear-gradient(to top, #101010, #1a1d21);
+  box-shadow:inset 0 0 0 1px #183232;
 }
 
 .button.black::before,
@@ -287,7 +287,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not
 body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
-  box-shadow:inset 0 0 1px 1px #0d0f12;
+  box-shadow:inset 0 0 1px 1px #101010;
   border-radius:3px;
 }
 
@@ -296,7 +296,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
 .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #48b4b4;
+  box-shadow:inset 0 0 1px 1px #183232;
 }
 
 .button.black.window-is-open::before,
@@ -305,7 +305,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-  background-color: #48b4b4;
+  background-color: #183232;
 }
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
