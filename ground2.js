@@ -205,7 +205,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #2f5c5c}
 .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #dcdcdc;border-top:1px solid #2f5c5c;border-bottom:1px solid #2f5c5c} 
 .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color:rgba(137,196,0,.5)}
-.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #2f5c5c}
+.loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #dcdcdc}
 
 
 
