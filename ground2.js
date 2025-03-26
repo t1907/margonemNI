@@ -221,6 +221,14 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color:rgba(137,196,0,.5)}
 .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
 
+.ni-input input.default {
+    border: 1px solid rgba(47, 92, 92, 0.7); /* Lekko przezroczyste obramowanie w morskim odcieniu */
+    border-radius: 5px;
+    background: rgba(16, 16, 16, 0.8); /* Ciemne, półprzezroczyste tło */
+    box-shadow: inset 0 0 6px 1px rgba(47, 92, 92, 0.5); /* Subtelny cień wewnętrzny w kolorze obramowania */
+    color: #dcdcdc; /* Jasny tekst dla dobrej widoczności */
+}
+
 
 
 </style>`).appendTo('head');
