@@ -247,9 +247,9 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   border:solid 1px #101010;
   color: #dcdcdc
 }
+.button.red,.widget-button.red{box-shadow:inset 0 0 0 1px #4a1e1e}
 
-.button.red,.widget-button.red, .button.blue,.widget-button.blue, .button.green,.widget-button.green, 
-.button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
+.button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
   background-image:none;
   box-shadow:inset 0 0 0 1px #2f5c5c;
 }
