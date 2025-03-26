@@ -1,17 +1,19 @@
 (function() {
   $(`<style>
-    @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-body {
-  font-family: 'Cinzel', serif;
+@import url('https://fonts.googleapis.com/css2?family=Norse&family=Raleway:wght@300;400;600&display=swap');
+body, p, .ni-input input {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #d4d4d4; /* Przygaszona szarość dla lepszej czytelności */
 }
     #GAME_CANVAS {image-rendering: auto !important;}
     
     .gargonem-otherlist-other-button{color: lime !important;}
-    .gargonem-window {color: #000000 !important; background: #1b1b1b; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+    .gargonem-window {color: #000000 !important; background: #0a1a2a; border-radius: 0px !important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #2f5c5c, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
     
-    .cll-alert-content{background: #1b1b1b !important;color: #d4d4d4 !important;}
-    .cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #1b1b1b !important; color: #d4d4d4 !important;}
-    .cll-alert button{background: #1b1b1b !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #1b1b1b !important;}
+    .cll-alert-content{background: #0a1a2a !important;color: #d4d4d4 !important;}
+    .cll-alert{border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #2f5c5c !important; background: #0a1a2a !important; color: #d4d4d4 !important;}
+    .cll-alert button{background: #0a1a2a !important; border: 1px solid #2f5c5c !important; box-shadow: 0 0 0 1px #0a1a2a !important;}
     .cll-alert button:hover {border: 1px solid lime !important;}
     .cll-alert button:focus {border: 1px solid #40ff40; !important;}
     .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -19,13 +21,13 @@ body {
     .cll-timer-monster[style]{color: red !important;}
     
     .interface-layer {border-image: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/oi7QxzB.png') 7 repeat !important;}
-    .layer.interface-layer .main-column{background: #1b1b1b !important;}
+    .layer.interface-layer .main-column{background: #0a1a2a !important;}
     .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
     .layer.interface-layer .main-column.right-column {background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/background.png') !important;}
     .layer.interface-layer .positioner.top .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/gora.png') !important;}
     .layer.interface-layer .positioner.bottom .bg{background: url('https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/dol.png') !important;}
-    .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #1b1b1b;}
-    .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #1b1b1b;}
+    .layer.interface-layer .positioner.bottom .bg-additional-widget-left {background: #0a1a2a;}
+    .layer.interface-layer .positioner.bottom .bg-additional-widget-right {background: #0a1a2a;}
     
     .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) -87px -109px}
     .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png);}
@@ -38,34 +40,34 @@ body {
     
     .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #2f5c5c !important; border-bottom: 1px solid #2f5c5c !important;}
     .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-    .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #1b1b1b;}
+    .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #0a1a2a;}
     
     .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #d4d4d4;}
     .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #d4d4d4;}
     .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #d4d4d4;}
-    .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #1b1b1b;}
+    .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #0a1a2a;}
     
     .chat-channel-card-wrapper{border: 1px solid #2f5c5c !important;}
     .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #2f5c5c !important;}
-    .chat-input-wrapper {background: #1b1b1b !important;}
-    .new-chat-window {background: #1b1b1b !important;}
-    .chat-configure-window .chat-option-header {color: #d4d4d4 !important; border: 1px solid #2f5c5c !important; background: #1b1b1b !important;}
+    .chat-input-wrapper {background: #0a1a2a !important;}
+    .new-chat-window {background: #0a1a2a !important;}
+    .chat-configure-window .chat-option-header {color: #d4d4d4 !important; border: 1px solid #2f5c5c !important; background: #0a1a2a !important;}
 
-    .interface-element-background-color-1 {background: #1b1b1b;}
-    .interface-element-background-color-2 {background: #1b1b1b;}
-    .interface-element-background-color-3 {background: #1b1b1b;}
+    .interface-element-background-color-1 {background: #0a1a2a;}
+    .interface-element-background-color-2 {background: #0a1a2a;}
+    .interface-element-background-color-3 {background: #0a1a2a;}
 
-    .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #1b1b1b;}
+    .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #0a1a2a;}
 
     .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #d4d4d4;}
     .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #d4d4d4;}
     .left-grouped-list-and-right-description-window{color: #d4d4d4;}
 
-    .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #1b1b1b !important;}
-    .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #1b1b1b;}
-    .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #2f5c5c !important; background: #1b1b1b;}
+    .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #2f5c5c !important; background: #0a1a2a !important;}
+    .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #0a1a2a;}
+    .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #2f5c5c !important; background: #0a1a2a;}
 
-    .auction-window .main-column-auction {background: #1b1b1b;}
+    .auction-window .main-column-auction {background: #0a1a2a;}
 
     .search-wrapper {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/search.png) 5 9 23 34 fill}
 
@@ -89,7 +91,7 @@ body {
     .additional-skill-panel .graphics .additional-skill-panel-border {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/window-frame.png")  32 20 fill repeat; background-size: 100% 100%;}
     .skills-window .right-column .scroll-wrapper .scroll-pane .empty, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper{color: #d4d4d4;}
 
-    .interface-element-grid-border {outline: 1px solid #1b1b1b; box-shadow: 0 0 0 1px #404040;}
+    .interface-element-grid-border {outline: 1px solid #0a1a2a; box-shadow: 0 0 0 1px #404040;}
 
     .interface-element-one-item-slot-background-to-repeat {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png)}
     .interface-element-item-slot-grid-stretch {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/oneItemSlotToRepeat.png);}
@@ -97,68 +99,68 @@ body {
 
     .interface-element-active-card-border-image{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/width-card-button.png) 5 fill repeat stretch}
 
-    .ni-input input.default {border: 1px solid #2f5c5c; background: #1b1b1b; color: #d4d4d4; box-shadow: none; border-radius: 0px;}
-    input.default {border: 1px solid #2f5c5c; background: #1b1b1b; color: #d4d4d4; box-shadow: none; border-radius: 0px;}
+    .ni-input input.default {border: 1px solid #2f5c5c; background: #0a1a2a; color: #d4d4d4; box-shadow: none; border-radius: 0px;}
+    input.default {border: 1px solid #2f5c5c; background: #0a1a2a; color: #d4d4d4; box-shadow: none; border-radius: 0px;}
 
     .loot-window .items-wrapper .loot-item-wrapper{box-shadow: 0px 0px 0px 1px #2f5c5c; border: 1px solid #2f5c5c00;}
     .loot-window .items-wrapper .loot-item-wrapper .slot {border: 1px solid #2f5c5c;}
-    .loot-window .items-wrapper .loot-item-wrapper .text-info {border-top: 1px solid #1b1b1b;border-bottom: 1px solid #1b1b1b;}
+    .loot-window .items-wrapper .loot-item-wrapper .text-info {border-top: 1px solid #0a1a2a;border-bottom: 1px solid #0a1a2a;}
 
-    .tw-list-item{background: #1b1b1b !important;}
+    .tw-list-item{background: #0a1a2a !important;}
     .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #2f5c5c; border-radius: 0px;}
 
-    .loot-window .button-holder .button{background:linear-gradient(to top, #1b1b1b, #1b1b1b)}
-    .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #1b1b1b}
-    .loot-window .button-holder .button.want{background:linear-gradient(to top, #1b1b1b, #1b1b1b)}
-    .loot-window .button-holder .button.want:before{box-shadow:inset 0 0 1px 1px #1b1b1b}
-    .loot-window .button-holder .button.not{background:linear-gradient(to top, #1b1b1b, #1b1b1b)}
-    .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #1b1b1b}
-    .loot-window .button-holder .button.must{background:linear-gradient(to top, #1b1b1b, #1b1b1b)}
-    .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #1b1b1b;}
+    .loot-window .button-holder .button{background:linear-gradient(to top, #0a1a2a, #0a1a2a)}
+    .loot-window .button-holder .button:before{box-shadow:inset 0 0 1px 1px #0a1a2a}
+    .loot-window .button-holder .button.want{background:linear-gradient(to top, #0a1a2a, #0a1a2a)}
+    .loot-window .button-holder .button.want:before{box-shadow:inset 0 0 1px 1px #0a1a2a}
+    .loot-window .button-holder .button.not{background:linear-gradient(to top, #0a1a2a, #0a1a2a)}
+    .loot-window .button-holder .button.not:before{box-shadow:inset 0 0 1px 1px #0a1a2a}
+    .loot-window .button-holder .button.must{background:linear-gradient(to top, #0a1a2a, #0a1a2a)}
+    .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #0a1a2a;}
 
     .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/buttony.png) no-repeat -800px -79px;}
-    .interface-element-one-item-slot-2 {border: 1px solid #2f5c5c;outline: 2px solid #1b1b1b; background: #1b1b1b; box-shadow: inset 2px 0 15px 1px #000;}
-    .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #1b1b1b;}
+    .interface-element-one-item-slot-2 {border: 1px solid #2f5c5c;outline: 2px solid #0a1a2a; background: #0a1a2a; box-shadow: inset 2px 0 15px 1px #000;}
+    .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #0a1a2a;}
     .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #d4d4d4;}
     .interface-element-box-shadow-1 {box-shadow: inset 0 0 5px 0 #2f5c5c;} 
 
-    .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #1b1b1b; box-shadow: 0 0 0 1px #2f5c5c;}
-    .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #1b1b1b; border: 1px solid #2f5c5c; border-radius: 1px;}
+    .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 1px; background-color: #0a1a2a; box-shadow: 0 0 0 1px #2f5c5c;}
+    .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #0a1a2a; border: 1px solid #2f5c5c; border-radius: 1px;}
     .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #2f5c5c;}
     .popup-menu .menu-item.disabled{background-color: #640000;}
     .popup-menu .menu-item.cooldown-disabled{background-color: #640000;}
-    .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #1b1b1b;}
+    .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #0a1a2a;}
     .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #2f5c5c;}
 
-    .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #1b1b1b, #1b1b1b); box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #1b1b1b;}
-    .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #2f5c5c, inset 0 0 0 3px #1b1b1b;}
+    .button.mz-widget, .widget-button.mz-widget {background: linear-gradient(to top, #0a1a2a, #0a1a2a); box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #0a1a2a;}
+    .button.mz-widget:before, .widget-button.mz-widget:before {box-shadow: inset 0 0 0px 1px #2f5c5c, inset 0 0 0 3px #0a1a2a;}
 
-    .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #1b1b1b, #1b1b1b)!important;box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #1b1b1b!important;}
-    .button.red, .widget-button.red  {background-image: linear-gradient(to top, #1b1b1b, #1b1b1b)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #1b1b1b !important;}
+    .button, .widget-button, .button.green, .widget-button.green {background-image: linear-gradient(to top, #0a1a2a, #0a1a2a)!important;box-shadow: inset 0 0 1px 1px #2f5c5c, inset 0 0 0 3px #0a1a2a!important;}
+    .button.red, .widget-button.red  {background-image: linear-gradient(to top, #0a1a2a, #0a1a2a)!important;box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #0a1a2a !important;}
 
     .button.black,.button:not(.no-hover):not(.disabled):hover:not(.active),.widget-button.black,.widget-button:not(.no-hover):not(.disabled):hover:not(.active),.button.small.green.pressed {
-    background-image: linear-gradient(to top, #1b1b1b,#1b1b1b)!important; box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #1b1b1b !important;
+    background-image: linear-gradient(to top, #0a1a2a,#0a1a2a)!important; box-shadow: inset 0 0 1px 1px #ff4040, inset 0 0 0 3px #0a1a2a !important;
     }
 
-    .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #1b1b1b !important;}
-    .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #1b1b1b !important;}
-    .button.green.window-is-open::before, .widget-button.green.window-is-open::before {background-color: #1b1b1b !important;}
-    .button.red::before, .widget-button.red::before{box-shadow: inset 0 0 1px 1px #1b1b1b !important;}
-    .button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before{box-shadow: inset 0 0 1px 1px #1b1b1b !important;}
-    .button.blink-violet::before, .widget-button.blink-violet::before{box-shadow: inset 0 0 1px 1px #1b1b1b !important;}
-    .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #1b1b1b;}
+    .button.black:before,.button:not(.no-hover):not(.disabled):hover:not(.active):before,.widget-button.black:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active):before {box-shadow: inset 0 0 1px 1px #0a1a2a !important;}
+    .button.black.active:before,.button:not(.no-hover):not(.disabled):hover:not(.active).active:before,.widget-button.black.active:before,.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before {box-shadow: inset 0 0 1px 1px #0a1a2a !important;}
+    .button.green.window-is-open::before, .widget-button.green.window-is-open::before {background-color: #0a1a2a !important;}
+    .button.red::before, .widget-button.red::before{box-shadow: inset 0 0 1px 1px #0a1a2a !important;}
+    .button.ground::before, .button.violet::before, .widget-button.ground::before, .widget-button.violet::before{box-shadow: inset 0 0 1px 1px #0a1a2a !important;}
+    .button.blink-violet::before, .widget-button.blink-violet::before{box-shadow: inset 0 0 1px 1px #0a1a2a !important;}
+    .button::before, .widget-button::before, .button.green::before, .widget-button.green::before{box-shadow: inset 0 0 1px 1px #0a1a2a;}
     .button, .widget-button {border-radius: 0px !important;}
-    .button, .widget-button::after {border-radius: 0px !important; box-shadow: 0 2px 0 1px #1b1b1b}
+    .button, .widget-button::after {border-radius: 0px !important; box-shadow: 0 2px 0 1px #0a1a2a}
     .widget-button .widget-blink{display: none !important;}
 
-    .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #1b1b1b; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
+    .content .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green:not(.pressed){border-color: #0a1a2a; box-shadow:inset 0 0 1px 1px #40ff40 !important;}
 
     .border-window .header-label-positioner .header-label, .trade-window header .h_background .middle, .trade-window header .h_background .left, .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
 
     .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
 
     .border-window {color: #d4d4d4;}
-    .border-window .content {background: #1b1b1b;}
+    .border-window .content {background: #0a1a2a;}
 
     .border-window, .interface-element-border-window-frame {border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/window-frame.png) 32 20 fill repeat;}
 
@@ -170,8 +172,8 @@ body {
 
     .interface-element-vertical-wood {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) repeat;}
 
-    .interface-element-green-box-background {background: #1b1b1b;}
-    .interface-element-green-box-background-stretch {background: #1b1b1b;}
+    .interface-element-green-box-background {background: #0a1a2a;}
+    .interface-element-green-box-background-stretch {background: #0a1a2a;}
 
     .interface-element-wood-box-background {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/info-box-2.png); background-size: 100% 100%}
 
@@ -183,14 +185,14 @@ body {
 
     .interface-element-table-header-1-background {background: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png"); background-size: 100% 100%;}
 
-    .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #1b1b1b;}
-    .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #1b1b1b;}
-    .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #1b1b1b;}
-    .interface-element-middle-4-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #1b1b1b;}
+    .interface-element-middle-1-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #0a1a2a;}
+    .interface-element-middle-2-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #0a1a2a;}
+    .interface-element-middle-3-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #0a1a2a;}
+    .interface-element-middle-4-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png") 0 11 fill round; background: #0a1a2a;}
 
-    .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #1b1b1b;}
-    .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #1b1b1b;}
-    .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #1b1b1b;}
+    .interface-element-middle-1-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #0a1a2a;}
+    .interface-element-middle-2-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #0a1a2a;}
+    .interface-element-middle-3-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round; background: #0a1a2a;}
 
     .interface-element-bottom-bar-background {border-image: url("https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png") 0 20 fill stretch;}
     .interface-element-bottom-bar-background-stretch{border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch;}
@@ -201,7 +203,7 @@ body {
     .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/normal-shop-gold.png) 0 -34px}
     .shop-wrapper .shop-background.pet-shop-zl .canopy{}
     .shop-wrapper .shop-background.pet-shop-sl .canopy{}
-    .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #1b1b1b; box-shadow: inset 0 0 1px 0 #2f5c5c;}
+    .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #0a1a2a; box-shadow: inset 0 0 1px 0 #2f5c5c;}
 
     .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
@@ -276,7 +278,7 @@ body {
     .tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact {color: #ff8400;}
     .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite {color: #fffb00;}
 
-    .tip-wrapper[data-type=t_item] .item-head {background: #1b1b1b; border: 1px solid #2f5c5c;}
+    .tip-wrapper[data-type=t_item] .item-head {background: #0a1a2a; border: 1px solid #2f5c5c;}
     .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type {color: #d4d4d4;}
     .tip-wrapper[data-type=t_item] .item-tip-section {border-bottom: 1px solid #2f5c5c00;}
     .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {color: #ff8400; text-align: center;}
