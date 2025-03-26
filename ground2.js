@@ -241,7 +241,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 
 .button,.widget-button{
   border-radius: 3px;
-    background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
   background-color: #0d0f12;
   box-shadow:inset 0 0 0 1px #2f5c5c;
   border:solid 1px #0d0f12;
@@ -278,7 +278,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 body.mobile-version .button:not(.no-hover):not(.disabled):active,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-    background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
   box-shadow:inset 0 0 0 1px #48b4b4;
 }
 
@@ -296,7 +296,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
 .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
 .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #183232;
+  box-shadow:inset 0 0 1px 1px #48b4b4;
 }
 
 .button.black.window-is-open::before,
