@@ -239,73 +239,52 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #183232;}
 
-.button,.widget-button{
-  border-radius:0;
-  background-image: linear-gradient(to top, #101010, #101010);
-  background-color: #101010;
-  box-shadow:inset 0 0 0 1px #2f5c5c;
-  border:solid 1px #101010;
-  color: #dcdcdc
-}
-.button.red,.widget-button.red{background-image: linear-gradient(to top, #101010, #101010); box-shadow:inset 0 0 0 1px #4a1e1e}
-.button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
-  background-image: linear-gradient(to top, #101010, #101010);
-  box-shadow:inset 0 0 0 1px #2f5c5c;
-}
-
-.button::before,.widget-button::before{
-  box-shadow:inset 0 0 1px 1px #101010;
-  border-radius:0
-}
-.button.red::before,.widget-button.red::before, .button.blue::before,.widget-button.blue::before, .button.green::before,.widget-button.green::before, 
-.button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before, .button.blink-violet::before,.widget-button.blink-violet::before{
-  box-shadow:inset 0 0 1px 1px #101010;
-  border-radius:0
+.button, .widget-button {
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  background-color: #0d0f12;
+  box-shadow: inset 0 0 2px #2f5c5c, 0 0 6px rgba(47, 92, 92, 0.5);
+  border: solid 1px #2f5c5c;
+  color: #dcdcdc;
+  text-shadow: 0 0 3px rgba(47, 92, 92, 0.5);
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
 }
 
-.button.window-is-open::before,.widget-button.window-is-open::before, .button.red.window-is-open::before,.widget-button.red.window-is-open::before, 
-.button.blue.window-is-open::before,.widget-button.blue.window-is-open::before, .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
-.button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before, 
-.button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
+/* Efekt dla czerwonych przycisków */
+.button.red, .widget-button.red {
+  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  box-shadow: inset 0 0 2px #4a1e1e, 0 0 6px rgba(74, 30, 30, 0.5);
+  border-color: #4a1e1e;
+}
+
+/* Zimne akcenty dla przycisków w nordyckich kolorach */
+.button.blue, .widget-button.blue, 
+.button.green, .widget-button.green, 
+.button.purple, .widget-button.purple, 
+.button.violet, .widget-button.violet, 
+.button.blink-violet, .widget-button.blink-violet {
+  background-image: linear-gradient(to top, #0d0f12, #1a1d21);
+  box-shadow: inset 0 0 2px #2f5c5c, 0 0 6px rgba(47, 92, 92, 0.5);
+  border-color: #2f5c5c;
+}
+
+/* Efekt aktywnego okna */
+.button.window-is-open::before, .widget-button.window-is-open::before {
   background-color: #183232;
 }
 
-.widget-button::after{box-shadow: none; border-radius:0;}
-
-.button.black,
-.widget-button.black,
-body.mobile-version .button:not(.no-hover):not(.disabled):active,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),body:not(.mobile-version) 
-.widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-  background-image: linear-gradient(to top, #101010, #101010);
-  box-shadow:inset 0 0 0 1px #183232;
+/* Efekt podświetlenia hover/aktywnego stanu */
+body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
+body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active) {
+  background-image: linear-gradient(to top, #1a1d21, #2a2f35);
+  box-shadow: inset 0 0 3px #3a7878, 0 0 8px rgba(58, 120, 120, 0.7);
+  border-color: #3a7878;
+  color: #f0f0f0;
 }
 
-.button.black::before,
-.widget-button.black::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,body:not(.mobile-version) 
-.widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
-  box-shadow:inset 0 0 1px 1px #101010;
-  border-radius:0;
-}
-
-.button.black.active::before,
-.widget-button.black.active::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,body:not(.mobile-version) 
-.button:not(.no-hover):not(.disabled):hover:not(.active).active::before,body:not(.mobile-version) 
-.widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #183232;
-}
-
-.button.black.window-is-open::before,
-.widget-button.black.window-is-open::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open::before,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
-body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,body:not(.mobile-version) 
-.widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-  background-color: #183232
-}
 
 .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #2f5c5c;}
 
