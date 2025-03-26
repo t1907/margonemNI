@@ -248,7 +248,8 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   color: #dcdcdc
 }
 
-.button.red,.widget-button.red, .button.blue,.widget-button.blue, .button.green,.widget-button.green, .button.purple,.button.violet,.widget-button.purple,.widget-button.violet{
+.button.red,.widget-button.red, .button.blue,.widget-button.blue, .button.green,.widget-button.green, 
+.button.purple,.button.violet,.widget-button.purple,.widget-button.violet, .button.blink-violet,.widget-button.blink-violet{
   background-image:none;
   box-shadow:inset 0 0 0 1px #2f5c5c;
 }
@@ -258,14 +259,15 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
   border-radius:0
 }
 .button.red::before,.widget-button.red::before, .button.blue::before,.widget-button.blue::before, .button.green::before,.widget-button.green::before, 
-.button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before{
+.button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before, .button.blink-violet::before,.widget-button.blink-violet::before{
   box-shadow:inset 0 0 1px 1px #183232;
   border-radius:0
 }
 
 .button.window-is-open::before,.widget-button.window-is-open::before, .button.red.window-is-open::before,.widget-button.red.window-is-open::before, 
 .button.blue.window-is-open::before,.widget-button.blue.window-is-open::before, .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
-.button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before{
+.button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before, 
+.button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
   background-color: #183232;
 }
 
