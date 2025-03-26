@@ -168,6 +168,8 @@
 .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #2f5c5c !important; background: #101010;}
 .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #2f5c5c !important; background: #101010;}
 
+.crafting-reagent{background: #101010; border: 1px solid #2f5c5c}
+
 .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/skill_hot_skills.png)}
 
 .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #2f5c5c !important; border-bottom: 1px solid #2f5c5c !important;}
