@@ -52,7 +52,7 @@
   border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/middle_graphics.png) 0 11 fill round;background:#101010
 }
 
-.interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quests/quest_bar.png) 0 20 fill stretch}
+.interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch}
 
 .interface-element-header-1-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png) 0 20 fill stretch}
 .interface-element-header-2-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/match-bar.png) 7 14 fill stretch}
@@ -71,7 +71,7 @@
 }
 .interface-element-line-1-background{background:#101010}
 
-.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quests/quest_bar.png) 0 20 fill stretch; border-style:none;}
+.interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/quest_bar.png) 0 20 fill stretch; border-style:none;}
 
 .interface-element-header-1-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/table_header.png) 0 20 fill stretch}
 .interface-element-header-2-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/turkus/match-bar.png) 7 14 fill stretch}
