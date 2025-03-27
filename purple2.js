@@ -244,13 +244,13 @@
     background-color:#101010;
     box-shadow:inset 0 0 0 1px #640064,inset 0 0 0 3px #101010;
     border:solid 1px #101010;
-    background-image:linear-gradient(to top,#101010,#101010);
+    background-image:linear-gradient(to top, #101010, #101010);
     box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010;
     color: #dcdcdc;
 }
 
 .button.red,.widget-button.red{
-    background-image:linear-gradient(to top,#101010,#101010);
+    background-image:linear-gradient(to top, #101010, #101010);
     box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #101010
 }
 
@@ -260,7 +260,7 @@
 .button.orange,.widget-button.orange,
 .button.transparent,.widget-button.transparent,
 .button.blink-violet,.widget-button.blink-violet{
-    background-image:linear-gradient(to top,#101010,#101010);
+    background-image:linear-gradient(to top, #101010, #101010);
     box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010
 }
 .button::before,.widget-button::before,
@@ -292,7 +292,7 @@
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color:#320032
+    background-color: #320032
 }
 
 .button.pressed,.widget-button.pressed, 
@@ -300,7 +300,7 @@
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-    background-image:linear-gradient(to top,#101010,#101010);
+    background-image:linear-gradient(to top, #101010, #101010);
     box-shadow:inset 0 0 1px 1px #aa00aa,inset 0 0 0 3px #101010
 }
 .button.pressed::before,.widget-button.pressed::before,
@@ -327,7 +327,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-    background-color:#101010
+    background-color: #101010
 }
 
 
