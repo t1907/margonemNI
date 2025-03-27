@@ -220,13 +220,13 @@
   .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
   .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #640064}
   .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #640064;border-bottom:1px solid #640064} 
-  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #640064}
+  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #cc00cc}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
   .ni-input input.default {
       border: 1px solid #640064;
       border-radius: 3px;
-      background: rgba(16, 16, 16, 0.8);
+      background: #202020;
       box-shadow: inset 0 0 1px 1px #640064;
       color: #f5f5f5;
   }
@@ -282,7 +282,7 @@
 .button.orange.active::before,.widget-button.orange.active::before,
 .button.transparent.active::before,.widget-button.transparent.active::before,
 .button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px #101010
+    box-shadow:inset 0 0 1px 1px #202020
 }
 .button.window-is-open::before,.widget-button.window-is-open::before,
 .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
@@ -292,7 +292,8 @@
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color: #320032
+    background-image:linear-gradient(to top, #202020, #202020);
+    background-color: #202020
 }
 
 .button.pressed,.widget-button.pressed, 
