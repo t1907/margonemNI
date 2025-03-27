@@ -1,91 +1,49 @@
-.button,.widget-button{
+.popup-menu{
+    box-shadow:0 0 0 1px #150f0d inset,0 0 0 1px #b6bbc1b0,0 0 0 2px #150f0d;
+    border-radius:4px;
+    background-color:#3f3b3d;
+}
+.popup-menu .menu-item{
     border-radius:3px;
-    background-color:#101010;
-    box-shadow:inset 0 0 0 1px #640064,inset 0 0 0 3px #101010;
-    border:solid 1px #101010;
-    background-image:linear-gradient(to top,#101010,#101010);
-    box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010;
-    color: #dcdcdc;
+    background-color:#244518;
+    color:#fff;
+    border:1px solid #396420;
 }
-
-.button.red,.widget-button.red{
-    background-image:linear-gradient(to top,#101010,#101010);
-    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #101010
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled){
+    border:1px solid #14705e;background-color:#104d47
 }
-
-.button.green,.widget-button.green, 
-.button.blue,.widget-button.blue,
-.button.purple,.button.violet,.widget-button.purple,.widget-button.violet,
-.button.orange,.widget-button.orange,
-.button.transparent,.widget-button.transparent,
-.button.blink-violet,.widget-button.blink-violet{
-    background-image:linear-gradient(to top,#101010,#101010);
-    box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover{
+    border:1px solid #177f6b;
+    background-color:#135751
 }
-.button::before,.widget-button::before,
-.button.green::before,.widget-button.green::before, 
-.button.red::before,.widget-button.red::before,
-.button.blue::before,.widget-button.blue::before,
-.button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before,
-.button.orange::before,.widget-button.orange::before,
-.button.transparent::before,.widget-button.transparent::before,
-.button.blink-violet::before,.widget-button.blink-violet::before{
-    box-shadow:inset 0 0 1px 1px #101010;
+.popup-menu .menu-item.menu-item--red{
+    background:#4a0e0e;
+    border-color:#831f1f
+}
+.popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
+    background:#571010;
+    border-color:#8f2222
+}
+.popup-menu .menu-item.menu-item--debug{
+    background:#4a0e0e;
+    border-color:orange
+}
+.popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
+    background:#571010;
+    border-color:#ffaa0f}
+.popup-menu .menu-item.disabled{
+    background-color:#081d03
+}
+.popup-menu .menu-item.cooldown-disabled{
+    background-color:#081d03
+}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
+    border:1px solid #4f7b21;
+    background-color:#2e4f18
+}
+.popup-menu .s_cost{
+    border:1px solid rgba(0,0,0,.3);
     border-radius:3px;
+    background-color:rgba(0,0,0,.2);
+    color:#add8e6
 }
-.button.active::before,.widget-button.active::before,
-.button.green.active::before,.widget-button.green.active::before,
-.button.red.active::before,.widget-button.red.active::before, 
-.button.blue.active::before,.widget-button.blue.active::before,
-.button.purple.active::before,.button.violet.active::before,.widget-button.purple.active::before,.widget-button.violet.active::before,
-.button.orange.active::before,.widget-button.orange.active::before,
-.button.transparent.active::before,.widget-button.transparent.active::before,
-.button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px #101010
-}
-.button.window-is-open::before,.widget-button.window-is-open::before,
-.button.green.window-is-open::before,.widget-button.green.window-is-open::before,
-.button.red.window-is-open::before,.widget-button.red.window-is-open::before,
-.button.blue.window-is-open::before,.widget-button.blue.window-is-open::before,
-.button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before,
-.button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
-.button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
-.button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color:#320032
-}
-
-.button.pressed,.widget-button.pressed, 
-.button.black,.widget-button.black,body.mobile-version .button:not(.no-hover):not(.disabled):active,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,
-body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
-body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-    background-image:linear-gradient(to top,#101010,#101010);
-    box-shadow:inset 0 0 1px 1px #aa00aa,inset 0 0 0 3px #101010
-}
-.button.pressed::before,.widget-button.pressed::before,
-.button.black::before,.widget-button.black::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
-body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,
-body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
-    box-shadow:inset 0 0 1px 1px #101010;
-    border-radius:3px;
-}
-
-.button.pressed.active::before,.widget-button.pressed.active::before,
-.button.black.active::before,.widget-button.black.active::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,
-body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,
-body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-    box-shadow:inset 0 0 1px 1px #101010
-}
-.button.pressed.window-is-open::before,.widget-button.pressed.window-is-open::before,
-.button.black.window-is-open::before,.widget-button.black.window-is-open::before,
-body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open::before,
-body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
-body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,
-body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-    background-color:#101010
-}
-

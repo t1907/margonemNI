@@ -231,13 +231,66 @@
       color: #f5f5f5;
   }
   
-  .popup-menu, .mAlert-layer .scroll-wrapper.menu-wrapper {border-radius: 0;background-color: #101010;box-shadow: 0 0 0 1px #640064;}
-  .popup-menu .menu-item, .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {background: #101010;border: 1px solid #640064;border-radius: 0;color: #dcdcdc; }
-  .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu), 
-  .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {background-color: #183232; }
-  .popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled {background-color: #4a1e1e}
-  .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
-  .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #320032;}
+.popup-menu {
+    box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #640064b0, 0 0 0 2px #2b002b;
+    border-radius: 4px;
+    background-color: #220022;
+}
+
+.popup-menu .menu-item {
+    border-radius: 3px;
+    background-color: #320032;
+    color: #dcdcdc;
+    border: 1px solid #640064;
+}
+
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
+    border: 1px solid #7a007a;
+    background-color: #500050;
+}
+
+.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
+    border: 1px solid #8a008a;
+    background-color: #640064;
+}
+
+.popup-menu .menu-item.menu-item--red {
+    background: #3a002a;
+    border-color: #7a003a;
+}
+
+.popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    background: #50003a;
+    border-color: #92004a;
+}
+
+.popup-menu .menu-item.menu-item--debug {
+    background: #3a002a;
+    border-color: #d98c00;
+}
+
+.popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    background: #50003a;
+    border-color: #ffae42;
+}
+
+.popup-menu .menu-item.disabled,
+.popup-menu .menu-item.cooldown-disabled {
+    background-color: #200020;
+}
+
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
+    border: 1px solid #7a007a;
+    background-color: #3f003f;
+}
+
+.popup-menu .s_cost {
+    border: 1px solid rgba(100, 0, 100, 0.3);
+    border-radius: 3px;
+    background-color: rgba(100, 0, 100, 0.2);
+    color: #b08cd9;
+}
+
   
 .button,.widget-button{
     border-radius:0;
