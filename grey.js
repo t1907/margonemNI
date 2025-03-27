@@ -430,9 +430,6 @@ background-color: #202020
 
 .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #808080}
 
-
-
-
 </style>`).appendTo('head');
 }
 )();
