@@ -220,7 +220,7 @@
   .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
   .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #640064}
   .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #640064;border-bottom:1px solid #640064} 
-  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color:rgba(137,196,0,.5)}
+  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #640064}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
   .ni-input input.default {
