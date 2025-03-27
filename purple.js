@@ -225,7 +225,7 @@
   
   .ni-input input.default {border: 1px solid #640064;border-radius: 0;background: #101010;box-shadow: inset 0 0 1px 1px #640064;color: #f5f5f5;}
   
-.popup-menu {box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #640064b0, 0 0 0 2px #2b002b;border-radius: 4px;background-color: #220022;}
+.popup-menu {box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #640064b0, 0 0 0 2px #2b002b;border-radius: 0;background-color: #220022;}
 .popup-menu .menu-item {border-radius: 0;background-color: #320032;color: #dcdcdc;border: 1px solid #640064;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {border: 1px solid #7a007a;background-color: #500050;}
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {border: 1px solid #8a008a;background-color: #640064;}
@@ -252,7 +252,7 @@
 .mAlert-layer .scroll-wrapper.menu-wrapper,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper {
     box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #640064b0, 0 0 0 2px #2b002b;
-    border-radius: 4px;
+    border-radius: 0;
     background-color: #220022;
 }
 
