@@ -239,6 +239,21 @@
   .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {background: #101010;}
   .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {background-color: #320032;}
   
+.button,.widget-button{
+    border-radius:3px;
+    background-color:#101010;
+    box-shadow:inset 0 0 0 1px #640064,inset 0 0 0 3px #101010;
+    border:solid 1px #101010;
+    background-image:linear-gradient(to top,#101010,#101010);
+    box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010;
+    color: #dcdcdc;
+}
+
+.button.red,.widget-button.red{
+    background-image:linear-gradient(to top,#101010,#101010);
+    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #101010
+}
+
 .button.green,.widget-button.green, 
 .button.blue,.widget-button.blue,
 .button.purple,.button.violet,.widget-button.purple,.widget-button.violet,
@@ -246,32 +261,38 @@
 .button.transparent,.widget-button.transparent,
 .button.blink-violet,.widget-button.blink-violet{
     background-image:linear-gradient(to top,#101010,#101010);
-    box-shadow:inset 0 0 1px 1px #cecece,inset 0 0 0 3px #101010
+    box-shadow:inset 0 0 1px 1px #640064,inset 0 0 0 3px #101010
 }
+.button::before,.widget-button::before,
 .button.green::before,.widget-button.green::before, 
+.button.red::before,.widget-button.red::before,
 .button.blue::before,.widget-button.blue::before,
 .button.purple::before,.button.violet::before,.widget-button.purple::before,.widget-button.violet::before,
 .button.orange::before,.widget-button.orange::before,
 .button.transparent::before,.widget-button.transparent::before,
 .button.blink-violet::before,.widget-button.blink-violet::before{
-    box-shadow:inset 0 0 1px 1px rgba(85,148,212,.65);
+    box-shadow:inset 0 0 1px 1px #101010;
     border-radius:3px;
 }
-.button.green.active::before,.widget-button.green.active::before, 
+.button.active::before,.widget-button.active::before,
+.button.green.active::before,.widget-button.green.active::before,
+.button.red.active::before,.widget-button.red.active::before, 
 .button.blue.active::before,.widget-button.blue.active::before,
 .button.purple.active::before,.button.violet.active::before,.widget-button.purple.active::before,.widget-button.violet.active::before,
 .button.orange.active::before,.widget-button.orange.active::before,
 .button.transparent.active::before,.widget-button.transparent.active::before,
 .button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px rgba(14,34,54,.65)
+    box-shadow:inset 0 0 1px 1px #101010
 }
+.button.window-is-open::before,.widget-button.window-is-open::before,
 .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
+.button.red.window-is-open::before,.widget-button.red.window-is-open::before,
 .button.blue.window-is-open::before,.widget-button.blue.window-is-open::before,
 .button.purple.window-is-open::before,.button.violet.window-is-open::before,.widget-button.purple.window-is-open::before,.widget-button.violet.window-is-open::before,
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color:#1c1a1e
+    background-color:#320032
 }
 
 
