@@ -223,7 +223,7 @@
   .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #cc00cc}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
-  .ni-input input.default {border: 1px solid #640064;border-radius: 0;background: #101010;box-shadow: inset 0 0 1px 1px #640064;color: #f5f5f5;}
+  .ni-input input.default {border: 1px solid #640064;border-radius: 0;background: #101010;box-shadow: inset 0 0 1px 1px #101010;color: #f5f5f5;}
 
 .alerts-layer .big-messages .message .inner,
 .console-layer .big-messages .message .inner,
