@@ -272,7 +272,7 @@
 .button.transparent::before,.widget-button.transparent::before,
 .button.blink-violet::before,.widget-button.blink-violet::before{
     box-shadow:inset 0 0 1px 1px #101010;
-    border-radius:3px;
+    border-radius:0;
 }
 .button.active::before,.widget-button.active::before,
 .button.green.active::before,.widget-button.green.active::before,
@@ -311,7 +311,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
     box-shadow:inset 0 0 1px 1px #202020;
-    border-radius:3px;
+    border-radius:0;
 }
 
 .button.pressed.active::before,.widget-button.pressed.active::before,
@@ -320,7 +320,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-    box-shadow:inset 0 0 1px 1px #202020
+  box-shadow:inset 0 0 1px 1px #202020
 }
 .button.pressed.window-is-open::before,.widget-button.pressed.window-is-open::before,
 .button.black.window-is-open::before,.widget-button.black.window-is-open::before,
@@ -328,7 +328,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-    background-color: #202020
+  background-color: #202020
 }
 
 
