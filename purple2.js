@@ -282,7 +282,7 @@
 .button.orange.active::before,.widget-button.orange.active::before,
 .button.transparent.active::before,.widget-button.transparent.active::before,
 .button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px #202020
+    box-shadow:inset 0 0 1px 1px #101010
 }
 .button.window-is-open::before,.widget-button.window-is-open::before,
 .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
@@ -292,7 +292,7 @@
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color: #202020
+    background-color: #101010
 }
 
 .button.pressed,.widget-button.pressed, 
