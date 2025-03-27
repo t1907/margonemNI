@@ -198,7 +198,7 @@
 .MBEditor .skills-list .single-skill-row.usable {border-color: #808080}
 .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(47, 95, 95, 0.25)} 
 .MBEditor .skills-list .single-skill-row.usable .number {border-color: #808080}
-.MBEditor .skills-list .single-skill-row.usable:hover {background: #2f5f5f}
+.MBEditor .skills-list .single-skill-row.usable:hover {background: #5f5f5f}
 .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #808080} 
 
 
@@ -220,7 +220,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
 .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #808080}
 .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #dcdcdc;border-top:1px solid #808080;border-bottom:1px solid #808080} 
-.loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #2f5f5f}
+.loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #5f5f5f}
 .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #dcdcdc}
 
 .ni-input input.default {border: 1px solid #808080;border-radius: 0;background: #101010;box-shadow: inset 0 0 1px 1px #101010;color: #dcdcdc;}
@@ -266,7 +266,7 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
-  border: 1px solid #2f5f5f;
+  border: 1px solid #5f5f5f;
   background-color: #202020;
 }
 
@@ -274,20 +274,20 @@ background:radial-gradient(ellipse at center,rgba(186,68,36,.8) 0,rgba(255,255,2
 .console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
-  border: 1px solid #2f5f5f;
+  border: 1px solid #5f5f5f;
   background-color: #202020;
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
-border: 1px solid #2f5f5f;
+border: 1px solid #5f5f5f;
 background-color: #202020;
 }
 .popup-menu .menu-item.menu-item--red {background: #8a001e;border-color: #ff003c;color: #fff;}
 .popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background: #a00026;border-color: #ff1444;}
 .popup-menu .menu-item.menu-item--debug {background: #8a001e;border-color: #ffaa00;color: #fff;}
 .popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background: #a00026;border-color: #ffc04d;}
-.popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled {background-color: #2f5f5f; color: #7a007a;border: 1px solid #202020;opacity: 0.7;}
-.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #7a007a;background-color: #3f003f;}
+.popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled {background-color: #5f5f5f; color: #7a7a7a;border: 1px solid #202020;opacity: 0.7;}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #7a7a7a;background-color: #3f3f3f;}
 .popup-menu .s_cost {border: 1px solid rgba(100, 0, 100, 0.3);border-radius: 0;background-color: rgba(100, 0, 100, 0.2);color: #b08cd9;}
 
 .button,.widget-button{
@@ -352,7 +352,7 @@ body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
   background-image:linear-gradient(to top, #202020, #202020);
-  box-shadow:inset 0 0 1px 1px #2f5f5f,inset 0 0 0 3px #202020
+  box-shadow:inset 0 0 1px 1px #5f5f5f,inset 0 0 0 3px #202020
 }
 .button.pressed::before,.widget-button.pressed::before,
 .button.black::before,.widget-button.black::before,
