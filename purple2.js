@@ -300,8 +300,8 @@
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-    background-image:linear-gradient(to top, #101010, #101010);
-    box-shadow:inset 0 0 1px 1px #aa00aa,inset 0 0 0 3px #101010
+    background-image:linear-gradient(to top, #202020, #202020);
+    box-shadow:inset 0 0 1px 1px #cc00cc,inset 0 0 0 3px #202020
 }
 .button.pressed::before,.widget-button.pressed::before,
 .button.black::before,.widget-button.black::before,
@@ -309,7 +309,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
-    box-shadow:inset 0 0 1px 1px #101010;
+    box-shadow:inset 0 0 1px 1px #202020;
     border-radius:3px;
 }
 
@@ -319,7 +319,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-    box-shadow:inset 0 0 1px 1px #101010
+    box-shadow:inset 0 0 1px 1px #202020
 }
 .button.pressed.window-is-open::before,.widget-button.pressed.window-is-open::before,
 .button.black.window-is-open::before,.widget-button.black.window-is-open::before,
@@ -327,7 +327,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-    background-color: #101010
+    background-color: #202020
 }
 
 
