@@ -238,7 +238,7 @@
 }
 
 .popup-menu .menu-item {
-    border-radius: 3px;
+    border-radius: 0;
     background-color: #320032;
     color: #dcdcdc;
     border: 1px solid #640064;
@@ -294,7 +294,7 @@
 
 .popup-menu .s_cost {
     border: 1px solid rgba(100, 0, 100, 0.3);
-    border-radius: 3px;
+    border-radius: 0;
     background-color: rgba(100, 0, 100, 0.2);
     color: #b08cd9;
 }
