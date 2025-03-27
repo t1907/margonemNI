@@ -196,9 +196,9 @@
   .MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #f5f5f5}
   .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #640064}
   .MBEditor .skills-list .single-skill-row.usable {border-color: #640064}
-  .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(47, 92, 92, 0.15)} 
+  .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(100, 0, 100, 0.25)} 
   .MBEditor .skills-list .single-skill-row.usable .number {border-color: #640064}
-  .MBEditor .skills-list .single-skill-row.usable:hover {background: #183232}
+  .MBEditor .skills-list .single-skill-row.usable:hover {background: #320032}
   .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #640064} 
   
   
