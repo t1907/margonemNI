@@ -254,29 +254,37 @@
     background-color: #640064;
 }
 
+/* Wyróżnienie RED */
 .popup-menu .menu-item.menu-item--red {
-    background: #3a002a;
-    border-color: #7a003a;
+    background: #8a001e; /* Intensywniejsza czerwień */
+    border-color: #ff003c;
+    color: #fff;
 }
 
 .popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
-    background: #50003a;
-    border-color: #92004a;
+    background: #a00026;
+    border-color: #ff1444;
 }
 
+/* Wyróżnienie DEBUG */
 .popup-menu .menu-item.menu-item--debug {
-    background: #3a002a;
-    border-color: #d98c00;
+    background: #8a001e;
+    border-color: #ffaa00;
+    color: #fff;
 }
 
 .popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
-    background: #50003a;
-    border-color: #ffae42;
+    background: #a00026;
+    border-color: #ffc04d;
 }
 
+/* Wyróżnienie DISABLED */
 .popup-menu .menu-item.disabled,
 .popup-menu .menu-item.cooldown-disabled {
-    background-color: #200020;
+    background-color: #2f002f; /* Mocniejszy kontrast */
+    color: #7a007a;
+    border: 1px solid #550055;
+    opacity: 0.7;
 }
 
 .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {
@@ -290,6 +298,7 @@
     background-color: rgba(100, 0, 100, 0.2);
     color: #b08cd9;
 }
+
 
   
 .button,.widget-button{
