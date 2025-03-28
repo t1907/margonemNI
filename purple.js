@@ -142,6 +142,9 @@
   .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
   
   .tw-list-item{background: #101010 !important; border-radius: 2px; box-shadow: 0 0 0 1px rgb(150 0 150 / 23%) inset, 0 0 0 1px rgba(0, 0, 0, 0.55)}
+  .tw-list-item:hover {
+    background: rgb(255 0 255 / 48%);
+  }
   .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #640064; border-radius: 0;}
   .border-window.transparent .search-wrapper{border-top:1px solid rgba(100,0,100,.5)}
   
