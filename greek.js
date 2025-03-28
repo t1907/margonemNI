@@ -3,11 +3,11 @@
   #GAME_CANVAS {image-rendering: auto !important;}
   
   .gargonem-otherlist-other-button{color: lime !important;}
-  .gargonem-window {color: #000000 !important; background: #101010; border-radius:0!important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #bfa77a, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+  .gargonem-window {color: #000000 !important; background: rgb(61, 45, 33); border-radius:0!important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #c2a57d, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
   
-  .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
-  .cll-alert{border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #bfa77a; !important; background: #101010 !important; color: #f5f5f5 !important;}
-  .cll-alert button{background: #101010 !important; border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #101010 !important;}
+  .cll-alert-content{background: rgb(61, 45, 33) !important;color: #f5f5f5 !important;}
+  .cll-alert{border: 1px solid #c2a57d !important; box-shadow: 0 0 0 1px #c2a57d; !important; background: rgb(61, 45, 33) !important; color: #f5f5f5 !important;}
+  .cll-alert button{background: rgb(61, 45, 33) !important; border: 1px solid #c2a57d !important; box-shadow: 0 0 0 1px rgb(61, 45, 33) !important;}
   .cll-alert button:hover {border: 1px solid lime !important;}
   .cll-alert button:focus {border: 1px solid #40ff40 !important;}
   .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -23,13 +23,13 @@
   }
   
 .interface-element-grid-border {
-  outline: 1px solid #101010; /* Głęboki morski granat */
-  box-shadow: 0 0 0 1px #bfa77a; /* Złoty akcent */
+  outline: 1px solid rgb(61, 45, 33); /* Głęboki morski granat */
+  box-shadow: 0 0 0 1px #c2a57d; /* Złoty akcent */
 }
 
 .interface-element-border-window-header-middle {
-  box-shadow: inset 0 1px 0 0 #bfa77a; /* Subtelny złoty efekt */
-  background: #101010; /* Mroczny błękit inspirowany Morzem Egejskim */
+  box-shadow: inset 0 1px 0 0 #c2a57d; /* Subtelny złoty efekt */
+  background: rgb(61, 45, 33); /* Mroczny błękit inspirowany Morzem Egejskim */
 }
 
   
@@ -46,18 +46,18 @@
   
   .interface-element-wood-box-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/info-box-2.png);background-size:100% 100%}
   
-  .interface-element-green-box-background{background:#101010}
-  .interface-element-green-box-background-stretch{background:#101010}
+  .interface-element-green-box-background{background:rgb(61, 45, 33)}
+  .interface-element-green-box-background-stretch{background:rgb(61, 45, 33)}
   
-  .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#101010}
+  .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:rgb(61, 45, 33)}
   
-  .interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #bfa77a}
-  .interface-element-box-shadow-2{box-shadow: 0 0 0 1px #bfa77a;}
+  .interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #c2a57d}
+  .interface-element-box-shadow-2{box-shadow: 0 0 0 1px #c2a57d;}
   
-  .interface-element-one-item-slot-2{border: 1px solid #bfa77a;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
+  .interface-element-one-item-slot-2{border: 1px solid #c2a57d;outline: 2px solid rgb(61, 45, 33); background: rgb(61, 45, 33); box-shadow: inset 2px 0 15px 1px #000;}
   
   .interface-element-middle-1-background, .interface-element-middle-2-background, .interface-element-middle-3-background, .interface-element-middle-4-background{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:rgb(61, 45, 33)
   }
   
   .interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/quest_bar.png) 0 20 fill stretch}
@@ -65,19 +65,19 @@
   .interface-element-header-1-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/table_header.png) 0 20 fill stretch}
   .interface-element-header-2-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/match-bar.png) 7 14 fill stretch}
   
-  .interface-element-table-td-3-border{border:1px solid #bfa77a}
-  .interface-element-table-header-3-border{border:1px solid #bfa77a}
-  .interface-element-table-header-3-background{background:#101010}
+  .interface-element-table-td-3-border{border:1px solid #c2a57d}
+  .interface-element-table-header-3-border{border:1px solid #c2a57d}
+  .interface-element-table-header-3-background{background:rgb(61, 45, 33)}
   .interface-element-table-3{color:#f0f0f0}
-  .interface-element-table-3 .table-header-tr td{border:1px solid #bfa77a;background:#101010}
-  .interface-element-table-3 tr:nth-of-type(2n+1){background: #101010;}
-  .interface-element-table-3 td{border:1px solid #bfa77a}
+  .interface-element-table-3 .table-header-tr td{border:1px solid #c2a57d;background:rgb(61, 45, 33)}
+  .interface-element-table-3 tr:nth-of-type(2n+1){background: rgb(61, 45, 33);}
+  .interface-element-table-3 td{border:1px solid #c2a57d}
   .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/table_header.png);background-size:100% 100%}
   
   .interface-element-middle-1-background-stretch, .interface-element-middle-2-background-stretch, .interface-element-middle-3-background-stretch{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:rgb(61, 45, 33)
   }
-  .interface-element-line-1-background{background:#101010}
+  .interface-element-line-1-background{background:rgb(61, 45, 33)}
   
   .interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/quest_bar.png) 0 20 fill stretch;}
   
@@ -89,7 +89,7 @@
   
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010}
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:rgb(61, 45, 33)}
   
   .tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   
@@ -103,7 +103,7 @@
   
   .tabs-nav .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%}
-  .auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #bfa77a;color:#f0f0f0}
+  .auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #c2a57d;color:#f0f0f0}
   .depo .bottom-section .cards-menu .card::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) 17 20 fill repeat}
   .matchmaking-ranking .ranking-tabs .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
@@ -135,27 +135,27 @@
   .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -701px -1016px}
   .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat 0 -867px;}
   
-  .border-window .content {background: #101010;}
+  .border-window .content {background: rgb(61, 45, 33);}
   .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
   .border-window .header-label-positioner .header-label .text{color: #f5f5f5; line-height:28px; margin-top: 5px; text-align:center}
   .border-window .header-label-positioner .header-label, 
   .trade-window header .h_background .middle, 
   .trade-window header .h_background .left, 
   .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
-  .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
+  .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: rgb(61, 45, 33);}
   .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
   
   .border-window.transparent .header-label-positioner{top: -45px;}
   
   .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
   
-  .tw-list-item{background: #101010 !important;}
-  .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #bfa77a;; border-radius: 0;}
+  .tw-list-item{background: rgb(61, 45, 33) !important;}
+  .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #c2a57d;; border-radius: 0;}
   .border-window.transparent .search-wrapper{border-top:1px solid rgba(191, 167, 122,.5)}
   
-  .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
-  .auction-window .main-column-auction {background: #101010;}
-  .auction-window .main-column-auction .auction-search-item{border:1px solid #bfa77a}
+  .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: rgb(61, 45, 33);}
+  .auction-window .main-column-auction {background: rgb(61, 45, 33);}
+  .auction-window .main-column-auction .auction-search-item{border:1px solid #c2a57d}
 
   .table-with-static-header .table-with-static-header-body.classic-bar .scrollbar-wrapper .background,
 .crafting__contents .scroll-wrapper .scrollbar-wrapper,
@@ -233,54 +233,59 @@
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
-  .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
+  .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: rgb(61, 45, 33);}
   
   .shop-wrapper .shop-background.normal-shop-zl .canopy {background: none !important;}
   .shop-wrapper .shop-background.normal-shop-sl .canopy {background: none !important;}
   .shop-wrapper .shop-background.pet-shop-zl .canopy{background: none !important;}
   .shop-wrapper .shop-background.pet-shop-sl .canopy{background: none !important;}
-  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 5px 0 #bfa77a;}
+  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: rgb(61, 45, 33); box-shadow: inset 0 0 5px 0 #c2a57d;}
   
   .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
   .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
   .border-window.mAlert .content .inner-content, .border-window.mAlert-mobile-layer .content .inner-content{color: #f5f5f5;}
   .left-grouped-list-and-right-description-window{color: #f5f5f5;}
-  .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #bfa77a}
+  .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #c2a57d}
   
-  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #bfa77a !important; background: #101010 !important; color: #dcdcdc}
-  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #bfa77a !important; background: #101010;}
+  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #c2a57d !important; background: rgb(61, 45, 33) !important; color: #d4af37}
+  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #c2a57d !important; background: rgb(61, 45, 33);}
   .players-online__item:hover{background:rgba(191, 167, 122,.5)}
   
-  .location-parameters__item,.server-parameters__item{border:1px solid #bfa77a;color: #dcdcdc;}
+  .location-parameters__item,.server-parameters__item{border:1px solid #c2a57d;color: #d4af37;}
   .location-parameters__item:nth-child(odd),.server-parameters__item:nth-child(odd){background:rgba(191, 167, 122,.5)}
-  .location-parameters__item-value,.server-parameters__item-value{border-left:1px solid #bfa77a;}
-  .location-parameters__item-value a,.server-parameters__item-value a{color: #dcdcdc !important;}
+  .location-parameters__item-value,.server-parameters__item-value{border-left:1px solid #c2a57d;}
+  .location-parameters__item-value a,.server-parameters__item-value a{color: #d4af37 !important;}
 
-  .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #bfa77a !important; background: #101010;}
-  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #bfa77a;background:rgb(13, 27, 42);}
+  .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #c2a57d !important; background: rgb(61, 45, 33);}
+  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #c2a57d;background:rgb(13, 27, 42);}
   .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background:rgb(26, 54, 82);}
-  .hunting-statistics{color: #dcdcdc}
-  .hunting-statistics-item{color: #dcdcdc}
+  .hunting-statistics{color: #d4af37}
+  .hunting-statistics-item{color: #d4af37}
   .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(191, 167, 122,.5)}
 
-  .crafting-reagent{background: #101010; border: 1px solid #bfa77a}
-  .salvage__label, .extraction__label, .enhance__label{border:1px solid #bfa77a; box-shadow:none; color: #dcdcdc; background: #101010}
+  .crafting-reagent{background: rgb(61, 45, 33); border: 1px solid #c2a57d}
+  .salvage__label, .extraction__label, .enhance__label{border:1px solid #c2a57d; box-shadow:none; color: #d4af37; background: rgb(61, 45, 33)}
   
   .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/skill_hot_skills.png)}
   
-  .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #bfa77a !important; border-bottom: 1px solid #bfa77a !important;}
+  .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #c2a57d !important; border-bottom: 1px solid #c2a57d !important;}
   .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-  .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
+  .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid rgb(61, 45, 33);}
 
-  .extended-stats .scroll-pane h3{border-bottom:1px solid #bfa77a;color: #1a3652}
+  .extended-stats .scroll-pane h3{border-bottom:1px solid #c2a57d;color: #1a3652}
   .extended-stats .scroll-pane .stat-group h4{color: #1a3652}
   
-  .chat-channel-card-wrapper{border: 1px solid #bfa77a !important;}
+  .chat-channel-card-wrapper{border: 1px solid #c2a57d !important;}
   .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
-  .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #bfa77a !important; box-shadow: none;}
-  .chat-input-wrapper {background: #101010 !important;}
-  .new-chat-window {background: #101010 !important;}
-  .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #bfa77a !important; background:rgb(13, 27, 42) !important;}
+  .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #c2a57d !important; box-shadow: none;}
+  .chat-input-wrapper {background: rgb(61, 45, 33) !important;}
+  .new-chat-window {background: rgb(61, 45, 33) !important;}
+.chat-configure-window .chat-option-header {
+    color: #d4af37 !important; /* Złoty, nawiązujący do starożytnego Egiptu */
+    border: 1px solid #c2a57d !important; /* Piaskowy odcień, pasujący do obramowań */
+    background: rgb(61, 45, 33) !important; /* Ciepły brąz, przypominający egipskie świątynie */
+}
+
   
   .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
   .one-item-on-divide-list .name-wrapper{color: #f5f5f5}
@@ -291,7 +296,7 @@
   .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
   .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5}
 
-  .table-with-static-header .scroll-table-plug{background: #1a3652; border:1px solid #bfa77a;}
+  .table-with-static-header .scroll-table-plug{background: #1a3652; border:1px solid #c2a57d;}
 
 
 
@@ -299,12 +304,12 @@
 
 
   .MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #f5f5f5}
-  .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #bfa77a}
-  .MBEditor .skills-list .single-skill-row.usable {border-color: #bfa77a}
+  .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #c2a57d}
+  .MBEditor .skills-list .single-skill-row.usable {border-color: #c2a57d}
   .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(26, 54, 82, 0.25)} 
-  .MBEditor .skills-list .single-skill-row.usable .number {border-color: #bfa77a}
+  .MBEditor .skills-list .single-skill-row.usable .number {border-color: #c2a57d}
   .MBEditor .skills-list .single-skill-row.usable:hover {background: #070e15}
-  .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #bfa77a} 
+  .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #c2a57d} 
   
   
   .loot-window{color: #f5f5f5}
@@ -321,14 +326,14 @@
   
   .loot-window .info{border-top:1px solid #3e3e3e;border-bottom:1px solid #3e3e3e}
   .loot-window .info .loot-time{color: #d7b800}
-  .loot-window .items-wrapper .loot-item-wrapper{box-shadow:2px 2px 2px 0 rgba(0,0,0,.6);border:1px solid #bfa77a}
+  .loot-window .items-wrapper .loot-item-wrapper{box-shadow:2px 2px 2px 0 rgba(0,0,0,.6);border:1px solid #c2a57d}
   .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
-  .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #bfa77a}
-  .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #bfa77a;border-bottom:1px solid #bfa77a} 
+  .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #c2a57d}
+  .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #c2a57d;border-bottom:1px solid #c2a57d} 
   .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #346ca4}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
-  .ni-input input.default {border: 1px solid #bfa77a;border-radius: 0;background: #1a3652;box-shadow: inset 0 0 1px 1px rgb(26, 54, 82);color: #f5f5f5;}
+  .ni-input input.default {border: 1px solid #c2a57d;border-radius: 0;background: #1a3652;box-shadow: inset 0 0 1px 1px rgb(26, 54, 82);color: #f5f5f5;}
 
 .alerts-layer .big-messages .message .inner,
 .console-layer .big-messages .message .inner,
@@ -341,38 +346,38 @@
 }
   
 .popup-menu {
-    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
+    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #c2a57db0, 0 0 0 2px #1a3652;
     border-radius: 0;
-    background-color: #101010;
+    background-color: rgb(61, 45, 33);
 }
 .alerts-layer .scroll-wrapper.menu-wrapper,
 .console-layer .scroll-wrapper.menu-wrapper,
 .mAlert-layer .scroll-wrapper.menu-wrapper,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper {
-    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
+    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #c2a57db0, 0 0 0 2px #1a3652;
     border-radius: 0;
-    background-color: #101010;
+    background-color: rgb(61, 45, 33);
 }
 
 .popup-menu .menu-item {
     border-radius: 0;
-    background-color: #101010;
-    color: #dcdcdc;
-    border: 1px solid #bfa77a;
+    background-color: rgb(61, 45, 33);
+    color: #d4af37;
+    border: 1px solid #c2a57d;
 }
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,
 .console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {
     border-radius: 0;
-    background-color: #101010;
-    color: #dcdcdc;
-    border: 1px solid #bfa77a;
+    background-color: rgb(61, 45, 33);
+    color: #d4af37;
+    border: 1px solid #c2a57d;
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
     border: 1px solid #346ca4;
-    background-color: #101010;
+    background-color: rgb(61, 45, 33);
 }
 
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
@@ -380,12 +385,12 @@
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
     border: 1px solid #346ca4;
-    background-color: #101010;
+    background-color: rgb(61, 45, 33);
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
   border: 1px solid #346ca4;
-  background-color: #101010;
+  background-color: rgb(61, 45, 33);
 }
 .popup-menu .menu-item.menu-item--red {background: #8a001e;border-color: #ff003c;color: #fff;}
 .popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background: #a00026;border-color: #ff1444;}
@@ -397,15 +402,15 @@
 
 .button,.widget-button{
     border-radius:0;
-    background-color:#101010;
-    box-shadow:inset 0 0 0 1px #bfa77a,inset 0 0 0 3px #101010;
-    border:solid 1px #101010;
+    background-color:rgb(61, 45, 33);
+    box-shadow:inset 0 0 0 1px #c2a57d,inset 0 0 0 3px rgb(61, 45, 33);
+    border:solid 1px rgb(61, 45, 33);
       background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #101010;
-    color: #dcdcdc;
+    box-shadow:inset 0 0 1px 1px #c2a57d,inset 0 0 0 3px rgb(61, 45, 33);
+    color: #d4af37;
 }
 
 .button.red,.widget-button.red{
@@ -413,7 +418,7 @@
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #101010
+    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px rgb(61, 45, 33)
 }
 
 .button.green,.widget-button.green, 
@@ -426,7 +431,7 @@
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #101010
+    box-shadow:inset 0 0 1px 1px #c2a57d,inset 0 0 0 3px rgb(61, 45, 33)
 }
 .button::before,.widget-button::before,
 .button.green::before,.widget-button.green::before, 
@@ -436,7 +441,7 @@
 .button.orange::before,.widget-button.orange::before,
 .button.transparent::before,.widget-button.transparent::before,
 .button.blink-violet::before,.widget-button.blink-violet::before{
-    box-shadow:inset 0 0 1px 1px #101010;
+    box-shadow:inset 0 0 1px 1px rgb(61, 45, 33);
     border-radius:0;
 }
 .button.active::before,.widget-button.active::before,
@@ -447,7 +452,7 @@
 .button.orange.active::before,.widget-button.orange.active::before,
 .button.transparent.active::before,.widget-button.transparent.active::before,
 .button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px #101010
+    box-shadow:inset 0 0 1px 1px rgb(61, 45, 33)
 }
 .button.window-is-open::before,.widget-button.window-is-open::before,
 .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
@@ -457,7 +462,7 @@
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color: #101010
+    background-color: rgb(61, 45, 33)
 }
 
 .button.pressed,.widget-button.pressed, 
@@ -499,7 +504,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 .widget-button .widget-blink{display: none !important;}
 
-  .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #bfa77a;}
+  .card-content .clan-list-find-panel input.default,.card-content .green-box input.default {border: 1px solid #c2a57d;}
   
   .card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .big-height-td{color: #f5f5f5;}
   
@@ -522,7 +527,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
   .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
   .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table, 
-  .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #bfa77a; border-left: 1px solid #bfa77a; border-bottom: 1px solid #bfa77a;}
+  .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table {border-right: 1px solid #c2a57d; border-left: 1px solid #c2a57d; border-bottom: 1px solid #c2a57d;}
   
   .card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
   .card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
@@ -543,9 +548,9 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   .card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
   .card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
   .card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td, 
-  .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #bfa77a; border-left: 1px solid #bfa77a; border-bottom: 1px solid #bfa77a;}
+  .card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td {border-right: 1px solid #c2a57d; border-left: 1px solid #c2a57d; border-bottom: 1px solid #c2a57d;}
   
-  .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #bfa77a}
+  .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #c2a57d}
   
 @keyframes pulse {
     0% { box-shadow: 0 0 6px 2px rgba(255, 34, 255, 0.8); }
@@ -559,7 +564,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper .content {
-    background: #101010;
+    background: rgb(61, 45, 33);
 }
 
 .tip-wrapper .content .info-wrapper .nick {
