@@ -197,7 +197,7 @@
 .conquer-stats .scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) left 1px top repeat;}
 
 .enhance__progress-bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -104px}
-.enhance__progress--current{background: rgb(200 0 200)}
+.enhance__progress--current, .enhance__progress--preview{background: rgb(200 0 200)}
 .enhance__progress-text--preview{color: rgb(200 0 200)}
 .battle-controller .time .time-inner{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat -1px -47px}
 .party .list .party-member .table-wrapper .hp .hp-bck{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -331px -1px}
