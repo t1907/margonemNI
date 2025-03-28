@@ -246,13 +246,14 @@
   .location-parameters__item-value a,.server-parameters__item-value a{color: #dcdcdc !important;}
 
   .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; background: #101010;}
-  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #320032;background: #101010;}
+  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #640064;background: #101010;}
   .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background: #202020;}
   .hunting-statistics{color: #dcdcdc}
   .hunting-statistics-item{color: #dcdcdc}
   .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(16,16,16,.5)}
 
   .crafting-reagent{background: #101010; border: 1px solid #640064}
+  .salvage__label, .extraction__label, .enhance__label{border:1px solid #640064; box-shadow:none; color: #dcdcdc; background:#101010}
   
   .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
   
