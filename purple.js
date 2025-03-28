@@ -528,14 +528,14 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
   
 @keyframes pulse {
-    0% { box-shadow: 0 0 6px 2px rgba(255, 0, 255, 0.8); }
-    50% { box-shadow: 0 0 10px 4px rgba(255, 0, 255, 0.6); }
-    100% { box-shadow: 0 0 6px 2px rgba(255, 0, 255, 0.8); }
+    0% { box-shadow: 0 0 6px 2px rgba(255, 34, 255, 0.8); }
+    50% { box-shadow: 0 0 10px 4px rgba(255, 34, 255, 0.6); }
+    100% { box-shadow: 0 0 6px 2px rgba(255, 34, 255, 0.8); }
 }
 
 .tip-wrapper {
-    box-shadow: 0 0 0 1px #640064;
-    color: #dcdcdc;
+    box-shadow: 0 0 0 1px #800080;
+    color: #e0e0e0;
 }
 
 .tip-wrapper .content {
@@ -544,7 +544,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 
 .tip-wrapper .content .info-wrapper .nick {
     background: #202020;
-    border: 1px solid #320032;
+    border: 1px solid #4a004a;
     border-radius: 0;
 }
 
@@ -554,7 +554,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper[data-type=t_item] .item-tip-section.s-5 {
-    color: #ff00ff;
+    color: #ff22ff;
     text-align: center;
 }
 
@@ -563,105 +563,108 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper[data-type=t_item] {
-    border-color: #640064;
-    color: #dcdcdc;
-    text-shadow: 1px 1px rgba(0, 0, 0, .5);
+    border-color: #800080;
+    color: #e0e0e0;
+    text-shadow: 1px 1px rgba(0, 0, 0, .6);
 }
 
 .tip-wrapper[data-type=t_item] .item-tip-section {
-    border-bottom: 1px solid rgba(100, 0, 100, .5);
-    box-shadow: 0 .5px rgba(100, 0, 100, 0.3);
+    border-bottom: 1px solid rgba(128, 0, 128, .5);
+    box-shadow: 0 .5px rgba(128, 0, 128, 0.3);
 }
 
+/* Poprawione kolory dla różnych typów przedmiotów */
 .tip-wrapper[data-type=t_item] .item-head .common, 
 .tip-wrapper[data-type=t_item] .item-tip-section .common {
-    color: #b4b4b4; /* Jasnoszary */
+    color: #d0d0d0;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .upgraded, 
 .tip-wrapper[data-type=t_item] .item-tip-section .upgraded {
-    color: #d400d4; /* Intensywny fiolet */
+    color: #e000e0;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .unique, 
 .tip-wrapper[data-type=t_item] .item-tip-section .unique {
-    color: #ffae00; /* Złoty */
+    color: #ffaa22;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .heroic, 
 .tip-wrapper[data-type=t_item] .item-tip-section .heroic {
-    color: #0073ff; /* Żywy niebieski */
+    color: #0088ff;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .legendary, 
 .tip-wrapper[data-type=t_item] .item-tip-section .legendary {
-    color: #ff00ff; /* Jaskrawy fiolet */
+    color: #ff22ff;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .artefact, 
 .tip-wrapper[data-type=t_item] .item-tip-section .artefact {
-    color: #ff0080; /* Różowo-fioletowy */
+    color: #ff3399;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .elite, 
 .tip-wrapper[data-type=t_item] .item-tip-section .elite {
-    color: #ffcc00; /* Jasne złoto */
+    color: #ffd700;
 }
 
 .tip-wrapper[data-type=t_item] .item-head {
     background: #202020;
-    border: 1px solid #640064;
+    border: 1px solid #800080;
     border-radius: 0;
     box-shadow: 0 0 1px #000;
 }
 
+/* Animacja pulsowania dla legendarnych */
 .tip-wrapper[data-item-type=legendary], 
 .tip-wrapper[data-item-type=t-leg] {
-    box-shadow: 0 0 6px 2px #ff00ff;
+    box-shadow: 0 0 6px 2px #ff22ff;
     animation: pulse 1.5s infinite ease-in-out;
 }
 
 .tip-wrapper[data-item-type=heroic], 
 .tip-wrapper[data-item-type=t-her] {
-    box-shadow: 0 0 6px 2px #0073ff;
+    box-shadow: 0 0 6px 2px #0088ff;
 }
 
 .tip-wrapper[data-item-type=t-upgraded], 
 .tip-wrapper[data-item-type=upgraded] {
-    box-shadow: 0 0 6px 2px #d400d4;
+    box-shadow: 0 0 6px 2px #e000e0;
 }
 
 .tip-wrapper[data-item-type=elite], 
 .tip-wrapper[data-item-type=t-elite], 
 .tip-wrapper[data-item-type=t-uniupg], 
 .tip-wrapper[data-item-type=unique] {
-    box-shadow: 0 0 6px 2px #ffae00;
+    box-shadow: 0 0 6px 2px #ffaa22;
 }
 
 .tip-wrapper[data-item-type=artefact], 
 .tip-wrapper[data-item-type=t-art] {
-    box-shadow: 0 0 6px 2px #ff0080;
+    box-shadow: 0 0 6px 2px #ff3399;
 }
 
 .tip-wrapper[data-item-type=normal], 
 .tip-wrapper[data-item-type=t-norm] {
-    box-shadow: 0 0 6px 2px #b4b4b4;
+    box-shadow: 0 0 6px 2px #d0d0d0;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .item {
     background: #202020;
-    border: 1px solid #640064;
+    border: 1px solid #800080;
     box-shadow: 0 0 1px #000;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .item-builds, 
 .tip-wrapper[data-type=t_item] .item-head .item-type {
-    color: #b4b4b4;
+    color: #d0d0d0;
 }
 
 .tip-wrapper[data-type=t_item] .item-head .head-icons .cl-icon {
-    border: 1px solid #640064;
+    border: 1px solid #800080;
 }
+
 
 
 
