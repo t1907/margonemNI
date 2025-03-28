@@ -237,6 +237,14 @@
   .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #640064}
   
   .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #101010 !important; color: #dcdcdc}
+  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important; background: #101010;}
+  .players-online__item:hover{background:rgba(16,16,16,.5)}
+  
+  .location-parameters__item,.server-parameters__item{border:1px solid #640064;color: #dcdcdc;}
+  .location-parameters__item:nth-child(odd),.server-parameters__item:nth-child(odd){background:rgba(16,16,16,.5)}
+  .location-parameters__item-value,.server-parameters__item-value{border-left:1px solid #640064;}
+  .location-parameters__item-value a,.server-parameters__item-value a{color: #dcdcdc !important;}
+
   .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; background: #101010;}
   .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #320032;background: #101010;}
   .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background: #202020;}
@@ -244,8 +252,6 @@
   .hunting-statistics-item{color: #dcdcdc}
   .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(16,16,16,.5)}
 
-  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important; background: #101010;}
-  
   .crafting-reagent{background: #101010; border: 1px solid #640064}
   
   .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
