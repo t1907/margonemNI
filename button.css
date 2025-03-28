@@ -1,49 +1,14 @@
-.popup-menu{
-    box-shadow:0 0 0 1px #150f0d inset,0 0 0 1px #b6bbc1b0,0 0 0 2px #150f0d;
-    border-radius:4px;
-    background-color:#3f3b3d;
-}
-.popup-menu .menu-item{
-    border-radius:3px;
-    background-color:#244518;
-    color:#fff;
-    border:1px solid #396420;
-}
-.popup-menu .menu-item.one-step-skill-menu:not(.disabled){
-    border:1px solid #14705e;background-color:#104d47
-}
-.popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover{
-    border:1px solid #177f6b;
-    background-color:#135751
-}
-.popup-menu .menu-item.menu-item--red{
-    background:#4a0e0e;
-    border-color:#831f1f
-}
-.popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
-    background:#571010;
-    border-color:#8f2222
-}
-.popup-menu .menu-item.menu-item--debug{
-    background:#4a0e0e;
-    border-color:orange
-}
-.popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
-    background:#571010;
-    border-color:#ffaa0f}
-.popup-menu .menu-item.disabled{
-    background-color:#081d03
-}
-.popup-menu .menu-item.cooldown-disabled{
-    background-color:#081d03
-}
-.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){
-    border:1px solid #4f7b21;
-    background-color:#2e4f18
-}
-.popup-menu .s_cost{
-    border:1px solid rgba(0,0,0,.3);
-    border-radius:3px;
-    background-color:rgba(0,0,0,.2);
-    color:#add8e6
-}
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .arrow-up,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .arrow-down,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .track .handle,
+.scroll-wrapper .scrollbar-wrapper .arrow-up,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-up,
+.scroll-wrapper .scrollbar-wrapper .arrow-down,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-down,
+.scroll-wrapper .scrollbar-wrapper .track .handle,.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle,
+.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-up,
+.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-down{background-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/chat-sprite.png)}

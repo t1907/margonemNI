@@ -147,6 +147,77 @@
   .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
   .auction-window .main-column-auction {background: #101010;}
   .auction-window .main-column-auction .auction-search-item{border:1px solid #640064}
+
+  .table-with-static-header .table-with-static-header-body.classic-bar .scrollbar-wrapper .background,
+.crafting__contents .scroll-wrapper .scrollbar-wrapper,
+.auction-window .left-column-auction .left-column-scroll .scrollbar-wrapper .background,
+.auction-window .main-column-auction .all-auction-section .main-all-auction-scroll .scrollbar-wrapper .background,
+.chat-configure-window .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
+.world-window__contents .scroll-wrapper .scrollbar-wrapper,
+.builds-window .scroll-wrapper .scrollbar-wrapper,
+.shop-wrapper .shop-content .shop-items .scrollbar-wrapper .background,
+.layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper.scrollable .scrollbar-wrapper .background,
+.layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper.scrollable .scrollbar-wrapper .background,
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .background,
+.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .background,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .background,
+.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .background,
+.divide-panel .left-column .scroll-wrapper .scrollbar-wrapper .background,
+.divide-panel .right-column .scroll-wrapper .scrollbar-wrapper .background,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .background,
+.battle-controller .battle-content .scrollbar-wrapper .background,
+.quest-log .scroll-wrapper .scrollbar-wrapper .background,
+.settings-window .section .scroll-wrapper .scrollbar-wrapper .background,
+.addons-panel .left-column .scroll-wrapper .scrollbar-wrapper .background,
+.addons-panel .right-column .scroll-wrapper .scrollbar-wrapper .background,
+.mails-window .mail-column .scroll-wrapper .scrollbar-wrapper .background,
+.mails-window__contents .scroll-wrapper .scrollbar-wrapper,
+.extended-stats .scrollbar-wrapper .background,
+.recovery-item .scroll-wrapper .scrollbar-wrapper .background,
+.friend-enemy-list .column .scroll-wrapper .scrollbar-wrapper .background,
+.motel-window .table-wrapper .scrollbar-wrapper .background,
+.gold-shop .scroll-wrapper .scrollbar-wrapper .background,
+.skills-window .left-column .scroll-wrapper .scrollbar-wrapper .background,
+.skills-window .right-column .scroll-wrapper .scrollbar-wrapper .background,
+.left-grouped-list-and-right-description-window .left-column .scroll-wrapper .scrollbar-wrapper .background,
+.left-grouped-list-and-right-description-windo,
+.right-column .scroll-wrapper .scrollbar-wrapper .background,
+.matchmaking-panel .all-pages .choose-eq .builds-wrapper .scrollbar-wrapper .background,
+.stats-and-history .season-wnd .reward-wrapper .scrollbar-wrapper .background,
+.change-outfit .scroll-wrapper .scrollbar-wrapper .background,
+.battle-pass-window .section .scroll-wrapper .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) repeat;}
+.promo-window .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) repeat!important}
+
+.console-window .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
+.clan .right-column .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
+.clan .left-column .scroll-wrapper .scrollbar-wrapper .background,
+.showcase .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
+.mc-addon .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
+.conquer-stats .scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) left 1px top repeat;}
+
+.enhance__progress-bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -104px}
+.battle-controller .time .time-inner{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat -1px -47px}
+.party .list .party-member .table-wrapper .hp .hp-bck{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -331px -1px}
+.party .list .party-member .table-wrapper .hp .hp-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -250px -1px}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat 0 -81px}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -92px}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -254px -136px}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -253px -147px}
+
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
+.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,
+.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .track .handle,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .arrow-up,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .arrow-down,
+.border-window.transparent .scroll-wrapper .scrollbar-wrapper .track .handle,
+.scroll-wrapper .scrollbar-wrapper .arrow-up,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-up,
+.scroll-wrapper .scrollbar-wrapper .arrow-down,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-down,
+.scroll-wrapper .scrollbar-wrapper .track .handle,.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle,
+.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-up,
+.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-down{background-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/chat-sprite.png)}
   
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
@@ -192,7 +263,14 @@
   .skills-window .right-column, .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .requirements-wrapper,
   .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
   .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5}
-  
+
+  .table-with-static-header .scroll-table-plug{background: #202020; border:1px solid #640064;}
+
+
+
+
+
+
   .MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #f5f5f5}
   .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #640064}
   .MBEditor .skills-list .single-skill-row.usable {border-color: #640064}
@@ -223,7 +301,7 @@
   .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #cc00cc}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
-  .ni-input input.default {border: 1px solid #640064;border-radius: 0;background: #101010;box-shadow: inset 0 0 1px 1px #101010;color: #f5f5f5;}
+  .ni-input input.default {border: 1px solid #640064;border-radius: 0;background: #202020;box-shadow: inset 0 0 1px 1px #202020;color: #f5f5f5;}
 
 .alerts-layer .big-messages .message .inner,
 .console-layer .big-messages .message .inner,
