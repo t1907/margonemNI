@@ -27,7 +27,7 @@
   
   .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png)}
   .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
-  .interface-element-one-item-slot-decor{width:34px; height:34px; background: 0 0; border: 1px solid #640064; box-shadow: 0 0 20px rgba(100, 30, 100, 0.6)}
+  .interface-element-one-item-slot-decor{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) -857px -828px}
   .interface-element-vertical-wood{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) repeat}
   
   .interface-element-active-card-border-image{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 5 fill repeat stretch}
