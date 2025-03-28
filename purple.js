@@ -527,7 +527,17 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   
   .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
   
-  
+.tip-wrapper{
+    box-shadow: 0 0 0 1px #640064;
+    color: #dcdcdc;
+}
+
+.tip-wrapper .content{background: #101010;}
+.tip-wrapper .content .info-wrapper .nick{
+    background: #202020;
+    border:1px solid #320032;
+    border-radius:0;
+}
   
   
   </style>`).appendTo('head');
