@@ -15,7 +15,7 @@
   .cll-timer-monster[style]{color: red !important;}
   
   .interface-element-border-window-frame, .battle-controller .graphics .battle-border, .additional-skill-panel .graphics .additional-skill-panel-border, .border-window{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/window-frame.png) 32 20 fill repeat;
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/window-frame.png) 32 20 fill repeat;
     background-size:100% 100%
   }
   .border-window{
@@ -33,18 +33,18 @@
 }
 
   
-  .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png)}
+  .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/oneItemSlotToRepeat.png)}
   .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
   .interface-element-one-item-slot-decor{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) -857px -828px}
-  .interface-element-vertical-wood{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) repeat}
+  .interface-element-vertical-wood{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) repeat}
   
-  .interface-element-active-card-border-image{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 5 fill repeat stretch}
-  .interface-element-active-card-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%}
-  .interface-element-active-card-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 5 fill repeat stretch}
-  .interface-element-card-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%}
-  .interface-element-card-background-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%}
+  .interface-element-active-card-border-image{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) 5 fill repeat stretch}
+  .interface-element-active-card-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%}
+  .interface-element-active-card-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) 5 fill repeat stretch}
+  .interface-element-card-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%}
+  .interface-element-card-background-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%}
   
-  .interface-element-wood-box-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/info-box-2.png);background-size:100% 100%}
+  .interface-element-wood-box-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/info-box-2.png);background-size:100% 100%}
   
   .interface-element-green-box-background{background:#101010}
   .interface-element-green-box-background-stretch{background:#101010}
@@ -57,13 +57,13 @@
   .interface-element-one-item-slot-2{border: 1px solid #bfa77a;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
   
   .interface-element-middle-1-background, .interface-element-middle-2-background, .interface-element-middle-3-background, .interface-element-middle-4-background{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010
   }
   
-  .interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch}
+  .interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/quest_bar.png) 0 20 fill stretch}
   
-  .interface-element-header-1-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png) 0 20 fill stretch}
-  .interface-element-header-2-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/match-bar.png) 7 14 fill stretch}
+  .interface-element-header-1-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/table_header.png) 0 20 fill stretch}
+  .interface-element-header-2-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/match-bar.png) 7 14 fill stretch}
   
   .interface-element-table-td-3-border{border:1px solid #bfa77a}
   .interface-element-table-header-3-border{border:1px solid #bfa77a}
@@ -72,68 +72,68 @@
   .interface-element-table-3 .table-header-tr td{border:1px solid #bfa77a;background:#101010}
   .interface-element-table-3 tr:nth-of-type(2n+1){background: #101010;}
   .interface-element-table-3 td{border:1px solid #bfa77a}
-  .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png);background-size:100% 100%}
+  .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/table_header.png);background-size:100% 100%}
   
   .interface-element-middle-1-background-stretch, .interface-element-middle-2-background-stretch, .interface-element-middle-3-background-stretch{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010
   }
   .interface-element-line-1-background{background:#101010}
   
-  .interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch;}
+  .interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/quest_bar.png) 0 20 fill stretch;}
   
-  .interface-element-header-1-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png) 0 20 fill stretch}
-  .interface-element-header-2-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/match-bar.png) 7 14 fill stretch}
+  .interface-element-header-1-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/table_header.png) 0 20 fill stretch}
+  .interface-element-header-2-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/match-bar.png) 7 14 fill stretch}
   .interface-element-header-1{color:#f0f0f0}
   
-  .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png)}
+  .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/oneItemSlotToRepeat.png)}
   
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010}
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/middle_graphics.png) 0 11 fill round;background:#101010}
   
-  .tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   
   .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected{
-    color:#f0f0f0;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%
+    color:#f0f0f0;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%
   }
   
-  .depo .bottom-section .cards-menu .card:not(.disabled).active::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) 17 20 fill repeat}
-  .matchmaking-ranking .ranking-tabs .cards-header .active{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
-  .cards-header-wrapper .cards-header .card.active{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .depo .bottom-section .cards-menu .card:not(.disabled).active::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) 17 20 fill repeat}
+  .matchmaking-ranking .ranking-tabs .cards-header .active{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .cards-header-wrapper .cards-header .card.active{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   
-  .tabs-nav .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
-  .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%}
-  .auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #bfa77a;color:#f0f0f0}
-  .depo .bottom-section .cards-menu .card::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) 17 20 fill repeat}
-  .matchmaking-ranking .ranking-tabs .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
-  .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
-  .battle-pass-window .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .tabs-nav .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%}
+  .auction-off-item-panel input.default,.auction-window input.default{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;border:1px solid #bfa77a;color:#f0f0f0}
+  .depo .bottom-section .cards-menu .card::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) 17 20 fill repeat}
+  .matchmaking-ranking .ranking-tabs .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
+  .battle-pass-window .cards-header-wrapper .cards-header .card{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/width-card-button-active.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   
-  .search-wrapper{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/search.png) 5 9 23 34 fill}
+  .search-wrapper{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/search.png) 5 9 23 34 fill}
   
-  .tabs-nav::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
-  .mails-window .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
-  .depo .bottom-section .cards-menu .cards-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
-  .matchmaking-ranking .ranking-tabs .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
-  .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
-  .battle-pass-window .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/friend-header.png) 11 13 fill stretch}
+  .tabs-nav::before{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
+  .mails-window .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
+  .depo .bottom-section .cards-menu .cards-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
+  .matchmaking-ranking .ranking-tabs .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
+  .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
+  .battle-pass-window .cards-header-wrapper .header-background-graphic{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/friend-header.png) 11 13 fill stretch}
   
-  .interface-layer {border: 7px solid transparent;border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oi7QxzB.png) 7 repeat !important;box-sizing: border-box;}
-  .layer.interface-layer .main-column.right-column{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oTLO9A2.png) -251px 0}
+  .interface-layer {border: 7px solid transparent;border-image: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/oi7QxzB.png) 7 repeat !important;box-sizing: border-box;}
+  .layer.interface-layer .main-column.right-column{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/oTLO9A2.png) -251px 0}
   .layer.interface-layer .main-column.right-column .border {background: transparent !important;}
-  .layer.interface-layer .main-column .extended-stats .border{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oTLO9A2.png) -251px 0}
-  .layer.interface-layer .positioner.top .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/VW7joVD.png) 0 -61px repeat}
-  .layer.interface-layer .positioner.bottom .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/VW7joVD.png) 0 0 repeat}
+  .layer.interface-layer .main-column .extended-stats .border{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/oTLO9A2.png) -251px 0}
+  .layer.interface-layer .positioner.top .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/VW7joVD.png) 0 -61px repeat}
+  .layer.interface-layer .positioner.bottom .bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/VW7joVD.png) 0 0 repeat}
   
-  .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) -87px -109px}
+  .layer.interface-layer .positioner.top .hud-container {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) -87px -109px}
   .layer.interface-layer .positioner.top .hud-container .map_ball {background: url(https://i.imgur.com/y8yj4E7.png);}
-  .bottom-panel-of-bottom-positioner .bottom-panel-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -256px -870px;}
-  .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -450px -955px}
-  .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -450px -976px}
-  .bottom-panel-pointer-bg .pointer-exp-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -704px -953px}
-  .bottom-panel-pointer-bg .pointer-ttl-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -777px -953px}
-  .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -701px -1016px}
-  .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat 0 -867px;}
+  .bottom-panel-of-bottom-positioner .bottom-panel-graphic {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -256px -870px;}
+  .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -450px -955px}
+  .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -450px -976px}
+  .bottom-panel-pointer-bg .pointer-exp-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -704px -953px}
+  .bottom-panel-pointer-bg .pointer-ttl-graphic{background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -777px -953px}
+  .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat -701px -1016px}
+  .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/buttony.png) no-repeat 0 -867px;}
   
   .border-window .content {background: #101010;}
   .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
@@ -194,24 +194,24 @@
 .matchmaking-panel .all-pages .choose-eq .builds-wrapper .scrollbar-wrapper .background,
 .stats-and-history .season-wnd .reward-wrapper .scrollbar-wrapper .background,
 .change-outfit .scroll-wrapper .scrollbar-wrapper .background,
-.battle-pass-window .section .scroll-wrapper .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) repeat;}
-.promo-window .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) repeat!important}
+.battle-pass-window .section .scroll-wrapper .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/stats-scroll-bar.png) repeat;}
+.promo-window .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/stats-scroll-bar.png) repeat!important}
 
 .console-window .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
 .clan .right-column .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
 .clan .left-column .scroll-wrapper .scrollbar-wrapper .background,
 .showcase .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
 .mc-addon .scroll-wrapper.classic-bar .scrollbar-wrapper .background,
-.conquer-stats .scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) left 1px top repeat;}
+.conquer-stats .scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/stats-scroll-bar.png) left 1px top repeat;}
 
-.enhance__progress-bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -104px}
-.battle-controller .time .time-inner{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat -1px -47px}
-.party .list .party-member .table-wrapper .hp .hp-bck{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -331px -1px}
-.party .list .party-member .table-wrapper .hp .hp-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -250px -1px}
-.one-clan-quest .quest-progress-wrapper .clan-progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat 0 -81px}
-.one-clan-quest .quest-progress-wrapper .clan-progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -92px}
-.matchmaking-progress-stage .bar-and-item-side .progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -254px -136px}
-.matchmaking-progress-stage .bar-and-item-side .progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -253px -147px}
+.enhance__progress-bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) 0 -104px}
+.battle-controller .time .time-inner{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) no-repeat -1px -47px}
+.party .list .party-member .table-wrapper .hp .hp-bck{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) -331px -1px}
+.party .list .party-member .table-wrapper .hp .hp-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) -250px -1px}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) no-repeat 0 -81px}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) 0 -92px}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) -254px -136px}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar .background-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/progressbary.png) -253px -147px}
 
 .alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
 .mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
@@ -226,9 +226,9 @@
 .scroll-wrapper .scrollbar-wrapper .arrow-down,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-down,
 .scroll-wrapper .scrollbar-wrapper .track .handle,.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle,
 .scroll-wrapper.small-bar .scrollbar-wrapper .arrow-up,
-.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-down{background-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/chat-sprite.png)}
+.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-down{background-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/chat-sprite.png)}
 
-.drop-down-menu-section .type-header{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/header_left.png)}
+.drop-down-menu-section .type-header{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/header_left.png)}
   
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
@@ -266,7 +266,7 @@
   .crafting-reagent{background: #101010; border: 1px solid #bfa77a}
   .salvage__label, .extraction__label, .enhance__label{border:1px solid #bfa77a; box-shadow:none; color: #dcdcdc; background: #101010}
   
-  .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
+  .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/greek/skill_hot_skills.png)}
   
   .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #bfa77a !important; border-bottom: 1px solid #bfa77a !important;}
   .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
