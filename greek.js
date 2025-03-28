@@ -151,7 +151,7 @@
   
   .tw-list-item{background: #0d1b2a !important;}
   .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #bfa77a;; border-radius: 0;}
-  .border-window.transparent .search-wrapper{border-top:1px solid rgba(100,0,100,.5)}
+  .border-window.transparent .search-wrapper{border-top:1px solid rgba(191, 167, 122,.5)}
   
   .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #0d1b2a;}
   .auction-window .main-column-auction {background: #0d1b2a;}
@@ -249,19 +249,19 @@
   
   .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #bfa77a !important; background: #0d1b2a !important; color: #dcdcdc}
   .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #bfa77a !important; background: #0d1b2a;}
-  .players-online__item:hover{background:rgba(16,16,16,.5)}
+  .players-online__item:hover{background:rgba(191, 167, 122,.5)}
   
   .location-parameters__item,.server-parameters__item{border:1px solid #bfa77a;color: #dcdcdc;}
-  .location-parameters__item:nth-child(odd),.server-parameters__item:nth-child(odd){background:rgba(16,16,16,.5)}
+  .location-parameters__item:nth-child(odd),.server-parameters__item:nth-child(odd){background:rgba(191, 167, 122,.5)}
   .location-parameters__item-value,.server-parameters__item-value{border-left:1px solid #bfa77a;}
   .location-parameters__item-value a,.server-parameters__item-value a{color: #dcdcdc !important;}
 
   .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #bfa77a !important; background: #0d1b2a;}
-  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #bfa77a;background: #0d1b2a;}
-  .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background: #202020;}
+  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #bfa77a;background:rgb(13, 27, 42);}
+  .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background:rgb(26, 54, 82);}
   .hunting-statistics{color: #dcdcdc}
   .hunting-statistics-item{color: #dcdcdc}
-  .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(16,16,16,.5)}
+  .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(191, 167, 122,.5)}
 
   .crafting-reagent{background: #0d1b2a; border: 1px solid #bfa77a}
   .salvage__label, .extraction__label, .enhance__label{border:1px solid #bfa77a; box-shadow:none; color: #dcdcdc; background: #0d1b2a}
@@ -272,15 +272,15 @@
   .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
   .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #0d1b2a;}
 
-  .extended-stats .scroll-pane h3{border-bottom:1px solid #bfa77a;color: #960096}
-  .extended-stats .scroll-pane .stat-group h4{color: #960096}
+  .extended-stats .scroll-pane h3{border-bottom:1px solid #bfa77a;color: #1a3652}
+  .extended-stats .scroll-pane .stat-group h4{color: #1a3652}
   
   .chat-channel-card-wrapper{border: 1px solid #bfa77a !important;}
   .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
   .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #bfa77a !important; box-shadow: none;}
   .chat-input-wrapper {background: #0d1b2a !important;}
   .new-chat-window {background: #0d1b2a !important;}
-  .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #bfa77a !important; background: #0d1b2a !important;}
+  .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #bfa77a !important; background:rgb(13, 27, 42) !important;}
   
   .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
   .one-item-on-divide-list .name-wrapper{color: #f5f5f5}
@@ -291,7 +291,7 @@
   .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper,
   .skills-window .right-column .scroll-wrapper .scroll-pane .empty{color: #f5f5f5}
 
-  .table-with-static-header .scroll-table-plug{background: #202020; border:1px solid #bfa77a;}
+  .table-with-static-header .scroll-table-plug{background: #1a3652; border:1px solid #bfa77a;}
 
 
 
@@ -301,9 +301,9 @@
   .MBEditor .buttons-wrapper .checkbox-wrapper .mb-label,.MBEditor .buttons-wrapper .clear-btn .mb-label,.MBEditor .buttons-wrapper .close-btn .mb-label,.MBEditor .buttons-wrapper .save-btn .mb-label {color: #f5f5f5}
   .MBEditor .skills-list .single-skill-row {border-bottom: 1px solid #bfa77a}
   .MBEditor .skills-list .single-skill-row.usable {border-color: #bfa77a}
-  .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(100, 0, 100, 0.25)} 
+  .MBEditor .skills-list .single-skill-row.usable:nth-child(odd) {background: rgba(26, 54, 82, 0.25)} 
   .MBEditor .skills-list .single-skill-row.usable .number {border-color: #bfa77a}
-  .MBEditor .skills-list .single-skill-row.usable:hover {background: #320032}
+  .MBEditor .skills-list .single-skill-row.usable:hover {background: #070e15}
   .MBEditor .skills-list .single-skill-row .number {border-right: 1px solid #bfa77a} 
   
   
@@ -325,23 +325,23 @@
   .loot-window .items-wrapper .loot-item-wrapper.yours{border:solid 1px #ffdd00}
   .loot-window .items-wrapper .loot-item-wrapper .slot{border:1px solid #bfa77a}
   .loot-window .items-wrapper .loot-item-wrapper .text-info{color: #f5f5f5;border-top:1px solid #bfa77a;border-bottom:1px solid #bfa77a} 
-  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #cc00cc}
+  .loot-window .items-wrapper .loot-item-wrapper .button-holder .button.green{border-color: #346ca4}
   .loot-window .bottom-wrapper .table-wrapper .bag-left,.loot-window .bottom-wrapper .table-wrapper .time-left{color: #f5f5f5}
   
-  .ni-input input.default {border: 1px solid #bfa77a;border-radius: 0;background: #202020;box-shadow: inset 0 0 1px 1px #202020;color: #f5f5f5;}
+  .ni-input input.default {border: 1px solid #bfa77a;border-radius: 0;background: #1a3652;box-shadow: inset 0 0 1px 1px rgb(26, 54, 82);color: #f5f5f5;}
 
 .alerts-layer .big-messages .message .inner,
 .console-layer .big-messages .message .inner,
 .mAlert-layer .big-messages .message .inner,
 .mAlert-mobile-layer .big-messages .message .inner {
-    background: -webkit-linear-gradient(left, rgba(16, 0, 16, 0), rgba(16, 0, 16, 0.5), rgba(16, 0, 16, 0));
-    background: -o-linear-gradient(left, rgba(16, 0, 16, 0), rgba(16, 0, 16, 0.5), rgba(16, 0, 16, 0));
-    background: -moz-linear-gradient(left, rgba(16, 0, 16, 0), rgba(16, 0, 16, 0.5), rgba(16, 0, 16, 0));
-    background: linear-gradient(to right, rgba(16, 0, 16, 0), rgba(16, 0, 16, 0.5), rgba(16, 0, 16, 0));
+    background: -webkit-linear-gradient(left, rgba(26, 54, 82, 0), rgba(26, 54, 82, 0.5), rgba(26, 54, 82, 0));
+    background: -o-linear-gradient(left, rgba(26, 54, 82, 0), rgba(26, 54, 82, 0.5), rgba(26, 54, 82, 0));
+    background: -moz-linear-gradient(left, rgba(26, 54, 82, 0), rgba(26, 54, 82, 0.5), rgba(26, 54, 82, 0));
+    background: linear-gradient(to right, rgba(26, 54, 82, 0), rgba(26, 54, 82, 0.5), rgba(26, 54, 82, 0));
 }
   
 .popup-menu {
-    box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #2b002b;
+    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
     border-radius: 0;
     background-color: #0d1b2a;
 }
@@ -349,7 +349,7 @@
 .console-layer .scroll-wrapper.menu-wrapper,
 .mAlert-layer .scroll-wrapper.menu-wrapper,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper {
-    box-shadow: 0 0 0 1px #2b002b inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #2b002b;
+    box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
     border-radius: 0;
     background-color: #0d1b2a;
 }
@@ -371,21 +371,21 @@
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
-    border: 1px solid #8a008a;
-    background-color: #500050;
+    border: 1px solid #346ca4;
+    background-color: #0d1b2a;
 }
 
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
-    border: 1px solid #8a008a;
-    background-color: #500050;
+    border: 1px solid #346ca4;
+    background-color: #0d1b2a;
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
-  border: 1px solid #8a008a;
-  background-color: #500050;
+  border: 1px solid #346ca4;
+  background-color: #0d1b2a;
 }
 .popup-menu .menu-item.menu-item--red {background: #8a001e;border-color: #ff003c;color: #fff;}
 .popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background: #a00026;border-color: #ff1444;}
@@ -469,7 +469,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #cc00cc,inset 0 0 0 3px #202020
+    box-shadow:inset 0 0 1px 1px #cc00cc,inset 0 0 0 3px #1a3652
 }
 .button.pressed::before,.widget-button.pressed::before,
 .button.black::before,.widget-button.black::before,
@@ -477,7 +477,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active)::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active)::before{
-    box-shadow:inset 0 0 1px 1px #202020;
+    box-shadow:inset 0 0 1px 1px #1a3652;
     border-radius:0;
 }
 
@@ -487,7 +487,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.active::before,
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.active::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).active::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active::before{
-  box-shadow:inset 0 0 1px 1px #202020
+  box-shadow:inset 0 0 1px 1px #1a3652
 }
 .button.pressed.window-is-open::before,.widget-button.pressed.window-is-open::before,
 .button.black.window-is-open::before,.widget-button.black.window-is-open::before,
@@ -495,7 +495,7 @@ body.mobile-version .button:not(.no-hover):not(.disabled):active.window-is-open:
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active.window-is-open::before,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before,
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open::before{
-  background-color: #202020
+  background-color: #1a3652
 }
 .widget-button .widget-blink{display: none !important;}
 
@@ -563,7 +563,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper .content .info-wrapper .nick {
-    background: #202020;
+    background: #1a3652;
     border: 1px solid #4a004a;
     border-radius: 0;
 }
@@ -630,7 +630,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper[data-type=t_item] .item-head {
-    background: #202020;
+    background: #1a3652;
     border: 1px solid #800080;
     border-radius: 0;
     box-shadow: 0 0 1px #000;
@@ -671,7 +671,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper[data-type=t_item] .item-head .item {
-    background: #202020;
+    background: #1a3652;
     border: 1px solid #800080;
     box-shadow: 0 0 1px #000;
 }
