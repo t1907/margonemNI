@@ -197,6 +197,8 @@
 .conquer-stats .scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/stats-scroll-bar.png) left 1px top repeat;}
 
 .enhance__progress-bg{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) 0 -104px}
+.enhance__progress--current{background: rgb(200 0 200)}
+.enhance__progress-text--preview{color: rgb(200 0 200)}
 .battle-controller .time .time-inner{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) no-repeat -1px -47px}
 .party .list .party-member .table-wrapper .hp .hp-bck{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -331px -1px}
 .party .list .party-member .table-wrapper .hp .hp-bar{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/progressbary.png) -250px -1px}
@@ -528,9 +530,9 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
   
 @keyframes pulse {
-    0% { box-shadow: 0 0 6px 2px rgba(255, 34, 255, 0.8); }
-    50% { box-shadow: 0 0 10px 4px rgba(255, 34, 255, 0.6); }
-    100% { box-shadow: 0 0 6px 2px rgba(255, 34, 255, 0.8); }
+    0% { box-shadow: 0 0 6px 4px rgba(255, 34, 255, 0.8); }
+    50% { box-shadow: 0 0 12px 6px rgba(255, 34, 255, 0.6); }
+    100% { box-shadow: 0 0 6px 4px rgba(255, 34, 255, 0.8); }
 }
 
 .tip-wrapper {
