@@ -3,11 +3,11 @@
   #GAME_CANVAS {image-rendering: auto !important;}
   
   .gargonem-otherlist-other-button{color: lime !important;}
-  .gargonem-window {color: #000000 !important; background: #0d1b2a; border-radius:0!important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #bfa77a, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
+  .gargonem-window {color: #000000 !important; background: #101010; border-radius:0!important; box-shadow: 0 0 0 1px #000, 0 0 0 2px #bfa77a, 0 0 0 3px #000000, 2px 2px 3px 3px #000 !important;}
   
-  .cll-alert-content{background: #0d1b2a !important;color: #f5f5f5 !important;}
-  .cll-alert{border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #bfa77a; !important; background: #0d1b2a !important; color: #f5f5f5 !important;}
-  .cll-alert button{background: #0d1b2a !important; border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #0d1b2a !important;}
+  .cll-alert-content{background: #101010 !important;color: #f5f5f5 !important;}
+  .cll-alert{border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #bfa77a; !important; background: #101010 !important; color: #f5f5f5 !important;}
+  .cll-alert button{background: #101010 !important; border: 1px solid #bfa77a !important; box-shadow: 0 0 0 1px #101010 !important;}
   .cll-alert button:hover {border: 1px solid lime !important;}
   .cll-alert button:focus {border: 1px solid #40ff40 !important;}
   .cll-timer{font-family: Arial, Helvetica, sans-serif !important;}
@@ -23,13 +23,13 @@
   }
   
 .interface-element-grid-border {
-  outline: 1px solid #0d1b2a; /* Głęboki morski granat */
+  outline: 1px solid #101010; /* Głęboki morski granat */
   box-shadow: 0 0 0 1px #bfa77a; /* Złoty akcent */
 }
 
 .interface-element-border-window-header-middle {
   box-shadow: inset 0 1px 0 0 #bfa77a; /* Subtelny złoty efekt */
-  background: #0d1b2a; /* Mroczny błękit inspirowany Morzem Egejskim */
+  background: #101010; /* Mroczny błękit inspirowany Morzem Egejskim */
 }
 
   
@@ -46,18 +46,18 @@
   
   .interface-element-wood-box-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/info-box-2.png);background-size:100% 100%}
   
-  .interface-element-green-box-background{background:#0d1b2a}
-  .interface-element-green-box-background-stretch{background:#0d1b2a}
+  .interface-element-green-box-background{background:#101010}
+  .interface-element-green-box-background-stretch{background:#101010}
   
-  .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#0d1b2a}
+  .interface-element-background-color-1, .interface-element-background-color-2, .interface-element-background-color-3, .interface-element-background-color-4{background:#101010}
   
   .interface-element-box-shadow-1{box-shadow:inset 0 0 5px 0 #bfa77a}
   .interface-element-box-shadow-2{box-shadow: 0 0 0 1px #bfa77a;}
   
-  .interface-element-one-item-slot-2{border: 1px solid #bfa77a;outline: 2px solid #0d1b2a; background: #0d1b2a; box-shadow: inset 2px 0 15px 1px #000;}
+  .interface-element-one-item-slot-2{border: 1px solid #bfa77a;outline: 2px solid #101010; background: #101010; box-shadow: inset 2px 0 15px 1px #000;}
   
   .interface-element-middle-1-background, .interface-element-middle-2-background, .interface-element-middle-3-background, .interface-element-middle-4-background{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#0d1b2a
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010
   }
   
   .interface-element-bottom-bar-background{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch}
@@ -67,17 +67,17 @@
   
   .interface-element-table-td-3-border{border:1px solid #bfa77a}
   .interface-element-table-header-3-border{border:1px solid #bfa77a}
-  .interface-element-table-header-3-background{background:#0d1b2a}
+  .interface-element-table-header-3-background{background:#101010}
   .interface-element-table-3{color:#f0f0f0}
-  .interface-element-table-3 .table-header-tr td{border:1px solid #bfa77a;background:#0d1b2a}
-  .interface-element-table-3 tr:nth-of-type(2n+1){background: #0d1b2a;}
+  .interface-element-table-3 .table-header-tr td{border:1px solid #bfa77a;background:#101010}
+  .interface-element-table-3 tr:nth-of-type(2n+1){background: #101010;}
   .interface-element-table-3 td{border:1px solid #bfa77a}
   .interface-element-table-header-1-background{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/table_header.png);background-size:100% 100%}
   
   .interface-element-middle-1-background-stretch, .interface-element-middle-2-background-stretch, .interface-element-middle-3-background-stretch{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#0d1b2a
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010
   }
-  .interface-element-line-1-background{background:#0d1b2a}
+  .interface-element-line-1-background{background:#101010}
   
   .interface-element-bottom-bar-background-stretch{border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/quest_bar.png) 0 20 fill stretch;}
   
@@ -89,7 +89,7 @@
   
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane::after,
   .additional-bar-br .layer.interface-layer .mini-map .mini-map-content .mini-map-local-content .scroll-wrapper .scroll-pane::after{
-    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#0d1b2a}
+    border-image:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/middle_graphics.png) 0 11 fill round;background:#101010}
   
   .tabs-nav .card.active{pointer-events:none;background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/width-card-button.png) no-repeat;background-size:100% 100%;color:#f0f0f0}
   
@@ -135,26 +135,26 @@
   .bottom-panel-of-bottom-positioner .glass {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat -701px -1016px}
   .clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/buttony.png) no-repeat 0 -867px;}
   
-  .border-window .content {background: #0d1b2a;}
+  .border-window .content {background: #101010;}
   .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background: 0 0 !important;}
   .border-window .header-label-positioner .header-label .text{color: #f5f5f5; line-height:28px; margin-top: 5px; text-align:center}
   .border-window .header-label-positioner .header-label, 
   .trade-window header .h_background .middle, 
   .trade-window header .h_background .left, 
   .trade-window header .h_background .right { background: 0 0; box-shadow: none;}
-  .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #0d1b2a;}
+  .trade-window .content .hero-show-item, .trade-window .content .other-watch-item {background: #101010;}
   .trade-window .content .decision .dec-item, .trade-window .content .decision .hero_decision{color: #f5f5f5;}
   
   .border-window.transparent .header-label-positioner{top: -45px;}
   
   .battle-pass-window .section .scroll-wrapper .battle-pass-bg, .bonus-selector-wnd__bg, .bonus-reselect-wnd__bg{background-size: contain;}
   
-  .tw-list-item{background: #0d1b2a !important;}
+  .tw-list-item{background: #101010 !important;}
   .border-window.transparent .border-image, .dialogue-window .border-image{box-shadow: 0 0 0 1px #bfa77a;; border-radius: 0;}
   .border-window.transparent .search-wrapper{border-top:1px solid rgba(191, 167, 122,.5)}
   
-  .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #0d1b2a;}
-  .auction-window .main-column-auction {background: #0d1b2a;}
+  .border-window.mAlert .paper-background, .border-window.mAlert-mobile-layer .paper-background {background: #101010;}
+  .auction-window .main-column-auction {background: #101010;}
   .auction-window .main-column-auction .auction-search-item{border:1px solid #bfa77a}
 
   .table-with-static-header .table-with-static-header-body.classic-bar .scrollbar-wrapper .background,
@@ -233,13 +233,13 @@
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer {color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
-  .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #0d1b2a;}
+  .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
   
   .shop-wrapper .shop-background.normal-shop-zl .canopy {background: none !important;}
   .shop-wrapper .shop-background.normal-shop-sl .canopy {background: none !important;}
   .shop-wrapper .shop-background.pet-shop-zl .canopy{background: none !important;}
   .shop-wrapper .shop-background.pet-shop-sl .canopy{background: none !important;}
-  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #0d1b2a; box-shadow: inset 0 0 5px 0 #bfa77a;}
+  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 5px 0 #bfa77a;}
   
   .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
   .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
@@ -247,8 +247,8 @@
   .left-grouped-list-and-right-description-window{color: #f5f5f5;}
   .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #bfa77a}
   
-  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #bfa77a !important; background: #0d1b2a !important; color: #dcdcdc}
-  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #bfa77a !important; background: #0d1b2a;}
+  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #bfa77a !important; background: #101010 !important; color: #dcdcdc}
+  .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #bfa77a !important; background: #101010;}
   .players-online__item:hover{background:rgba(191, 167, 122,.5)}
   
   .location-parameters__item,.server-parameters__item{border:1px solid #bfa77a;color: #dcdcdc;}
@@ -256,21 +256,21 @@
   .location-parameters__item-value,.server-parameters__item-value{border-left:1px solid #bfa77a;}
   .location-parameters__item-value a,.server-parameters__item-value a{color: #dcdcdc !important;}
 
-  .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #bfa77a !important; background: #0d1b2a;}
+  .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #bfa77a !important; background: #101010;}
   .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #bfa77a;background:rgb(13, 27, 42);}
   .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background:rgb(26, 54, 82);}
   .hunting-statistics{color: #dcdcdc}
   .hunting-statistics-item{color: #dcdcdc}
   .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(191, 167, 122,.5)}
 
-  .crafting-reagent{background: #0d1b2a; border: 1px solid #bfa77a}
-  .salvage__label, .extraction__label, .enhance__label{border:1px solid #bfa77a; box-shadow:none; color: #dcdcdc; background: #0d1b2a}
+  .crafting-reagent{background: #101010; border: 1px solid #bfa77a}
+  .salvage__label, .extraction__label, .enhance__label{border:1px solid #bfa77a; box-shadow:none; color: #dcdcdc; background: #101010}
   
   .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
   
   .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #bfa77a !important; border-bottom: 1px solid #bfa77a !important;}
   .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
-  .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #0d1b2a;}
+  .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
 
   .extended-stats .scroll-pane h3{border-bottom:1px solid #bfa77a;color: #1a3652}
   .extended-stats .scroll-pane .stat-group h4{color: #1a3652}
@@ -278,8 +278,8 @@
   .chat-channel-card-wrapper{border: 1px solid #bfa77a !important;}
   .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
   .chat-input-wrapper .control-wrapper .menu-card, .chat-input-wrapper .control-wrapper .chat-config-wrapper {border: 1px solid #bfa77a !important; box-shadow: none;}
-  .chat-input-wrapper {background: #0d1b2a !important;}
-  .new-chat-window {background: #0d1b2a !important;}
+  .chat-input-wrapper {background: #101010 !important;}
+  .new-chat-window {background: #101010 !important;}
   .chat-configure-window .chat-option-header {color: #f5f5f5 !important; border: 1px solid #bfa77a !important; background:rgb(13, 27, 42) !important;}
   
   .left-grouped-list-and-right-description-window .right-column .right-scroll .scroll-pane .reagents-label{color: #f5f5f5}
@@ -343,7 +343,7 @@
 .popup-menu {
     box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
     border-radius: 0;
-    background-color: #0d1b2a;
+    background-color: #101010;
 }
 .alerts-layer .scroll-wrapper.menu-wrapper,
 .console-layer .scroll-wrapper.menu-wrapper,
@@ -351,12 +351,12 @@
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper {
     box-shadow: 0 0 0 1px #1a3652 inset, 0 0 0 1px #bfa77ab0, 0 0 0 2px #1a3652;
     border-radius: 0;
-    background-color: #0d1b2a;
+    background-color: #101010;
 }
 
 .popup-menu .menu-item {
     border-radius: 0;
-    background-color: #0d1b2a;
+    background-color: #101010;
     color: #dcdcdc;
     border: 1px solid #bfa77a;
 }
@@ -365,14 +365,14 @@
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {
     border-radius: 0;
-    background-color: #0d1b2a;
+    background-color: #101010;
     color: #dcdcdc;
     border: 1px solid #bfa77a;
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled) {
     border: 1px solid #346ca4;
-    background-color: #0d1b2a;
+    background-color: #101010;
 }
 
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
@@ -380,12 +380,12 @@
 .mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
     border: 1px solid #346ca4;
-    background-color: #0d1b2a;
+    background-color: #101010;
 }
 
 .popup-menu .menu-item.one-step-skill-menu:not(.disabled):hover {
   border: 1px solid #346ca4;
-  background-color: #0d1b2a;
+  background-color: #101010;
 }
 .popup-menu .menu-item.menu-item--red {background: #8a001e;border-color: #ff003c;color: #fff;}
 .popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {background: #a00026;border-color: #ff1444;}
@@ -397,14 +397,14 @@
 
 .button,.widget-button{
     border-radius:0;
-    background-color:#0d1b2a;
-    box-shadow:inset 0 0 0 1px #bfa77a,inset 0 0 0 3px #0d1b2a;
-    border:solid 1px #0d1b2a;
+    background-color:#101010;
+    box-shadow:inset 0 0 0 1px #bfa77a,inset 0 0 0 3px #101010;
+    border:solid 1px #101010;
       background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #0d1b2a;
+    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #101010;
     color: #dcdcdc;
 }
 
@@ -413,7 +413,7 @@
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #0d1b2a
+    box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #101010
 }
 
 .button.green,.widget-button.green, 
@@ -426,7 +426,7 @@
                     linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
   filter: contrast(1.1) brightness(0.9);
   opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #0d1b2a
+    box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #101010
 }
 .button::before,.widget-button::before,
 .button.green::before,.widget-button.green::before, 
@@ -436,7 +436,7 @@
 .button.orange::before,.widget-button.orange::before,
 .button.transparent::before,.widget-button.transparent::before,
 .button.blink-violet::before,.widget-button.blink-violet::before{
-    box-shadow:inset 0 0 1px 1px #0d1b2a;
+    box-shadow:inset 0 0 1px 1px #101010;
     border-radius:0;
 }
 .button.active::before,.widget-button.active::before,
@@ -447,7 +447,7 @@
 .button.orange.active::before,.widget-button.orange.active::before,
 .button.transparent.active::before,.widget-button.transparent.active::before,
 .button.blink-violet.active::before,.widget-button.blink-violet.active::before{
-    box-shadow:inset 0 0 1px 1px #0d1b2a
+    box-shadow:inset 0 0 1px 1px #101010
 }
 .button.window-is-open::before,.widget-button.window-is-open::before,
 .button.green.window-is-open::before,.widget-button.green.window-is-open::before,
@@ -457,7 +457,7 @@
 .button.orange.window-is-open::before,.widget-button.orange.window-is-open::before,
 .button.transparent.window-is-open::before,.widget-button.transparent.window-is-open::before,
 .button.blink-violet.window-is-open::before,.widget-button.blink-violet.window-is-open::before{
-    background-color: #0d1b2a
+    background-color: #101010
 }
 
 .button.pressed,.widget-button.pressed, 
@@ -559,7 +559,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 }
 
 .tip-wrapper .content {
-    background: #0d1b2a;
+    background: #101010;
 }
 
 .tip-wrapper .content .info-wrapper .nick {
