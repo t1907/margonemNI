@@ -554,6 +554,13 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 .tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite{color: #ffc800}
 .tip-wrapper[data-type=t_item] .item-head{background: #202020;border:1px solid #640064;border-radius:0;box-shadow:0 0 1px #000;}
 
+.tip-wrapper[data-item-type=legendary], .tip-wrapper[data-item-type=t-leg]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
+.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #0060ff}
+.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
+.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ffc800}
+.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
+.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #dddddd}
+
 .tip-wrapper[data-type=t_item] .item-head .item{background: #202020;border:1px solid #640064;box-shadow:0 0 1px #000;}
 .tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type{color: #b4b4b4}
 .tip-wrapper[data-type=t_item] .item-head .head-icons .cl-icon{border:1px solid #640064);}
