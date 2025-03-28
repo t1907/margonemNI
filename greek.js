@@ -400,13 +400,19 @@
     background-color:#0d1b2a;
     box-shadow:inset 0 0 0 1px #bfa77a,inset 0 0 0 3px #0d1b2a;
     border:solid 1px #0d1b2a;
-    background-image:linear-gradient(to top, #0d1b2a, #0d1b2a);
+      background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
+                    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
+  filter: contrast(1.1) brightness(0.9);
+  opacity: 0.95;
     box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #0d1b2a;
     color: #dcdcdc;
 }
 
 .button.red,.widget-button.red{
-    background-image:linear-gradient(to top, #0d1b2a, #0d1b2a);
+      background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
+                    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
+  filter: contrast(1.1) brightness(0.9);
+  opacity: 0.95;
     box-shadow:inset 0 0 1px 1px #4a1e1e,inset 0 0 0 3px #0d1b2a
 }
 
@@ -416,7 +422,10 @@
 .button.orange,.widget-button.orange,
 .button.transparent,.widget-button.transparent,
 .button.blink-violet,.widget-button.blink-violet{
-    background-image:linear-gradient(to top, #0d1b2a, #0d1b2a);
+      background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
+                    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
+  filter: contrast(1.1) brightness(0.9);
+  opacity: 0.95;
     box-shadow:inset 0 0 1px 1px #bfa77a,inset 0 0 0 3px #0d1b2a
 }
 .button::before,.widget-button::before,
@@ -456,7 +465,10 @@
 body.mobile-version .widget-button:not(.no-hover):not(.disabled):active,
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){
-    background-image:linear-gradient(to top, #202020, #202020);
+      background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
+                    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
+  filter: contrast(1.1) brightness(0.9);
+  opacity: 0.95;
     box-shadow:inset 0 0 1px 1px #cc00cc,inset 0 0 0 3px #202020
 }
 .button.pressed::before,.widget-button.pressed::before,
