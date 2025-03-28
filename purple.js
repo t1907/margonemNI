@@ -539,7 +539,8 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
     border-radius:0;
 }
 .tip-wrapper.normal-tip .damage, .tip-wrapper.sticky-tip .damage{color: #00ff5e}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5{color: #ff00ff}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5{color: #ff00ff; text-align: center;}
+.tip-wrapper[data-type=t_item] i.looter{text-align: center;}
 
 .tip-wrapper[data-type=t_item]{border-color: #640064;color: #dcdcdc; text-shadow:1px 1px rgba(0,0,0,.5)}
 .tip-wrapper[data-type=t_item] .item-tip-section{border-bottom:1px solid rgba(100,0,100,.5);box-shadow:0 .5px rgba(100, 0, 100, 0.3)}
