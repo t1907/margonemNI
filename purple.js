@@ -236,8 +236,14 @@
   .left-grouped-list-and-right-description-window{color: #f5f5f5;}
   .left-grouped-list-and-right-description-window .left-column .scroll-wrapper{border: 1px solid #640064}
   
-  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #101010 !important;}
+  .world-window__info, .info-box, .salvage__info, .enhance__info, .extraction__info{border: 1px solid #640064 !important; background: #101010 !important; color: #dcdcdc}
   .hunting-statistics-table td, .hunting-statistics-table-header td {border: 1px solid #640064 !important; background: #101010;}
+  .hunting-statistics-table th,.hunting-statistics-table-header th{border:1px solid #320032;background: #101010;}
+  .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{background: #202020;}
+  .hunting-statistics{color: #dcdcdc}
+  .hunting-statistics-item{color: #dcdcdc}
+  .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(16,16,16,.5)}
+
   .players-online__item, .server-parameters__item .location-parameters__item{border: 1px solid #640064 !important; background: #101010;}
   
   .crafting-reagent{background: #101010; border: 1px solid #640064}
