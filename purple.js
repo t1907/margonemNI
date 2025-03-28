@@ -224,11 +224,11 @@
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{color: #f5f5f5;}
   .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {background: #101010;}
   
-  .shop-wrapper .shop-background.normal-shop-zl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
-  .shop-wrapper .shop-background.normal-shop-sl .canopy {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/normal-shop-gold.png) 0 -34px}
-  .shop-wrapper .shop-background.pet-shop-zl .canopy{}
-  .shop-wrapper .shop-background.pet-shop-sl .canopy{}
-  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 1px 0 #640064;}
+  .shop-wrapper .shop-background.normal-shop-zl .canopy {background: none !important;}
+  .shop-wrapper .shop-background.normal-shop-sl .canopy {background: none !important;}
+  .shop-wrapper .shop-background.pet-shop-zl .canopy{background: none !important;}
+  .shop-wrapper .shop-background.pet-shop-sl .canopy{background: none !important;}
+  .shop-wrapper .shop-background .paper-1,.shop-wrapper .shop-background .paper-2 {background: #101010; box-shadow: inset 0 0 5px 0 #640064;}
   
   .clan, .addons-panel .left-column .main-header .addon-list-label, .skills-window .left-column .list-label-wrapper .list-label .label, 
   .left-grouped-list-and-right-description-window .main-header .left-column-list-label{color: #f5f5f5;}
