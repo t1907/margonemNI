@@ -527,43 +527,142 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
   
   .clan-other-recruit-content .green-box, .clan-recruit-content .green-box, .clan-treasury-content .green-box, .clan-manage-content .green-box, .clan-diplomacy-content .green-box, .clan-history-content .chose-show {border: 1px solid #640064}
   
-.tip-wrapper{
+@keyframes pulse {
+    0% { box-shadow: 0 0 6px 2px rgba(255, 0, 255, 0.8); }
+    50% { box-shadow: 0 0 10px 4px rgba(255, 0, 255, 0.6); }
+    100% { box-shadow: 0 0 6px 2px rgba(255, 0, 255, 0.8); }
+}
+
+.tip-wrapper {
     box-shadow: 0 0 0 1px #640064;
     color: #dcdcdc;
 }
 
-.tip-wrapper .content{background: #101010;}
-.tip-wrapper .content .info-wrapper .nick{
-    background: #202020;
-    border:1px solid #320032;
-    border-radius:0;
+.tip-wrapper .content {
+    background: #101010;
 }
-.tip-wrapper.normal-tip .damage, .tip-wrapper.sticky-tip .damage{color: #00ff5e}
-.tip-wrapper[data-type=t_item] .item-tip-section.s-5{color: #ff00ff; text-align: center;}
-.tip-wrapper[data-type=t_item] i.looter{text-align: center;}
 
-.tip-wrapper[data-type=t_item]{border-color: #640064;color: #dcdcdc; text-shadow:1px 1px rgba(0,0,0,.5)}
-.tip-wrapper[data-type=t_item] .item-tip-section{border-bottom:1px solid rgba(100,0,100,.5);box-shadow:0 .5px rgba(100, 0, 100, 0.3)}
+.tip-wrapper .content .info-wrapper .nick {
+    background: #202020;
+    border: 1px solid #320032;
+    border-radius: 0;
+}
 
-.tip-wrapper[data-type=t_item] .item-head .common,.tip-wrapper[data-type=t_item] .item-tip-section .common{color: #dddddd}
-.tip-wrapper[data-type=t_item] .item-head .upgraded,.tip-wrapper[data-type=t_item] .item-tip-section .upgraded{color: #ff00ff}
-.tip-wrapper[data-type=t_item] .item-head .unique,.tip-wrapper[data-type=t_item] .item-tip-section .unique{color: #ffc800}
-.tip-wrapper[data-type=t_item] .item-head .heroic,.tip-wrapper[data-type=t_item] .item-tip-section .heroic{color: #0060ff}
-.tip-wrapper[data-type=t_item] .item-head .legendary,.tip-wrapper[data-type=t_item] .item-tip-section .legendary{color: #ff00ff}
-.tip-wrapper[data-type=t_item] .item-head .artefact,.tip-wrapper[data-type=t_item] .item-tip-section .artefact{color: #ff00ff}
-.tip-wrapper[data-type=t_item] .item-head .elite,.tip-wrapper[data-type=t_item] .item-tip-section .elite{color: #ffc800}
-.tip-wrapper[data-type=t_item] .item-head{background: #202020;border:1px solid #640064;border-radius:0;box-shadow:0 0 1px #000;}
+.tip-wrapper.normal-tip .damage, 
+.tip-wrapper.sticky-tip .damage {
+    color: #00ff5e;
+}
 
-.tip-wrapper[data-item-type=legendary], .tip-wrapper[data-item-type=t-leg]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
-.tip-wrapper[data-item-type=heroic],.tip-wrapper[data-item-type=t-her]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #0060ff}
-.tip-wrapper[data-item-type=t-upgraded],.tip-wrapper[data-item-type=upgraded]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
-.tip-wrapper[data-item-type=elite],.tip-wrapper[data-item-type=t-elite],.tip-wrapper[data-item-type=t-uniupg],.tip-wrapper[data-item-type=unique]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ffc800}
-.tip-wrapper[data-item-type=artefact],.tip-wrapper[data-item-type=t-art]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #ff00ff}
-.tip-wrapper[data-item-type=normal],.tip-wrapper[data-item-type=t-norm]{box-shadow: 0 0 0 0 #000000, 0 0 6px 2px #dddddd}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-5 {
+    color: #ff00ff;
+    text-align: center;
+}
 
-.tip-wrapper[data-type=t_item] .item-head .item{background: #202020;border:1px solid #640064;box-shadow:0 0 1px #000;}
-.tip-wrapper[data-type=t_item] .item-head .item-builds,.tip-wrapper[data-type=t_item] .item-head .item-type{color: #b4b4b4}
-.tip-wrapper[data-type=t_item] .item-head .head-icons .cl-icon{border:1px solid #640064);}
+.tip-wrapper[data-type=t_item] i.looter {
+    text-align: center;
+}
+
+.tip-wrapper[data-type=t_item] {
+    border-color: #640064;
+    color: #dcdcdc;
+    text-shadow: 1px 1px rgba(0, 0, 0, .5);
+}
+
+.tip-wrapper[data-type=t_item] .item-tip-section {
+    border-bottom: 1px solid rgba(100, 0, 100, .5);
+    box-shadow: 0 .5px rgba(100, 0, 100, 0.3);
+}
+
+.tip-wrapper[data-type=t_item] .item-head .common, 
+.tip-wrapper[data-type=t_item] .item-tip-section .common {
+    color: #b4b4b4; /* Jasnoszary */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .upgraded, 
+.tip-wrapper[data-type=t_item] .item-tip-section .upgraded {
+    color: #d400d4; /* Intensywny fiolet */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .unique, 
+.tip-wrapper[data-type=t_item] .item-tip-section .unique {
+    color: #ffae00; /* Złoty */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .heroic, 
+.tip-wrapper[data-type=t_item] .item-tip-section .heroic {
+    color: #0073ff; /* Żywy niebieski */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .legendary, 
+.tip-wrapper[data-type=t_item] .item-tip-section .legendary {
+    color: #ff00ff; /* Jaskrawy fiolet */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .artefact, 
+.tip-wrapper[data-type=t_item] .item-tip-section .artefact {
+    color: #ff0080; /* Różowo-fioletowy */
+}
+
+.tip-wrapper[data-type=t_item] .item-head .elite, 
+.tip-wrapper[data-type=t_item] .item-tip-section .elite {
+    color: #ffcc00; /* Jasne złoto */
+}
+
+.tip-wrapper[data-type=t_item] .item-head {
+    background: #202020;
+    border: 1px solid #640064;
+    border-radius: 0;
+    box-shadow: 0 0 1px #000;
+}
+
+.tip-wrapper[data-item-type=legendary], 
+.tip-wrapper[data-item-type=t-leg] {
+    box-shadow: 0 0 6px 2px #ff00ff;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.tip-wrapper[data-item-type=heroic], 
+.tip-wrapper[data-item-type=t-her] {
+    box-shadow: 0 0 6px 2px #0073ff;
+}
+
+.tip-wrapper[data-item-type=t-upgraded], 
+.tip-wrapper[data-item-type=upgraded] {
+    box-shadow: 0 0 6px 2px #d400d4;
+}
+
+.tip-wrapper[data-item-type=elite], 
+.tip-wrapper[data-item-type=t-elite], 
+.tip-wrapper[data-item-type=t-uniupg], 
+.tip-wrapper[data-item-type=unique] {
+    box-shadow: 0 0 6px 2px #ffae00;
+}
+
+.tip-wrapper[data-item-type=artefact], 
+.tip-wrapper[data-item-type=t-art] {
+    box-shadow: 0 0 6px 2px #ff0080;
+}
+
+.tip-wrapper[data-item-type=normal], 
+.tip-wrapper[data-item-type=t-norm] {
+    box-shadow: 0 0 6px 2px #b4b4b4;
+}
+
+.tip-wrapper[data-type=t_item] .item-head .item {
+    background: #202020;
+    border: 1px solid #640064;
+    box-shadow: 0 0 1px #000;
+}
+
+.tip-wrapper[data-type=t_item] .item-head .item-builds, 
+.tip-wrapper[data-type=t_item] .item-head .item-type {
+    color: #b4b4b4;
+}
+
+.tip-wrapper[data-type=t_item] .item-head .head-icons .cl-icon {
+    border: 1px solid #640064;
+}
+
 
 
   
