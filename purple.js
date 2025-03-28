@@ -23,7 +23,7 @@
   }
   
   .interface-element-grid-border {outline: 1px solid #101010; box-shadow: 0 0 0 1px #404040;}
-  .interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #640064;background:#101010}
+  .interface-element-border-window-header-middle{box-shadow:inset 0 1px 0 0 #640064;background: #101010}
   
   .interface-element-one-item-slot-background-to-repeat, .interface-element-item-slot-grid-stretch{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/oneItemSlotToRepeat.png)}
   .interface-element-one-item-slot {background: url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/ground/buttony.png) no-repeat -800px -79px;}
