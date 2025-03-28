@@ -260,6 +260,9 @@
   .game-window-positioner .character_wrapper .stats-wrapper .header-title{background: #640064 !important; border-bottom: 1px solid #640064 !important;}
   .game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch{left: 0; right: 0;}
   .game-window-positioner .inventory_wrapper .inventory-grid-bg {border: 1px solid #101010;}
+
+  .extended-stats .scroll-pane h3{border-bottom:1px solid #640064;color: #960096}
+  .extended-stats .scroll-pane .stat-group h4{color: #960096}
   
   .chat-channel-card-wrapper{border: 1px solid #640064 !important;}
   .new-chat-window .chat-message-wrapper, .chat-input-wrapper .magic-input-wrapper, 
