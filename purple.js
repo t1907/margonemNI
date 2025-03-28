@@ -253,7 +253,7 @@
   .hunting-statistics-table tr:nth-child(even),.hunting-statistics-table-header tr:nth-child(even){background:rgba(16,16,16,.5)}
 
   .crafting-reagent{background: #101010; border: 1px solid #640064}
-  .salvage__label, .extraction__label, .enhance__label{border:1px solid #640064; box-shadow:none; color: #dcdcdc; background:#101010}
+  .salvage__label, .extraction__label, .enhance__label{border:1px solid #640064; box-shadow:none; color: #dcdcdc; background: #101010}
   
   .additional-skill-panel{background:url(https://raw.githubusercontent.com/t1907/margonemNI/refs/heads/main/purple/skill_hot_skills.png)}
   
