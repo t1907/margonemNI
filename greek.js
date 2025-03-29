@@ -400,17 +400,26 @@
 .popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu) {border: 1px solid #7a007a;background-color: #3f003f;}
 .popup-menu .s_cost {border: 1px solid rgba(100, 0, 100, 0.3);border-radius: 0;background-color: rgba(100, 0, 100, 0.2);color: #b08cd9;}
 
-.button,.widget-button{
-    border-radius:0;
-    background-color:#121620;
-    box-shadow:inset 0 0 0 1px #9e8356,inset 0 0 0 3px #121620;
-    border:solid 1px #121620;
-      background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 70%), 
-                    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10%, transparent 80%);
-  filter: contrast(1.1) brightness(0.9);
-  opacity: 0.95;
-    box-shadow:inset 0 0 1px 1px #9e8356,inset 0 0 0 3px #121620;
-    color: #c2b59b;;
+.button, .widget-button {
+    border-radius: 2px;
+    background-color: #181a1f; /* Ciemny, surowy kolor */
+    border: solid 1px #3e3a32; /* Przygaszona stal */
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 10%, transparent 70%), 
+                      linear-gradient(135deg, rgba(255, 255, 255, 0.03) 10%, transparent 80%);
+    box-shadow: inset 0 0 2px 1px #524c41, /* Efekt zużycia */
+                inset 0 0 0 3px #181a1f;
+    filter: contrast(1.1) brightness(0.85);
+    opacity: 0.95;
+    color: #b7a184; /* Kolor starego pergaminu */
+    text-shadow: 1px 1px 0px #2a2a2a; /* Delikatny efekt głębi */
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover, .widget-button:hover {
+    background-color: #25282e;
+    border-color: #8c7c5a; /* Miedziane akcenty */
+    box-shadow: inset 0 0 3px 1px #756c5e;
+    filter: brightness(1);
 }
 
 .button.red,.widget-button.red{
